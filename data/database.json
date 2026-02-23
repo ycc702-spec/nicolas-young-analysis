@@ -1,0 +1,83 @@
+{
+  "channel_info": {
+    "name": "Nicolas Young",
+    "channels": [
+      {
+        "id": "@NicolasYoung",
+        "name": "主頻道",
+        "description": "深度財經分析，每週日晚上8點更新",
+        "subscribers": "待查",
+        "total_videos": "待查"
+      },
+      {
+        "id": "@nicolasyounglive",
+        "name": "副頻道 - Live精",
+        "description": "即時觀點分享，不定期更新",
+        "subscribers": "待查",
+        "total_videos": "待查"
+      }
+    ],
+    "background": {
+      "experience": "18年金融業經驗（15年深圳、3年新加坡）",
+      "expertise": ["私人銀行", "投行", "風險管理"],
+      "location": "新加坡",
+      "style": "結合神秘學與宏觀分析"
+    }
+  },
+  "analysis_framework": {
+    "categories": [
+      {
+        "id": "stock_analysis",
+        "name": "個股分析",
+        "description": "具體股票標的推薦與分析"
+      },
+      {
+        "id": "macro_trends",
+        "name": "宏觀趨勢",
+        "description": "全球經濟、貨幣政策、市場趨勢"
+      },
+      {
+        "id": "geopolitics",
+        "name": "地緣政治",
+        "description": "國際局勢對市場的影響"
+      },
+      {
+        "id": "tech_trends",
+        "name": "科技趨勢",
+        "description": "AI、半導體、新興科技"
+      },
+      {
+        "id": "market_timing",
+        "name": "市場時機",
+        "description": "進出場時機判斷"
+      }
+    ],
+    "prediction_tracking": {
+      "fields": [
+        "prediction_id",
+        "video_title",
+        "prediction_date",
+        "prediction_content",
+        "timeframe",
+        "category",
+        "confidence_level",
+        "actual_result",
+        "accuracy",
+        "verification_date",
+        "notes"
+      ]
+    }
+  },
+  "videos": [],
+  "predictions": [],
+  "analysis_summary": {
+    "last_updated": "2026-02-23",
+    "total_videos_analyzed": 0,
+    "total_predictions": 0,
+    "verified_predictions": 0,
+    "accuracy_rate": null,
+    "top_performing_categories": [],
+    "key_insights": [],
+    "recommendations": []
+  }
+}
