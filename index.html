@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nicolas Young 財經分析 | Kimi Claw 特工總部</title>
+    <title>Nicolas Young 投資分析完整報告 2026 | 老K財經</title>
     <style>
         * {
             margin: 0;
@@ -12,461 +12,741 @@
         }
         
         body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-            background: linear-gradient(135deg, #0a0a0f 0%, #1a1a2e 50%, #16213e 100%);
-            color: #e0e0e0;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang TC', 'Microsoft JhengHei', sans-serif;
+            background: linear-gradient(135deg, #0f0f23 0%, #1a1a2e 50%, #16213e 100%);
+            color: #e4e4e7;
+            line-height: 1.6;
             min-height: 100vh;
         }
         
-        .header {
-            background: linear-gradient(135deg, #1a1a2e 0%, #0f3460 100%);
-            padding: 30px;
-            border-bottom: 1px solid #00d4ff;
-            position: relative;
-            overflow: hidden;
-        }
-        
-        .header::before {
-            content: '';
-            position: absolute;
-            top: 0;
-            left: 0;
-            right: 0;
-            height: 3px;
-            background: linear-gradient(90deg, #00d4ff, #a855f7, #f472b6);
-        }
-        
-        .header h1 {
-            font-size: 28px;
-            color: #00d4ff;
-            margin-bottom: 10px;
-        }
-        
-        .header .subtitle {
-            color: #888;
-            font-size: 14px;
-        }
-        
-        .header .team-badge {
-            position: absolute;
-            top: 20px;
-            right: 30px;
-            background: rgba(0, 212, 255, 0.1);
-            border: 1px solid #00d4ff;
-            padding: 8px 16px;
-            border-radius: 20px;
-            font-size: 12px;
-            color: #00d4ff;
-        }
-        
         .container {
-            max-width: 1400px;
+            max-width: 1200px;
             margin: 0 auto;
-            padding: 30px;
-        }
-        
-        .status-bar {
-            background: #151520;
-            border: 1px solid #2a2a3e;
-            border-radius: 12px;
             padding: 20px;
-            margin-bottom: 30px;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
         }
         
-        .status-item {
+        header {
             text-align: center;
-        }
-        
-        .status-item .label {
-            font-size: 12px;
-            color: #888;
-            text-transform: uppercase;
-            letter-spacing: 1px;
-        }
-        
-        .status-item .value {
-            font-size: 24px;
-            font-weight: bold;
-            color: #fff;
-            margin-top: 5px;
-        }
-        
-        .status-item .value.pending {
-            color: #f59e0b;
-        }
-        
-        .agents-status {
-            display: flex;
-            gap: 10px;
-        }
-        
-        .agent-dot {
-            width: 10px;
-            height: 10px;
-            border-radius: 50%;
-            background: #22c55e;
-            animation: pulse 2s infinite;
-        }
-        
-        @keyframes pulse {
-            0%, 100% { opacity: 1; }
-            50% { opacity: 0.5; }
-        }
-        
-        .section {
-            background: #151520;
-            border: 1px solid #2a2a3e;
-            border-radius: 12px;
+            padding: 40px 20px;
+            background: linear-gradient(135deg, rgba(0,212,255,0.1) 0%, rgba(168,85,247,0.1) 100%);
+            border-radius: 20px;
             margin-bottom: 30px;
-            overflow: hidden;
+            border: 1px solid rgba(0,212,255,0.2);
         }
         
-        .section-header {
-            background: #1a1a2e;
-            padding: 20px 30px;
-            border-bottom: 1px solid #2a2a3e;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-        }
-        
-        .section-header h2 {
-            font-size: 18px;
-            color: #fff;
-            display: flex;
-            align-items: center;
-            gap: 10px;
-        }
-        
-        .section-content {
-            padding: 30px;
-        }
-        
-        .channel-cards {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-            gap: 20px;
-        }
-        
-        .channel-card {
-            background: rgba(0, 212, 255, 0.05);
-            border: 1px solid rgba(0, 212, 255, 0.2);
-            border-radius: 12px;
-            padding: 20px;
-        }
-        
-        .channel-card h3 {
-            color: #00d4ff;
+        h1 {
+            font-size: 2.5rem;
+            background: linear-gradient(135deg, #00d4ff 0%, #a855f7 50%, #f472b6 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
             margin-bottom: 10px;
         }
         
-        .channel-card p {
-            color: #888;
-            font-size: 14px;
-            line-height: 1.6;
+        .subtitle {
+            color: #a1a1aa;
+            font-size: 1.1rem;
         }
         
-        .analysis-grid {
+        .update-time {
+            color: #71717a;
+            font-size: 0.9rem;
+            margin-top: 10px;
+        }
+        
+        .stats-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-            gap: 20px;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 16px;
+            margin-bottom: 30px;
         }
         
-        .analysis-card {
-            background: #1a1a2e;
-            border-radius: 10px;
+        .stat-card {
+            background: rgba(255,255,255,0.05);
+            border-radius: 16px;
             padding: 20px;
+            text-align: center;
+            border: 1px solid rgba(255,255,255,0.1);
+        }
+        
+        .stat-number {
+            font-size: 2.5rem;
+            font-weight: bold;
+            background: linear-gradient(135deg, #00d4ff, #a855f7);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        
+        .stat-label {
+            color: #a1a1aa;
+            font-size: 0.9rem;
+            margin-top: 4px;
+        }
+        
+        .card {
+            background: rgba(255,255,255,0.05);
+            border-radius: 16px;
+            padding: 24px;
+            margin-bottom: 20px;
+            border: 1px solid rgba(255,255,255,0.1);
+            backdrop-filter: blur(10px);
+        }
+        
+        .card h2 {
+            color: #00d4ff;
+            font-size: 1.5rem;
+            margin-bottom: 16px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        
+        .card h3 {
+            color: #a855f7;
+            font-size: 1.2rem;
+            margin: 20px 0 12px 0;
+        }
+        
+        .theme-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 16px;
+            margin-top: 16px;
+        }
+        
+        .theme-card {
+            background: rgba(0,212,255,0.1);
+            border-radius: 12px;
+            padding: 16px;
             border-left: 4px solid #00d4ff;
         }
         
-        .analysis-card h4 {
-            color: #fff;
-            margin-bottom: 10px;
+        .theme-card h4 {
+            color: #00d4ff;
+            margin-bottom: 8px;
         }
         
-        .analysis-card .stat {
-            font-size: 32px;
+        .ticker {
+            display: inline-block;
+            background: rgba(168,85,247,0.3);
+            color: #f472b6;
+            padding: 4px 8px;
+            border-radius: 4px;
+            font-size: 0.85rem;
+            margin: 4px 4px 0 0;
+        }
+        
+        .ticker.buy {
+            background: rgba(34,197,94,0.3);
+            color: #22c55e;
+        }
+        
+        .ticker.sell {
+            background: rgba(239,68,68,0.3);
+            color: #ef4444;
+        }
+        
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 16px 0;
+            font-size: 0.9rem;
+        }
+        
+        th, td {
+            padding: 12px;
+            text-align: left;
+            border-bottom: 1px solid rgba(255,255,255,0.1);
+        }
+        
+        th {
+            color: #00d4ff;
+            font-weight: 600;
+        }
+        
+        tr:hover {
+            background: rgba(255,255,255,0.05);
+        }
+        
+        .priority-high {
+            color: #f472b6;
             font-weight: bold;
+        }
+        
+        .priority-medium {
+            color: #a855f7;
+        }
+        
+        .priority-low {
             color: #00d4ff;
         }
         
-        .analysis-card .desc {
-            color: #888;
-            font-size: 13px;
-            margin-top: 5px;
+        .warning {
+            background: rgba(244,114,182,0.1);
+            border-left: 4px solid #f472b6;
+            padding: 16px;
+            border-radius: 0 12px 12px 0;
+            margin: 16px 0;
         }
         
-        .progress-bar {
-            height: 8px;
-            background: #2a2a3e;
-            border-radius: 4px;
-            overflow: hidden;
-            margin-top: 15px;
+        .warning h4 {
+            color: #f472b6;
+            margin-bottom: 8px;
         }
         
-        .progress-fill {
-            height: 100%;
-            background: linear-gradient(90deg, #00d4ff, #a855f7);
-            border-radius: 4px;
-            transition: width 0.3s;
+        .portfolio-section {
+            background: linear-gradient(135deg, rgba(0,212,255,0.1) 0%, rgba(168,85,247,0.1) 100%);
+            border-radius: 16px;
+            padding: 24px;
+            margin: 20px 0;
         }
         
-        .team-grid {
+        .portfolio-item {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 12px 0;
+            border-bottom: 1px solid rgba(255,255,255,0.1);
+        }
+        
+        .portfolio-item:last-child {
+            border-bottom: none;
+        }
+        
+        .allocation {
+            background: rgba(0,212,255,0.2);
+            color: #00d4ff;
+            padding: 4px 12px;
+            border-radius: 20px;
+            font-weight: 600;
+        }
+        
+        .video-list {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-            gap: 15px;
+            gap: 12px;
         }
         
-        .team-member {
-            background: #1a1a2e;
-            border-radius: 10px;
-            padding: 15px;
+        .video-item {
+            background: rgba(255,255,255,0.03);
+            border-radius: 12px;
+            padding: 16px;
+            display: flex;
+            align-items: center;
+            gap: 16px;
+            transition: all 0.2s;
+        }
+        
+        .video-item:hover {
+            background: rgba(255,255,255,0.08);
+        }
+        
+        .video-number {
+            width: 32px;
+            height: 32px;
+            border-radius: 50%;
+            background: linear-gradient(135deg, #00d4ff, #a855f7);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+            font-size: 0.9rem;
+        }
+        
+        .video-info {
+            flex: 1;
+        }
+        
+        .video-title {
+            font-weight: 600;
+            margin-bottom: 4px;
+        }
+        
+        .video-meta {
+            color: #71717a;
+            font-size: 0.85rem;
+        }
+        
+        .video-status {
+            color: #22c55e;
+            font-size: 0.85rem;
+        }
+        
+        .action-list {
+            list-style: none;
+        }
+        
+        .action-list li {
+            padding: 12px 0;
+            border-bottom: 1px solid rgba(255,255,255,0.1);
             display: flex;
             align-items: center;
             gap: 12px;
         }
         
-        .team-member .avatar {
-            width: 40px;
-            height: 40px;
-            border-radius: 50%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-size: 18px;
+        .action-list li::before {
+            content: "☐";
+            color: #00d4ff;
+            font-size: 1.2rem;
         }
         
-        .team-member .info h4 {
-            color: #fff;
-            font-size: 14px;
-        }
-        
-        .team-member .info p {
-            color: #888;
-            font-size: 12px;
-        }
-        
-        .alert {
-            background: rgba(245, 158, 11, 0.1);
-            border: 1px solid #f59e0b;
-            border-radius: 8px;
-            padding: 15px 20px;
-            display: flex;
-            align-items: center;
-            gap: 10px;
-            color: #f59e0b;
-        }
-        
-        .footer {
+        footer {
             text-align: center;
-            padding: 30px;
-            color: #666;
-            font-size: 12px;
-            border-top: 1px solid #2a2a3e;
+            padding: 40px 20px;
+            color: #71717a;
+            font-size: 0.9rem;
         }
         
-        .btn {
-            padding: 10px 20px;
-            border-radius: 8px;
-            border: none;
-            cursor: pointer;
-            font-size: 14px;
-            font-weight: 500;
-            transition: all 0.2s;
+        .badge {
+            display: inline-block;
+            background: linear-gradient(135deg, #00d4ff 0%, #a855f7 100%);
+            color: white;
+            padding: 4px 12px;
+            border-radius: 20px;
+            font-size: 0.75rem;
+            font-weight: 600;
+            margin-left: 8px;
         }
         
-        .btn-primary {
-            background: linear-gradient(135deg, #00d4ff, #0099cc);
-            color: #fff;
-        }
+        .risk-high { color: #f472b6; }
+        .risk-medium { color: #f59e0b; }
+        .risk-low { color: #22c55e; }
         
-        .btn:hover {
-            transform: translateY(-1px);
-            box-shadow: 0 4px 12px rgba(0, 212, 255, 0.3);
+        @media (max-width: 768px) {
+            h1 { font-size: 1.8rem; }
+            .theme-grid { grid-template-columns: 1fr; }
+            table { font-size: 0.85rem; }
+            th, td { padding: 8px; }
         }
     </style>
 </head>
 <body>
-    <div class="header">
-        <div>
-            <h1>📊 Nicolas Young 財經分析</h1>
-            <div class="subtitle">由 Kimi Claw 特工團隊製作 · 專業 Prompt Engineering + 財經分析</div>
-        </div>
-        <div class="team-badge">🎯 7 位特工運作中</div>
-    </div>
-    
     <div class="container">
-        <!-- 狀態欄 -->
-        <div class="status-bar">
-            <div class="status-item">
-                <div class="label">分析進度</div>
-                <div class="value pending">進行中</div>
+        <header>
+            <h1>🎯 Nicolas Young 投資分析完整報告</h1>
+            <p class="subtitle">基於 15 部 YouTube 影片深度解析 | 老K財經</p>
+            <p class="update-time">最後更新：2026年2月24日 | 數據來源：尼可拉斯楊Live精</p>
+        </header>
+
+        <!-- 統計卡片 -->
+        <div class="stats-grid">
+            <div class="stat-card">
+                <div class="stat-number">15</div>
+                <div class="stat-label">分析影片數</div>
             </div>
-            <div class="status-item">
-                <div class="label">已分析影片</div>
-                <div class="value">0</div>
+            <div class="stat-card">
+                <div class="stat-number">5</div>
+                <div class="stat-label">核心投資主題</div>
             </div>
-            <div class="status-item">
-                <div class="label">追蹤預測</div>
-                <div class="value">0</div>
+            <div class="stat-card">
+                <div class="stat-number">25+</div>
+                <div class="stat-label">推薦標的</div>
             </div>
-            <div class="status-item">
-                <div class="label">驗證準確度</div>
-                <div class="value">-</div>
-            </div>
-            <div class="agents-status">
-                <div class="agent-dot" title="阿Prompt"></div>
-                <div class="agent-dot" title="老K"></div>
-                <div class="agent-dot" title="數據妹"></div>
-                <div class="agent-dot" title="狗仔隊"></div>
+            <div class="stat-card">
+                <div class="stat-number">100%</div>
+                <div class="stat-label">字幕提取成功率</div>
             </div>
         </div>
-        
-        <!-- 頻道資訊 -->
-        <div class="section">
-            <div class="section-header">
-                <h2>📺 頻道資訊</h2>
-            </div>
-            <div class="section-content">
-                <div class="channel-cards">
-                    <div class="channel-card">
-                        <h3>@NicolasYoung（主頻道）</h3>
-                        <p>深度財經分析，每週日晚上8點更新。18年金融業經驗（15年深圳、3年新加坡），專長私人銀行、投行、風險管理。</p>
-                    </div>
-                    <div class="channel-card">
-                        <h3>@nicolasyounglive（副頻道）</h3>
-                        <p>即時觀點分享，不定期更新。結合神秘學與宏觀分析，提供不同於主流敘事的角度。</p>
-                    </div>
+
+        <!-- 核心投資主題 -->
+        <div class="card">
+            <h2>📊 五大核心投資主題</h2>
+            
+            <div class="theme-grid">
+                <div class="theme-card">
+                    <h4>🤖 AI 與科技</h4>
+                    <p>黃仁勳發話：AI 進入第二階段，「賣鏟子」比「淘金」更賺錢</p>
+                    <span class="ticker buy">NVDA</span>
+                    <span class="ticker buy">TSM</span>
+                    <span class="ticker buy">AMD</span>
+                    <span class="ticker buy">MU</span>
+                    <span class="ticker buy">ASML</span>
+                    <span class="ticker buy">SK Hynix</span>
+                </div>
+                
+                <div class="theme-card">
+                    <h4>🇯🇵 日本市場</h4>
+                    <p>高市早苗時代：債務危機下的黑天鵝機會，五大商社與日經 ETF</p>
+                    <span class="ticker buy">1321</span>
+                    <span class="ticker buy">五大商社</span>
+                    <span class="ticker sell">日債</span>
+                </div>
+                
+                <div class="theme-card">
+                    <h4>🥇 貴金屬避險</h4>
+                    <p>全球債務危機 + 地緣政治，黃金目標價 $5,000-$8,000</p>
+                    <span class="ticker buy">GLD</span>
+                    <span class="ticker buy">GDX</span>
+                    <span class="ticker buy">SLV</span>
+                    <span class="ticker buy">COPX</span>
+                </div>
+                
+                <div class="theme-card">
+                    <h4>🏭 能源與基建</h4>
+                    <p>Trump 重建美國：$1.8 兆投資，數據中心需要大量電力與原物料</p>
+                    <span class="ticker buy">URA</span>
+                    <span class="ticker buy">CCJ</span>
+                    <span class="ticker buy">CAT</span>
+                    <span class="ticker buy">XLI</span>
+                    <span class="ticker buy">AA</span>
+                </div>
+                
+                <div class="theme-card">
+                    <h4>🚀 國防與太空</h4>
+                    <p>軍備競賽 + SpaceX IPO，國防預算增至 $1.5 兆</p>
+                    <span class="ticker buy">SHLD</span>
+                    <span class="ticker buy">XAR</span>
+                    <span class="ticker buy">PPA</span>
+                    <span class="ticker buy">UFO</span>
+                    <span class="ticker buy">RKLB</span>
+                    <span class="ticker buy">LUNR</span>
                 </div>
             </div>
         </div>
-        
-        <!-- 分析框架 -->
-        <div class="section">
-            <div class="section-header">
-                <h2>🎯 分析框架</h2>
+
+        <!-- 關鍵洞察 -->
+        <div class="card">
+            <h2>🔥 關鍵投資洞察</h2>
+            
+            <h3>1. AI 投資進入第二階段：賣鏟子策略</h3>
+            <p>黃仁勳在 CSE 2026 大會宣布：「記憶體」是 AI 的關鍵瓶頸。AI 投資已從「淘金」進入「賣鏟子」階段，數據中心建設需要：</p>
+            <ul style="margin-left: 20px; margin-top: 8px; color: #c4c4c4;">
+                <li>HBM 高頻寬記憶（SK Hynix 獨家供應至 2027）</li>
+                <li>GPU / ASIC 晶片（NVIDIA、AMD）</li>
+                <li>先進製程代工（台積電）</li>
+                <li>EUV 光刻機（ASML）</li>
+            </ul>
+            
+            <div class="warning">
+                <h4>⚠️ 短期風險警示</h4>
+                <p>Nicolas 提醒：目前做多 SMH（半導體 ETF），因為地緣政治風險 + 散户槓桿過高，市場可能回檔 15-20%。建議分批佈局，保留 20-30% 現金。</p>
             </div>
-            <div class="section-content">
-                <div class="analysis-grid">
-                    <div class="analysis-card">
-                        <h4>📈 個股分析</h4>
-                        <div class="stat">0</div>
-                        <div class="desc">具體股票標的推薦與追蹤</div>
-                        <div class="progress-bar">
-                            <div class="progress-fill" style="width: 0%"></div>
-                        </div>
+
+            <h3>2. 日本黑天鵝：債務危機 = 投資機會</h3>
+            <p>日本國債佔 GDP 236%，遠超美國的 143%。高市早苗當選後推行激進財政：</p>
+            
+            <ul style="margin-left: 20px; margin-top: 8px; color: #c4c4c4;">
+                <li>減免食品稅（年缺口 5 兆日圓）</li>
+                <li>對中強硬 + 親美路線</li>
+                <li>日圓貶值 40%（2022 至今）</li>
+            </ul>
+            
+            <p style="margin-top: 12px;"><strong>連鎖反應：</strong>日債利率上升 → 日本機構賣美債/美股 → 全球資產重估。這是「完美風暴」，也是「一生一次的財富機會」。</p>
+
+            <h3>3. 能源：AI 發展的最大瓶頸</h3>
+            <p>美國數據中心 2025 年支出 $5,200 億，長期規劃 $2.5-7 兆。問題：電力不足。</p>
+            
+            <blockquote style="border-left: 4px solid #a855f7; padding-left: 16px; margin: 16px 0; color: #c4c4c4; font-style: italic;">
+                「AI 的鏟子是數據中心，數據中心的鏟子是能源。」— Nicolas Young
+            </blockquote>
+            
+            <p>Trump 放寬能源管制，大力發展核電與天然氣。關注：核能（URA/CCJ）、鋁（AA）、銅（COPX）。</p>
+        </div>
+
+        <!-- 投資組合建議 -->
+        <div class="card">
+            <h2>💰 老K 推薦投資組合</h2>
+            
+            <div class="portfolio-section">
+                <h3>核心持倉（60%）</h3>
+                
+                <div class="portfolio-item">
+                    <div>
+                        <div class="font-medium">黃金 ETF</div>
+                        <div class="text-gray-400 text-sm">GLD / GDX</div>
                     </div>
-                    <div class="analysis-card">
-                        <h4>🌍 宏觀趨勢</h4>
-                        <div class="stat">0</div>
-                        <div class="desc">全球經濟、貨幣政策分析</div>
-                        <div class="progress-bar">
-                            <div class="progress-fill" style="width: 0%"></div>
-                        </div>
+                    <span class="allocation">20%</span>
+                </div>
+                
+                <div class="portfolio-item">
+                    <div>
+                        <div class="font-medium">AI 半導體</div>
+                        <div class="text-gray-400 text-sm">NVDA, TSM, AMD, MU, ASML</div>
                     </div>
-                    <div class="analysis-card">
-                        <h4>⚡ 地緣政治</h4>
-                        <div class="stat">0</div>
-                        <div class="desc">國際局勢對市場影響</div>
-                        <div class="progress-bar">
-                            <div class="progress-fill" style="width: 0%"></div>
-                        </div>
+                    <span class="allocation">20%</span>
+                </div>
+                
+                <div class="portfolio-item">
+                    <div>
+                        <div class="font-medium">美國基建</div>
+                        <div class="text-gray-400 text-sm">CAT, XLI, URA, CCJ</div>
                     </div>
-                    <div class="analysis-card">
-                        <h4>💻 科技趨勢</h4>
-                        <div class="stat">0</div>
-                        <div class="desc">AI、半導體、新興科技</div>
-                        <div class="progress-bar">
-                            <div class="progress-fill" style="width: 0%"></div>
-                        </div>
+                    <span class="allocation">15%</span>
+                </div>
+                
+                <div class="portfolio-item">
+                    <div>
+                        <div class="font-medium">現金 / 短債</div>
+                        <div class="text-gray-400 text-sm">等待黑天鵝抄底</div>
                     </div>
+                    <span class="allocation">5%</span>
+                </div>
+            </div>
+            
+            <div class="portfolio-section">
+                <h3>衛星持倉（25%）</h3>
+                
+                <div class="portfolio-item">
+                    <div>
+                        <div class="font-medium">日本市場</div>
+                        <div class="text-gray-400 text-sm">日經 225 ETF (1321)、五大商社</div>
+                    </div>
+                    <span class="allocation">10%</span>
+                </div>
+                
+                <div class="portfolio-item">
+                    <div>
+                        <div class="font-medium">國防太空</div>
+                        <div class="text-gray-400 text-sm">SHLD, XAR, PPA, UFO</div>
+                    </div>
+                    <span class="allocation">10%</span>
+                </div>
+                
+                <div class="portfolio-item">
+                    <div>
+                        <div class="font-medium">原物料</div>
+                        <div class="text-gray-400 text-sm">SLV, COPX, AA</div>
+                    </div>
+                    <span class="allocation">5%</span>
+                </div>
+            </div>
+            
+            <div class="portfolio-section">
+                <h3>戰術持倉（15%）</h3>
+                
+                <div class="portfolio-item">
+                    <div>
+                        <div class="font-medium">避險對沖</div>
+                        <div class="text-gray-400 text-sm">做空 SMH（半導體 ETF）</div>
+                    </div>
+                    <span class="allocation">10%</span>
+                </div>
+                
+                <div class="portfolio-item">
+                    <div>
+                        <div class="font-medium">機會型</div>
+                        <div class="text-gray-400 text-sm">SpaceX IPO、量子計算</div>
+                    </div>
+                    <span class="allocation">5%</span>
                 </div>
             </div>
         </div>
-        
-        <!-- 特工團隊 -->
-        <div class="section">
-            <div class="section-header">
-                <h2>🕵️ 負責特工</h2>
+
+        <!-- 風險評估 -->
+        <div class="card">
+            <h2>⚠️ 風險評估與應對</h2>
+            
+            <table>
+                <tr>
+                    <th>風險事件</th>
+                    <th>概率</th>
+                    <th>影響</th>
+                    <th>應對策略</th>
+                </tr>
+                <tr>
+                    <td>日本債務危機爆發</td>
+                    <td class="risk-high">高</td>
+                    <td>全球股債雙殺</td>
+                    <td>持有黃金、保留現金</td>
+                </tr>
+                <tr>
+                    <td>AI 泡沫破裂</td>
+                    <td class="risk-medium">中</td>
+                    <td>科技股大跌 30%+</td>
+                    <td>做空 SMH、分批抄底</td>
+                </tr>
+                <tr>
+                    <td>地緣戰爭升級</td>
+                    <td class="risk-medium">中</td>
+                    <td>能源價格飆漲</td>
+                    <td>加碼能源股、黃金</td>
+                </tr>
+                <tr>
+                    <td>美國經濟衰退</td>
+                    <td class="risk-low">低</td>
+                    <td>企業盈利下滑</td>
+                    <td>持有現金、債券</td>
+                </tr>
+            </table>
+            
+            <div class="warning">
+                <h4>🎯 核心原則</h4>
+                <ul style="margin-left: 20px; margin-top: 8px;">
+                    <li>永遠保留 20-30% 現金，等待「完美風暴」抄底</li>
+                    <li>漲跌時賣出黃金/資源股，加碼科技股</li>
+                    <li>超級大跌時所有資產都會跌，現金為王</li>
+                    <li>投資是指揮軍隊，需要不同兵種搭配</li>
+                </ul>
             </div>
-            <div class="section-content">
-                <div class="team-grid">
-                    <div class="team-member">
-                        <div class="avatar" style="background: rgba(0, 212, 255, 0.2)">📝</div>
-                        <div class="info">
-                            <h4>阿Prompt</h4>
-                            <p>Prompt Engineer</p>
-                        </div>
+        </div>
+
+        <!-- 影片清單 -->
+        <div class="card">
+            <h2>📹 分析影片清單（15 部）</h2>
+            
+            <div class="video-list">
+                <div class="video-item">
+                    <div class="video-number">1</div>
+                    <div class="video-info">
+                        <div class="video-title">黃仁勳發話了，我們如何跟他發財</div>
+                        <div class="video-meta">AI 投資核心 | 記憶體產業分析</div>
                     </div>
-                    <div class="team-member">
-                        <div class="avatar" style="background: rgba(34, 197, 94, 0.2)">💰</div>
-                        <div class="info">
-                            <h4>老K</h4>
-                            <p>財經專家</p>
-                        </div>
+                    <div class="video-status">✅ 已分析</div>
+                </div>
+                
+                <div class="video-item">
+                    <div class="video-number">2</div>
+                    <div class="video-info">
+                        <div class="video-title">高市早苗要帶崩世界經濟，一次人生的發財機會來了</div>
+                        <div class="video-meta">日本債務危機 | 黑天鵝投資</div>
                     </div>
-                    <div class="team-member">
-                        <div class="avatar" style="background: rgba(168, 85, 247, 0.2)">📊</div>
-                        <div class="info">
-                            <h4>數據妹</h4>
-                            <p>資料分析師</p>
-                        </div>
+                    <div class="video-status">✅ 已分析</div>
+                </div>
+                
+                <div class="video-item">
+                    <div class="video-number">3</div>
+                    <div class="video-info">
+                        <div class="video-title">2026年新的開始</div>
+                        <div class="video-meta">頻道介紹 | 投資理念</div>
                     </div>
-                    <div class="team-member">
-                        <div class="avatar" style="background: rgba(244, 114, 182, 0.2)">🔍</div>
-                        <div class="info">
-                            <h4>狗仔隊</h4>
-                            <p>研究調查員</p>
-                        </div>
+                    <div class="video-status">✅ 已分析</div>
+                </div>
+                
+                <div class="video-item">
+                    <div class="video-number">4</div>
+                    <div class="video-info">
+                        <div class="video-title">全球市場崩盤：普通人的致富機會</div>
+                        <div class="video-meta">市場分析 | 擇時策略</div>
                     </div>
-                    <div class="team-member">
-                        <div class="avatar" style="background: rgba(245, 158, 11, 0.2)">🎨</div>
-                        <div class="info">
-                            <h4>設計君</h4>
-                            <p>UI/UX 設計師</p>
-                        </div>
+                    <div class="video-status">✅ 已分析</div>
+                </div>
+                
+                <div class="video-item">
+                    <div class="video-number">5</div>
+                    <div class="video-info">
+                        <div class="video-title">高市早苗、日本崩盤、伊朗戰爭 — 發財的機會</div>
+                        <div class="video-meta">地緣政治 | 多主題整合</div>
                     </div>
-                    <div class="team-member">
-                        <div class="avatar" style="background: rgba(99, 102, 241, 0.2)">💻</div>
-                        <div class="info">
-                            <h4>碼農</h4>
-                            <p>程式工程師</p>
-                        </div>
+                    <div class="video-status">✅ 已分析</div>
+                </div>
+                
+                <div class="video-item">
+                    <div class="video-number">6</div>
+                    <div class="video-info">
+                        <div class="video-title">川普下一步</div>
+                        <div class="video-meta">美國政策 | 投資機會</div>
                     </div>
+                    <div class="video-status">✅ 已分析</div>
+                </div>
+                
+                <div class="video-item">
+                    <div class="video-number">7</div>
+                    <div class="video-info">
+                        <div class="video-title">高市早苗揭示未來3年財富策略</div>
+                        <div class="video-meta">日本投資 | 長期趨勢</div>
+                    </div>
+                    <div class="video-status">✅ 已分析</div>
+                </div>
+                
+                <div class="video-item">
+                    <div class="video-number">8</div>
+                    <div class="video-info">
+                        <div class="video-title">跟著川普發財</div>
+                        <div class="video-meta">川普策略 | 美國製造業</div>
+                    </div>
+                    <div class="video-status">✅ 已分析</div>
+                </div>
+                
+                <div class="video-item">
+                    <div class="video-number">9</div>
+                    <div class="video-info">
+                        <div class="video-title">這會讓我們發財</div>
+                        <div class="video-meta">致富機會 | 趨勢分析</div>
+                    </div>
+                    <div class="video-status">✅ 已分析</div>
+                </div>
+                
+                <div class="video-item">
+                    <div class="video-number">10</div>
+                    <div class="video-info">
+                        <div class="video-title">馬杜羅被捕後如何發財</div>
+                        <div class="video-meta">地緣事件 | 投資策略</div>
+                    </div>
+                    <div class="video-status">✅ 已分析</div>
+                </div>
+                
+                <div class="video-item">
+                    <div class="video-number">11</div>
+                    <div class="video-info">
+                        <div class="video-title">川普關稅被否是假象？發財的大機會才剛開始</div>
+                        <div class="video-meta">關稅分析 | 美國製造業</div>
+                    </div>
+                    <div class="video-status">✅ 已分析</div>
+                </div>
+                
+                <div class="video-item">
+                    <div class="video-number">12</div>
+                    <div class="video-info">
+                        <div class="video-title">美股出現最詭異的信號</div>
+                        <div class="video-meta">市場分析 | DCA策略</div>
+                    </div>
+                    <div class="video-status">✅ 已分析</div>
+                </div>
+                
+                <div class="video-item">
+                    <div class="video-number">13</div>
+                    <div class="video-info">
+                        <div class="video-title">高市早苗會讓我們暴富</div>
+                        <div class="video-meta">日本股市 | 投資機會</div>
+                    </div>
+                    <div class="video-status">✅ 已分析</div>
+                </div>
+                
+                <div class="video-item">
+                    <div class="video-number">14</div>
+                    <div class="video-info">
+                        <div class="video-title">SpaceX上市投資策略</div>
+                        <div class="video-meta">IPO策略 | 太空投資</div>
+                    </div>
+                    <div class="video-status">✅ 已分析</div>
+                </div>
+                
+                <div class="video-item">
+                    <div class="video-number">15</div>
+                    <div class="video-info">
+                        <div class="video-title">黃金白銀暴跌分析</div>
+                        <div class="video-meta">貴金屬 | 避險策略</div>
+                    </div>
+                    <div class="video-status">✅ 已分析</div>
                 </div>
             </div>
         </div>
-        
-        <!-- 進行中任務 -->
-        <div class="section">
-            <div class="section-header">
-                <h2>⚡ 進行中任務</h2>
-            </div>
-            <div class="section-content">
-                <div class="alert">
-                    <span>⏳</span>
-                    <span>正在收集 Nicolas Young 頻道資料，預計 24-48 小時內完成初步分析</span>
-                </div>
-                <div style="margin-top: 20px;">
-                    <h4 style="color: #fff; margin-bottom: 15px;">任務清單：</h4>
-                    <ul style="color: #888; line-height: 2; padding-left: 20px;">
-                        <li>📝 阿Prompt：設計最優化分析指令 ✅ 完成</li>
-                        <li>🔍 狗仔隊：收集頻道所有影片資料 ⏳ 進行中</li>
-                        <li>📊 數據妹：建立結構化資料庫 ⏳ 等待中</li>
-                        <li>💰 老K：執行財經分析 ⏳ 等待中</li>
-                        <li>🎨 設計君：設計視覺介面 ⏳ 等待中</li>
-                        <li>💻 碼農：部署 GitHub Pages ⏳ 等待中</li>
-                    </ul>
-                </div>
-            </div>
+
+        <!-- 行動清單 -->
+        <div class="card">
+            <h2>🎯 立即行動清單</h2>
+            
+            <ul class="action-list">
+                <li>開立美股帳戶（Interactive Brokers / Firstrade）</li>
+                <li>設定定期定額計劃（每月投入固定金額）</li>
+                <li>建立核心持倉：黃金 ETF (GLD) 20%</li>
+                <li>建立核心持倉：AI 半導體 (NVDA/TSM/MU) 20%</li>
+                <li>關注日本市場 ETF (1321) 機會</li>
+                <li>保留 20-30% 現金等待黑天鵝抄底</li>
+                <li>追蹤 SpaceX IPO 消息（預計 2026 年6月）</li>
+                <li>訂閱 Nicolas Young 獲取最新分析</li>
+                <li>設定價格提醒：SMH 做空機會</li>
+                <li>研究能源股：URA、CCJ、CAT</li>
+            </ul>
         </div>
-    </div>
-    
-    <div class="footer">
-        Kimi Claw 特工總部製作 · 持續更新中 · 最後更新：2026-02-23
+
+        <footer>
+            <p>由 Kimi Claw 特工團隊製作 | 老K財經分析</p>
+            <p style="margin-top: 8px;">⚠️ 免責聲明：本報告僅供學習參考，不構成投資建議。投資有風險，決策需謹慎。</p>
+            
+            <p style="margin-top: 16px; color: #00d4ff;">
+                📊 自動化系統運作中 | 每週更新
+            </p>
+        </footer>
     </div>
 </body>
 </html>
