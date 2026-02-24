@@ -1,0 +1,39 @@
+        .video-item {
+            background: var(--bg-card);
+            border-radius: 12px;
+            padding: 16px 20px;
+            display: flex;
+            align-items: center;
+            gap: 16px;
+            transition: all 0.2s ease;
+            border: 1px solid var(--border-light);
+        }
+        
+        .video-item:hover {
+            box-shadow: var(--shadow-md);
+            border-color: var(--accent-500);
+        }
+        
+        .video-action {
+            margin-left: auto;
+        }
+        
+        .view-btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            background: linear-gradient(135deg, var(--accent-500), var(--accent-600));
+            color: white;
+            padding: 8px 16px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-size: 0.85rem;
+            font-weight: 500;
+            transition: all 0.2s ease;
+            box-shadow: var(--shadow-sm);
+        }
+        
+        .view-btn:hover {
+            transform: translateY(-1px);
+            box-shadow: var(--shadow-gold);
+        }
