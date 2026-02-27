@@ -302,8 +302,8 @@
     </div>
 
     <script>
-        // 載入 alex_data.json
-        fetch('alex_data.json')
+        // 載入 alex_data.json（加入時間戳避免緩存）
+        fetch('alex_data.json?t=' + Date.now())
             .then(r => r.json())
             .then(data => {
                 // 更新統計
