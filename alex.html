@@ -304,10 +304,14 @@
     <script>
         // 載入 alex_data.json（加入時間戳避免緩存）
         fetch('alex_data.json?t=' + Date.now())
-            .then(r => r.json())
+            .then(r => {
+                if (!r.ok) throw new Error('HTTP ' + r.status);
+                return r.json();
+            })
             .then(data => {
+                console.log('資料載入成功:', data);
                 // 更新統計
-                document.getElementById('total-videos').textContent = data.videos.length;
+                document.getElementById('total-videos').textContent = data.videos ? data.videos.length : 0;
                 document.getElementById('techniques-count').textContent = data.techniques ? data.techniques.length : 0;
                 document.getElementById('last-update').textContent = data.last_updated ? data.last_updated.split(' ')[0] : '-';
                 document.getElementById('footer-update').textContent = data.last_updated || '尚未更新';
@@ -315,7 +319,7 @@
                 // 計算本週新增
                 const oneWeekAgo = new Date();
                 oneWeekAgo.setDate(oneWeekAgo.getDate() - 7);
-                const weeklyCount = data.videos.filter(v => new Date(v.date) > oneWeekAgo).length;
+                const weeklyCount = data.videos ? data.videos.filter(v => v.date && new Date(v.date) > oneWeekAgo).length : 0;
                 document.getElementById('weekly-new').textContent = weeklyCount;
 
                 // 顯示高優先技巧
@@ -332,23 +336,23 @@
                 }
 
                 // 顯示影片卡片
-                if (data.videos.length > 0) {
+                if (data.videos && data.videos.length > 0) {
                     const videosHtml = data.videos.map(v => `
                         <div class="video-card">
                             <div class="video-header">
-                                <div class="date">${v.date}</div>
+                                <div class="date">${v.date || '未知日期'}</div>
                                 <h3>${v.title}</h3>
                             </div>
                             <div class="video-body">
-                                <div class="summary">${v.summary}</div>
+                                <div class="summary">${v.summary || ''}</div>
                                 <div class="key-points">
                                     <h4>關鍵重點</h4>
                                     <ul>
-                                        ${v.key_points.map(kp => `<li>${kp}</li>`).join('')}
+                                        ${(v.key_points || []).map(kp => `<li>${kp}</li>`).join('')}
                                     </ul>
                                 </div>
                                 <div class="tags">
-                                    ${v.tags.map(tag => `<span class="tag">${tag}</span>`).join('')}
+                                    ${(v.tags || []).map(tag => `<span class="tag">${tag}</span>`).join('')}
                                 </div>
                             </div>
                         </div>
@@ -358,6 +362,7 @@
             })
             .catch(err => {
                 console.error('載入資料失敗:', err);
+                document.getElementById('priority-techniques').innerHTML = '<div style="color:red">載入資料失敗: ' + err.message + '</div>';
             });
     </script>
 </body>
