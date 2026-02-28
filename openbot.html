@@ -233,6 +233,60 @@
         .empty-state .icon { font-size: 4rem; margin-bottom: 16px; }
         .empty-state h3 { color: var(--text-secondary); margin-bottom: 8px; }
 
+        .source-tabs {
+            display: flex;
+            gap: 12px;
+            margin-bottom: 24px;
+            flex-wrap: wrap;
+        }
+        
+        .tab-btn {
+            padding: 12px 24px;
+            border: none;
+            border-radius: 12px;
+            background: var(--primary-100);
+            color: var(--text-secondary);
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s;
+        }
+        
+        .tab-btn:hover {
+            background: var(--primary-200);
+        }
+        
+        .tab-btn.active {
+            background: var(--accent-600);
+            color: white;
+        }
+        
+        .source-content {
+            display: none;
+        }
+        
+        .source-content.active {
+            display: block;
+        }
+        
+        .add-source-card {
+            background: linear-gradient(135deg, var(--primary-100), var(--primary-200));
+            border: 2px dashed var(--primary-300);
+            border-radius: 16px;
+            padding: 40px;
+            text-align: center;
+            margin-top: 20px;
+        }
+        
+        .add-source-card h3 {
+            color: var(--text-secondary);
+            margin-bottom: 12px;
+        }
+        
+        .add-source-card p {
+            color: var(--text-tertiary);
+            font-size: 0.9rem;
+        }
+
         footer {
             text-align: center;
             padding: 40px;
@@ -304,8 +358,9 @@
         </div>
 
         <footer>
-            <p>自動學習系統 v1.0 | 資料來源：Alex Finn YouTube 頻道</p>
-            <p style="margin-top:8px;opacity:0.7">最後更新：<span id="footer-update">尚未更新</span></p>
+            <p>🤖 OpenBot 優化平台 v2.0 | 多來源 AI Agent 技巧整合</p>
+            <p style="margin-top:8px;opacity:0.7">目前來源：Alex Finn | 未來擴展：OpenClaw、MoltBot、Claude Code 等</p>
+            <p style="margin-top:4px;opacity:0.5;font-size:0.85rem">最後更新：<span id="footer-update">尚未更新</span></p>
         </footer>
     </div>
 
@@ -372,6 +427,38 @@
                 console.error('載入資料失敗:', err);
                 document.getElementById('priority-techniques').innerHTML = '<div style="color:red">載入資料失敗: ' + err.message + '</div>';
             });
+        
+        // 來源切換功能
+        function showSource(source) {
+            // 更新按鈕狀態
+            document.querySelectorAll('.tab-btn').forEach(btn => {
+                btn.classList.remove('active');
+            });
+            event.target.classList.add('active');
+            
+            // 這裡可以擴展顯示不同來源的內容
+            if (source === 'alex') {
+                // 顯示 Alex Finn 內容（預設）
+                document.querySelector('.videos-section').style.display = 'block';
+                document.querySelector('.priority-section').style.display = 'block';
+            } else if (source === 'other') {
+                // 顯示「其他資源」佔位內容
+                document.getElementById('videos-container').innerHTML = `
+                    <div class="add-source-card">
+                        <h3>📦 其他資源</h3>
+                        <p>這裡可以加入其他 AI Agent 相關資源</p>
+                        <p style="margin-top: 16px; font-size: 0.85rem; opacity: 0.7;">
+                            例如：OpenClaw 官方文件、MoltBot GitHub、Claude Code 技巧等</p>
+                    </div>
+                `;
+                document.getElementById('priority-techniques').innerHTML = `
+                    <div class="add-source-card">
+                        <h3>🎯 等待新增資源</h3>
+                        <p>未來可以在此處整合更多 AI Agent 優化技巧</p>
+                    </div>
+                `;
+            }
+        }
     </script>
 </body>
 </html>
