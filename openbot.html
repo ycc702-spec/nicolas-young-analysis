@@ -310,6 +310,9 @@
         <header>
             <h1>🤖 OpenBot 優化平台</h1>
             <p class="subtitle">AI Agent 技巧收集與系統優化 | 多來源整合 | 持續更新</p>
+            <p class="update-info" style="color: var(--primary-400); font-size: 0.85rem; margin-top: 8px;">
+                📅 系統更新：2026-03-04 | 新增 Mission Control 技巧 | 15部影片 | 54個技巧
+            </p>
         </header>
         
         <div class="source-tabs">
@@ -399,7 +402,7 @@
                     document.getElementById('priority-techniques').innerHTML = priorityHtml;
                 }
 
-                // 顯示影片卡片
+                // 顯示影片卡片（加上資料更新日期）
                 if (data.videos && data.videos.length > 0) {
                     const videosHtml = data.videos.map(v => `
                         <div class="video-card">
@@ -417,6 +420,9 @@
                                 </div>
                                 <div class="tags">
                                     ${(v.tags || []).map(tag => `<span class="tag">${tag}</span>`).join('')}
+                                </div>
+                                <div class="video-meta" style="margin-top: 12px; padding-top: 12px; border-top: 1px solid var(--border); font-size: 0.75rem; color: var(--text-secondary);">
+                                    💡 ${v.techniques ? v.techniques.length : 0} 個技巧 | 更新於：${data.last_updated || '未知'}
                                 </div>
                             </div>
                         </div>
