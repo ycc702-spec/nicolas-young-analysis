@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-04 11:12",
+  "last_updated": "2026-03-04 11:21",
   "videos": [
     {
       "id": "L36aPV6g2II",
@@ -554,6 +554,186 @@
           "apply_to_system": "在設計新的OpenClaw技能時，明確其預期創造的業務價值或效率提升。為技能設定可量化的價值指標（如節省時間、增加產出、提高準確性），並定期評估其對業務的實際影響。"
         }
       ]
+    },
+    {
+      "id": "aKB9BVonkzk",
+      "title": "LIVE: My OpenClaw setup is incredible",
+      "url": "https://youtube.com/watch?v=aKB9BVonkzk",
+      "date": "2026-02-13",
+      "summary": "Alex Finn 在直播中展示了他的 OpenClaw 設定，特別是他為 OpenClaw 打造的客製化「任務控制」系統，聲稱能大幅增加功能。他還將測試最新的本地 AI 模型 Miniax 2.5，該模型據稱擁有 Opus 級智能，可在本地運行，免費且無限制。影片中他強調其節目是「逃離永久底層階級」的關鍵，並澄清了關於他販售 OpenClaw 安裝服務的謠言。主要內容包括展示任務控制系統和安裝 Miniax 2.5。",
+      "key_points": [
+        "Alex Finn 展示其 OpenClaw 設定。",
+        "介紹並將演示為 OpenClaw 打造的客製化「任務控制」系統，以增加功能性。",
+        "測試最新的本地 AI 模型 Miniax 2.5，該模型具備 Opus 級智能，可本地運行，免費且無限制。",
+        "強調其節目是「逃離永久底層階級」的關鍵。",
+        "澄清並反駁關於他販售 OpenClaw 安裝服務或 Mac Studio 的謠言。",
+        "直播主要內容為展示任務控制系統和安裝 Miniax 2.5。"
+      ],
+      "tags": [
+        "Alex Finn",
+        "OpenClaw",
+        "AI",
+        "本地AI",
+        "Miniax 2.5",
+        "客製化設定",
+        "任務控制",
+        "直播",
+        "程式設計",
+        "科技"
+      ],
+      "techniques": [
+        {
+          "title": "OpenClaw 客製化任務控制系統",
+          "description": "建立一個客製化的「任務控制」介面或模組，以增加 OpenClaw 的功能性，提供更強大的操作和管理能力。",
+          "priority": "高",
+          "apply_to_system": "OpenClaw 系統功能擴展"
+        },
+        {
+          "title": "整合本地化 AI 模型",
+          "description": "將如 Miniax 2.5 這類可在本地電腦運行的 AI 模型整合到應用程式（如 OpenClaw）中，以實現無需雲端、無限制且免費的智能處理能力。",
+          "priority": "高",
+          "apply_to_system": "OpenClaw 的 AI 驅動能力提升"
+        },
+        {
+          "title": "激勵性/恐嚇性觀眾互動策略",
+          "description": "透過強調「逃離永久底層階級」等強烈措辭，製造緊迫感和歸屬感，鼓勵觀眾全程參與直播，提升觀看黏性。",
+          "priority": "中",
+          "apply_to_system": "直播節目觀眾參與度提升"
+        }
+      ]
+    },
+    {
+      "id": "41_TNGDDnfQ",
+      "title": "6 OpenClaw use cases I promise will change your life",
+      "url": "https://youtube.com/watch?v=41_TNGDDnfQ",
+      "date": "2026-02-12",
+      "summary": "這部影片介紹了OpenClaw的六個改變生活的應用案例，並詳細聚焦於第一個案例：「第二大腦」系統。Alex Finn展示了如何利用OpenClaw強大的記憶功能，透過簡單的文字訊息（如iMessage、Telegram、Discord）來儲存和管理所有想法、連結和筆記，避免了傳統筆記應用（如Notion或Apple Notes）的複雜性。用戶可以輕鬆地搜尋和回顧這些記憶。影片還強調OpenClaw能夠根據用戶的文字指令（例如使用Next.js）自動生成並建構出整個「第二大腦」系統，展現了其強大的AI程式碼生成能力，讓用戶無需編寫任何程式碼即可實現複雜功能。",
+      "key_points": [
+        "OpenClaw提供六個改變生活的應用案例，旨在提升個人生產力。",
+        "影片詳細介紹了第一個核心應用：「第二大腦」系統，用於高效記憶和資訊管理。",
+        "OpenClaw透過簡單的文字訊息介面（如iMessage、Telegram）實現記憶功能，避免了傳統複雜筆記應用（如Notion）的缺點。",
+        "OpenClaw擁有卓越的記憶系統，能記住用戶輸入的任何內容，並支援輕鬆搜尋和回顧。",
+        "用戶無需編寫程式碼，只需透過文字指令，OpenClaw即可自動生成並建構出完整的應用系統（例如使用Next.js），展現其AI程式碼生成能力。"
+      ],
+      "tags": [
+        "OpenClaw",
+        "AI應用",
+        "生產力工具",
+        "第二大腦",
+        "筆記管理",
+        "記憶系統",
+        "AI程式碼生成",
+        "自動化",
+        "生活駭客"
+      ],
+      "techniques": [
+        {
+          "title": "OpenClaw 第二大腦系統",
+          "description": "利用OpenClaw的強大記憶功能，透過簡單的文字訊息（如iMessage、Telegram、Discord）儲存和管理所有想法、連結、書籍等資訊。系統能記住所有內容，並提供便捷的搜尋和回顧功能，取代傳統複雜的筆記應用。",
+          "priority": "高",
+          "apply_to_system": "透過向OpenClaw發送文字訊息來記錄任何需要記憶的內容（例如書名、想法、連結），並利用OpenClaw提供的介面（或自建介面）進行搜尋和管理，實現個人知識庫的建立。"
+        },
+        {
+          "title": "OpenClaw AI程式碼生成 (Vibe Coding)",
+          "description": "OpenClaw能夠根據用戶的自然語言指令（例如「我想建立一個第二大腦系統，請用Next.js建構」）自動生成並建構出完整的應用程式或系統，無需用戶手動編寫程式碼，大大簡化開發流程。",
+          "priority": "中",
+          "apply_to_system": "給予OpenClaw明確的系統建構指令，讓其自動生成所需的程式碼和架構。例如，若想建立一個特定功能的網頁應用，只需描述需求，OpenClaw便能自動完成大部分的開發工作。"
+        }
+      ]
+    },
+    {
+      "id": "ev4iiGXlnh0",
+      "title": "DO NOT use a VPS for OpenClaw (major warning)",
+      "url": "https://youtube.com/watch?v=ev4iiGXlnh0",
+      "date": "2026-02-12",
+      "summary": "Alex Finn 的影片警告觀眾不要使用虛擬私人伺服器（VPS）來託管 OpenClaw。他指出許多推薦 VPS 的 AI 創作者都收受贊助，且常未披露，這是不道德甚至非法的。影片強調，透過 VPS 託管 OpenClaw 對 99% 的人來說是錯誤且潛在危險的，並且設定更複雜。他推薦本地部署 OpenClaw，認為這更安全、更強大、更便宜，且設定更簡單（通常只需一個指令），適用於各種設備，並將逐步教學。",
+      "key_points": [
+        "許多 AI 創作者推薦使用 VPS 託管 OpenClaw 是因為收受贊助，且常未披露，這是不道德甚至非法的行為。",
+        "透過 VPS 託管 OpenClaw 對 99% 的人來說是錯誤且潛在危險的建議。",
+        "VPS 設置比本地部署更困難，且可能不夠安全。",
+        "本地部署 OpenClaw 是更安全、更強大、更便宜且更簡單（通常只需一個指令）的解決方案。",
+        "影片將提供在各種設備（如 Mac Mini、舊筆記型電腦）上本地部署 OpenClaw 的逐步教學。",
+        "創作者應優先考慮與觀眾建立的信任，而非短期的贊助收益。"
+      ],
+      "tags": [
+        "OpenClaw",
+        "VPS",
+        "虛擬私人伺服器",
+        "本地部署",
+        "AI工具",
+        "贊助內容",
+        "道德爭議",
+        "資訊安全",
+        "Alex Finn",
+        "教程"
+      ],
+      "techniques": [
+        {
+          "title": "揭露贊助內容的重要性",
+          "description": "影片強烈批評許多 AI 創作者在推薦 OpenClaw 的 VPS 託管服務時未明確披露其贊助關係，指出這不僅不道德，甚至違法。強調創作者應保持透明度以維護觀眾信任。",
+          "priority": "高",
+          "apply_to_system": "內容創作與行銷規範"
+        },
+        {
+          "title": "本地部署 OpenClaw",
+          "description": "影片主張將 OpenClaw 本地部署在個人設備上（如 Mac Mini、舊筆記型電腦），而非使用 VPS。強調本地部署更安全、更強大、成本更低且設定更簡單（通常只需一個指令）。",
+          "priority": "高",
+          "apply_to_system": "OpenClaw 安裝與配置"
+        },
+        {
+          "title": "評估線上建議的批判性思維",
+          "description": "影片鼓勵觀眾對網路上關於 AI 工具的建議保持批判性態度，尤其是在涉及贊助內容時。提醒觀眾許多建議可能出於商業利益而非最佳實踐。",
+          "priority": "中",
+          "apply_to_system": "資訊素養與決策"
+        }
+      ]
+    },
+    {
+      "id": "0v2-mUUWNdc",
+      "title": "LIVE: The ULTIMATE OpenClaw setup",
+      "url": "https://youtube.com/watch?v=0v2-mUUWNdc",
+      "date": "2026-02-11",
+      "summary": "Alex Finn 在影片中展示了他「終極的 OpenClaw 設定」，強調 Discord 作為核心通訊平台，並結合多個本地 AI 模型，實現了業務的全面自動化。他聲稱這套系統能自動進行研究、生成縮圖和腳本，且完全在本地運行，無需消耗任何代幣。他承諾這些工作流程將使生活更簡單、更好、更快、更容易，並帶來更多收入。",
+      "key_points": [
+        "介紹「終極 OpenClaw 設定」，旨在優化效率和收入。",
+        "Discord 被視為 OpenClaw 專案的最佳通訊平台，並展示其終極設定。",
+        "利用 Discord 和多個本地 AI 模型實現業務的全面自動化。",
+        "本地 AI 模型負責全天候進行研究、生成縮圖和腳本，且完全在本地運行，無需消耗任何 API 代幣。",
+        "承諾這些工作流程將改變生活，使其更簡單、更好、更快、更容易，並帶來更多收入。",
+        "API 成本管理策略：每月支付 200 美元給 Opus，其他任務則由免費的開源本地模型處理。"
+      ],
+      "tags": [
+        "OpenClaw",
+        "Discord",
+        "AI自動化",
+        "本地AI",
+        "業務自動化",
+        "生產力",
+        "工作流程",
+        "內容創作",
+        "成本效益",
+        "直播"
+      ],
+      "techniques": [
+        {
+          "title": "終極 Discord 設定",
+          "description": "將 Discord 設定為 OpenClaw 專案的核心通訊與協作平台，並整合自動化功能，以實現高效的資訊流和任務管理。",
+          "priority": "高",
+          "apply_to_system": "將 Discord 作為所有 OpenClaw 相關自動化和溝通的中心樞紐，配置專用頻道和機器人來處理自動化任務的輸入和輸出。"
+        },
+        {
+          "title": "本地 AI 驅動的業務自動化",
+          "description": "部署多個本地 AI 模型，自動執行業務流程，如市場研究、內容（縮圖、腳本）生成等，實現端到端自動化，且無需消耗外部 API 代幣。",
+          "priority": "高",
+          "apply_to_system": "在本地機器上運行開源 AI 模型，用於執行特定任務（如文本生成、圖像處理），並將其與 Discord 設置整合，實現自動化的內容創作和數據分析。"
+        },
+        {
+          "title": "混合式 AI 模型成本優化",
+          "description": "採用混合式 AI 模型策略，將關鍵或複雜任務交由付費 API 模型（如 Opus），而將大量重複性或可本地執行的任務分配給免費開源的本地 AI 模型，以優化成本。",
+          "priority": "中",
+          "apply_to_system": "評估不同任務的需求，將需要高級推理能力的任務分配給付費模型（如 Opus），而將可由本地模型高效處理的任務（如大量內容生成）轉移到本地運行，從而顯著降低總體運營成本。"
+        }
+      ]
     }
   ],
   "techniques": [
@@ -882,6 +1062,72 @@
       "description": "將衡量OpenClaw成功與否的標準從「發布應用程式數量」轉變為「在短時間內創造的實際價值」，例如提升內容產出速度、優化業務流程、增加營收等。因此，技能設計應直接服務於這些價值目標。",
       "priority": "中",
       "apply_to_system": "在設計新的OpenClaw技能時，明確其預期創造的業務價值或效率提升。為技能設定可量化的價值指標（如節省時間、增加產出、提高準確性），並定期評估其對業務的實際影響。"
+    },
+    {
+      "title": "OpenClaw 客製化任務控制系統",
+      "description": "建立一個客製化的「任務控制」介面或模組，以增加 OpenClaw 的功能性，提供更強大的操作和管理能力。",
+      "priority": "高",
+      "apply_to_system": "OpenClaw 系統功能擴展"
+    },
+    {
+      "title": "整合本地化 AI 模型",
+      "description": "將如 Miniax 2.5 這類可在本地電腦運行的 AI 模型整合到應用程式（如 OpenClaw）中，以實現無需雲端、無限制且免費的智能處理能力。",
+      "priority": "高",
+      "apply_to_system": "OpenClaw 的 AI 驅動能力提升"
+    },
+    {
+      "title": "激勵性/恐嚇性觀眾互動策略",
+      "description": "透過強調「逃離永久底層階級」等強烈措辭，製造緊迫感和歸屬感，鼓勵觀眾全程參與直播，提升觀看黏性。",
+      "priority": "中",
+      "apply_to_system": "直播節目觀眾參與度提升"
+    },
+    {
+      "title": "OpenClaw 第二大腦系統",
+      "description": "利用OpenClaw的強大記憶功能，透過簡單的文字訊息（如iMessage、Telegram、Discord）儲存和管理所有想法、連結、書籍等資訊。系統能記住所有內容，並提供便捷的搜尋和回顧功能，取代傳統複雜的筆記應用。",
+      "priority": "高",
+      "apply_to_system": "透過向OpenClaw發送文字訊息來記錄任何需要記憶的內容（例如書名、想法、連結），並利用OpenClaw提供的介面（或自建介面）進行搜尋和管理，實現個人知識庫的建立。"
+    },
+    {
+      "title": "OpenClaw AI程式碼生成 (Vibe Coding)",
+      "description": "OpenClaw能夠根據用戶的自然語言指令（例如「我想建立一個第二大腦系統，請用Next.js建構」）自動生成並建構出完整的應用程式或系統，無需用戶手動編寫程式碼，大大簡化開發流程。",
+      "priority": "中",
+      "apply_to_system": "給予OpenClaw明確的系統建構指令，讓其自動生成所需的程式碼和架構。例如，若想建立一個特定功能的網頁應用，只需描述需求，OpenClaw便能自動完成大部分的開發工作。"
+    },
+    {
+      "title": "揭露贊助內容的重要性",
+      "description": "影片強烈批評許多 AI 創作者在推薦 OpenClaw 的 VPS 託管服務時未明確披露其贊助關係，指出這不僅不道德，甚至違法。強調創作者應保持透明度以維護觀眾信任。",
+      "priority": "高",
+      "apply_to_system": "內容創作與行銷規範"
+    },
+    {
+      "title": "本地部署 OpenClaw",
+      "description": "影片主張將 OpenClaw 本地部署在個人設備上（如 Mac Mini、舊筆記型電腦），而非使用 VPS。強調本地部署更安全、更強大、成本更低且設定更簡單（通常只需一個指令）。",
+      "priority": "高",
+      "apply_to_system": "OpenClaw 安裝與配置"
+    },
+    {
+      "title": "評估線上建議的批判性思維",
+      "description": "影片鼓勵觀眾對網路上關於 AI 工具的建議保持批判性態度，尤其是在涉及贊助內容時。提醒觀眾許多建議可能出於商業利益而非最佳實踐。",
+      "priority": "中",
+      "apply_to_system": "資訊素養與決策"
+    },
+    {
+      "title": "終極 Discord 設定",
+      "description": "將 Discord 設定為 OpenClaw 專案的核心通訊與協作平台，並整合自動化功能，以實現高效的資訊流和任務管理。",
+      "priority": "高",
+      "apply_to_system": "將 Discord 作為所有 OpenClaw 相關自動化和溝通的中心樞紐，配置專用頻道和機器人來處理自動化任務的輸入和輸出。"
+    },
+    {
+      "title": "本地 AI 驅動的業務自動化",
+      "description": "部署多個本地 AI 模型，自動執行業務流程，如市場研究、內容（縮圖、腳本）生成等，實現端到端自動化，且無需消耗外部 API 代幣。",
+      "priority": "高",
+      "apply_to_system": "在本地機器上運行開源 AI 模型，用於執行特定任務（如文本生成、圖像處理），並將其與 Discord 設置整合，實現自動化的內容創作和數據分析。"
+    },
+    {
+      "title": "混合式 AI 模型成本優化",
+      "description": "採用混合式 AI 模型策略，將關鍵或複雜任務交由付費 API 模型（如 Opus），而將大量重複性或可本地執行的任務分配給免費開源的本地 AI 模型，以優化成本。",
+      "priority": "中",
+      "apply_to_system": "評估不同任務的需求，將需要高級推理能力的任務分配給付費模型（如 Opus），而將可由本地模型高效處理的任務（如大量內容生成）轉移到本地運行，從而顯著降低總體運營成本。"
     }
   ]
 }
