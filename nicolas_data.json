@@ -1,6 +1,54 @@
 {
-  "last_updated": "2026-02-28 03:00",
+  "last_updated": "2026-03-04 09:16",
   "videos": [
+    {
+      "id": "6b54-_5OH80",
+      "title": "Iran War: Post-War Investment Strategy and Wealth Opportunities",
+      "titleZh": "伊朗戰爭：戰後投資策略與財富機會",
+      "url": "https://youtube.com/watch?v=6b54-_5OH80",
+      "date": "2026-03-03",
+      "summary": "影片回顧了作者一個月前預測伊朗哈桑·魯哈尼政權將倒台的判斷，該預測已應驗。作者分享了在戰爭期間投資黃金ETF（GDX）和國防ETF（PPA、SHLD）的成功經驗，並已於昨日獲利了結。影片重點討論戰後的投資布局策略，包括黃金、白銀、國防股、能源股、比特幣和AI基礎設施等領域的機會。",
+      "key_points": [
+        "一個月前準確預測伊朗哈桑·魯哈尼政權將倒台，黃金ETF（GDX）創歷史新高，國防ETF表現良好。",
+        "戰後投資策略：黃金和白銀在戰爭後通常會回調，但長期看漲，建議逢低買入。",
+        "國防股（如LMT、NOC、RTX）在戰後通常會回調，但中東地區重建將帶來新的國防需求。",
+        "能源股（石油、天然氣）因伊朗供應中斷而價格上漲，戰後可能回調，但長期能源轉型趨勢不變。",
+        "比特幣作為避險資產，在地緣政治不確定性下表現強勢，戰後可能繼續受益。",
+        "AI基礎設施（數據中心、雲端運算）是長期趨勢，不受戰爭影響，值得持續關注。"
+      ],
+      "tags": [
+        "投資策略",
+        "地緣政治",
+        "伊朗戰爭",
+        "黃金投資",
+        "國防股",
+        "能源股",
+        "比特幣",
+        "AI基礎設施",
+        "ETF",
+        "戰後布局"
+      ],
+      "techniques": [
+        {
+          "title": "地緣政治事件驅動的投資策略",
+          "description": "根據地緣政治事件（如戰爭、政權更迭）的發展階段，動態調整投資組合。在戰爭期間持有避險資產（黃金、國防股），在戰後轉向重建和復甦相關標的。",
+          "priority": "高",
+          "apply_to_system": "系統可監控地緣政治事件發展，自動建議不同階段的投資策略調整，並追蹤相關ETF和股票的表現。"
+        },
+        {
+          "title": "預測驗證與獲利了結",
+          "description": "當投資預測應驗時，及時獲利了結部分倉位，保留現金等待更好的進場機會。避免過度貪婪，保持靈活的資金配置。",
+          "priority": "高",
+          "apply_to_system": "系統可追蹤投資預測的準確度，在預測應驗時提醒用戶考慮獲利了結，並建議資金重新配置的方案。"
+        },
+        {
+          "title": "戰後重建主題投資",
+          "description": "關注戰後重建帶來的投資機會，包括基礎設施建設、國防需求、能源供應鏈重組等領域的長期趨勢。",
+          "priority": "中",
+          "apply_to_system": "系統可分析戰後重建的產業鏈影響，識別受益公司和ETF，並提供相關投資標的的深度分析。"
+        }
+      ]
+    },
     {
       "id": "YU-Ci7VRQA0",
       "title": "Trump’s Next Shockwave — A Once-in-a-Lifetime Opportunity",
@@ -808,6 +856,30 @@
     }
   ],
   "techniques": [
+    {
+      "title": "戰後重建主題投資",
+      "description": "關注戰後重建帶來的投資機會，包括基礎設施建設、國防需求、能源供應鏈重組等領域的長期趨勢。",
+      "priority": "中",
+      "apply_to_system": "系統可分析戰後重建的產業鏈影響，識別受益公司和ETF，並提供相關投資標的的深度分析。",
+      "source_video": "Iran War: Post-War Investment Strategy and Wealth Opportunities",
+      "date": "2026-03-03"
+    },
+    {
+      "title": "預測驗證與獲利了結",
+      "description": "當投資預測應驗時，及時獲利了結部分倉位，保留現金等待更好的進場機會。避免過度貪婪，保持靈活的資金配置。",
+      "priority": "高",
+      "apply_to_system": "系統可追蹤投資預測的準確度，在預測應驗時提醒用戶考慮獲利了結，並建議資金重新配置的方案。",
+      "source_video": "Iran War: Post-War Investment Strategy and Wealth Opportunities",
+      "date": "2026-03-03"
+    },
+    {
+      "title": "地緣政治事件驅動的投資策略",
+      "description": "根據地緣政治事件（如戰爭、政權更迭）的發展階段，動態調整投資組合。在戰爭期間持有避險資產（黃金、國防股），在戰後轉向重建和復甦相關標的。",
+      "priority": "高",
+      "apply_to_system": "系統可監控地緣政治事件發展，自動建議不同階段的投資策略調整，並追蹤相關ETF和股票的表現。",
+      "source_video": "Iran War: Post-War Investment Strategy and Wealth Opportunities",
+      "date": "2026-03-03"
+    },
     {
       "title": "解讀法律文件與新聞背後意圖",
       "description": "不只看表面文字，更要分析法律意見、新聞稿中未提及或模糊處理的部分，推斷真實意圖與影響，例如對最高法院裁決中『regulate importation』與『tariff/duty』的區分，以及對未提及退稅等關鍵問題的解讀。",
