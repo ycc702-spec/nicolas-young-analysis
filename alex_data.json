@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-04 10:50",
+  "last_updated": "2026-03-04 11:12",
   "videos": [
     {
       "id": "L36aPV6g2II",
@@ -504,6 +504,56 @@
           "apply_to_system": "強化我們系統的自然語言理解能力，讓用戶能用簡單描述要求建立自定義工具或儀表板。這大幅降低使用門檻，提高系統的靈活性和用戶採用率。"
         }
       ]
+    },
+    {
+      "id": "5zbsR03aGAE",
+      "title": "LIVE: I built an army of OpenClaw agents. I have lost control.",
+      "url": "https://youtube.com/watch?v=5zbsR03aGAE",
+      "date": "2026-02-27",
+      "summary": "Alex Finn展示了他由五個OpenClaw代理組成的「工廠」，這些代理在不同Mac設備上同時運行，自主且持續地創造價值。他強調應部署更多OpenClaw代理而非子代理，並透露正將OpenClaw整合到穿戴式裝置（Even Reality G2s）中，以實現隨時隨地的免提互動。",
+      "key_points": [
+        "OpenClaw「工廠」：同時運行五個OpenClaw代理，分佈在Mac Studio、Mac Mini和MacBook Pro等多台設備上，實現大規模並行處理。",
+        "代理架構策略：主張部署更多獨立的OpenClaw代理（水平擴展），而非依賴子代理（垂直分解），以提高效率和自主性。",
+        "穿戴式AI整合：計劃將OpenClaw整合到Even Reality G2s智慧眼鏡中，實現免提、隨時隨地的語音互動和視覺反饋。",
+        "重新定義成功：將衡量成功的標準從傳統的「發布應用程式數量」轉變為「在短時間內創造的價值」，例如內容產出、業務效率提升和營收增長。",
+        "OpenClaw的商業價值：透過加速內容創作、提升業務效率、作為虛擬員工，幫助用戶（如YMO Studio）在短時間內創造巨大價值並實現營收增長。"
+      ],
+      "tags": [
+        "MoltBot",
+        "OpenClaw",
+        "代理架構",
+        "分佈式AI",
+        "穿戴式AI",
+        "生產力工具",
+        "AI自動化",
+        "價值創造"
+      ],
+      "techniques": [
+        {
+          "title": "分佈式OpenClaw代理工廠",
+          "description": "在多台獨立的計算機（如Mac Studio、Mac Mini、MacBook Pro）上同時運行多個OpenClaw代理，形成一個並行處理的「工廠」，以實現大規模、自主且持續的任務執行和價值創造。",
+          "priority": "高",
+          "apply_to_system": "評估現有計算資源，規劃在多台機器上部署獨立的OpenClaw實例。設計一個中央協調或任務分發機制（Mission Control），確保各代理能協同工作或獨立執行不同任務。"
+        },
+        {
+          "title": "水平擴展代理架構",
+          "description": "在需要擴展能力時，優先選擇部署更多完整的OpenClaw代理，而非將單一代理分解為多個子代理。這意味著每個OpenClaw代理都應具備較高的自主性和獨立完成任務的能力。",
+          "priority": "高",
+          "apply_to_system": "在設計複雜任務時，考慮將其拆分為可由獨立OpenClaw代理完成的子任務。避免過度依賴單一代理的內部子代理結構，轉而思考如何讓多個OpenClaw代理協同完成更大的目標。"
+        },
+        {
+          "title": "穿戴式AI整合與免提互動",
+          "description": "將OpenClaw代理與智慧眼鏡等穿戴式裝置整合，實現隨時隨地的語音互動、視覺反饋和免提操作，讓AI成為用戶的延伸，無需依賴手機或電腦螢幕。",
+          "priority": "中",
+          "apply_to_system": "研究智慧眼鏡（如Even Reality G2s）的開發套件或API。開發一個OpenClaw的語音輸入/輸出模組，並探索如何將OpenClaw的視覺化輸出（如代碼、圖像、任務進度）呈現在穿戴式裝置的螢幕上。"
+        },
+        {
+          "title": "以「價值創造」為導向的技能設計",
+          "description": "將衡量OpenClaw成功與否的標準從「發布應用程式數量」轉變為「在短時間內創造的實際價值」，例如提升內容產出速度、優化業務流程、增加營收等。因此，技能設計應直接服務於這些價值目標。",
+          "priority": "中",
+          "apply_to_system": "在設計新的OpenClaw技能時，明確其預期創造的業務價值或效率提升。為技能設定可量化的價值指標（如節省時間、增加產出、提高準確性），並定期評估其對業務的實際影響。"
+        }
+      ]
     }
   ],
   "techniques": [
@@ -808,6 +858,30 @@
       "description": "透過簡單的自然語言提示詞（如 'build me a task board' 或 'show my calendar'），讓 OpenClaw 即時建立所需工具。這消除了工具建設的技術門檻，讓非技術用戶也能自定義工作流程。",
       "priority": "中",
       "apply_to_system": "強化我們系統的自然語言理解能力，讓用戶能用簡單描述要求建立自定義工具或儀表板。這大幅降低使用門檻，提高系統的靈活性和用戶採用率。"
+    },
+    {
+      "title": "分佈式OpenClaw代理工廠",
+      "description": "在多台獨立的計算機（如Mac Studio、Mac Mini、MacBook Pro）上同時運行多個OpenClaw代理，形成一個並行處理的「工廠」，以實現大規模、自主且持續的任務執行和價值創造。",
+      "priority": "高",
+      "apply_to_system": "評估現有計算資源，規劃在多台機器上部署獨立的OpenClaw實例。設計一個中央協調或任務分發機制（Mission Control），確保各代理能協同工作或獨立執行不同任務。"
+    },
+    {
+      "title": "水平擴展代理架構",
+      "description": "在需要擴展能力時，優先選擇部署更多完整的OpenClaw代理，而非將單一代理分解為多個子代理。這意味著每個OpenClaw代理都應具備較高的自主性和獨立完成任務的能力。",
+      "priority": "高",
+      "apply_to_system": "在設計複雜任務時，考慮將其拆分為可由獨立OpenClaw代理完成的子任務。避免過度依賴單一代理的內部子代理結構，轉而思考如何讓多個OpenClaw代理協同完成更大的目標。"
+    },
+    {
+      "title": "穿戴式AI整合與免提互動",
+      "description": "將OpenClaw代理與智慧眼鏡等穿戴式裝置整合，實現隨時隨地的語音互動、視覺反饋和免提操作，讓AI成為用戶的延伸，無需依賴手機或電腦螢幕。",
+      "priority": "中",
+      "apply_to_system": "研究智慧眼鏡（如Even Reality G2s）的開發套件或API。開發一個OpenClaw的語音輸入/輸出模組，並探索如何將OpenClaw的視覺化輸出（如代碼、圖像、任務進度）呈現在穿戴式裝置的螢幕上。"
+    },
+    {
+      "title": "以「價值創造」為導向的技能設計",
+      "description": "將衡量OpenClaw成功與否的標準從「發布應用程式數量」轉變為「在短時間內創造的實際價值」，例如提升內容產出速度、優化業務流程、增加營收等。因此，技能設計應直接服務於這些價值目標。",
+      "priority": "中",
+      "apply_to_system": "在設計新的OpenClaw技能時，明確其預期創造的業務價值或效率提升。為技能設定可量化的價值指標（如節省時間、增加產出、提高準確性），並定期評估其對業務的實際影響。"
     }
   ]
 }
