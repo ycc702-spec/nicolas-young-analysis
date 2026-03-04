@@ -55,23 +55,25 @@
         /* 導覽列 */
         .site-nav {
             background: var(--primary-900);
-            padding: 12px 30px;
+            padding: 10px 20px;
             display: flex;
-            gap: 12px;
+            gap: 8px;
             align-items: center;
             border-bottom: 2px solid var(--accent-600);
             position: sticky;
             top: 0;
             z-index: 999;
+            flex-wrap: wrap;
         }
-        .site-nav span { color: var(--primary-400); font-size: .9em; margin-right: 5px; }
+        .site-nav span { color: var(--primary-400); font-size: .85em; margin-right: 5px; }
         .site-nav a {
-            padding: 7px 18px;
+            padding: 6px 14px;
             border-radius: 20px;
             text-decoration: none;
             font-weight: bold;
-            font-size: .9em;
+            font-size: .85em;
             transition: all 0.2s;
+            white-space: nowrap;
         }
         .nav-nicolas { background: var(--primary-700); color: var(--primary-300); }
         .nav-nicolas:hover { background: #d97706; color: #fff; }
@@ -298,11 +300,10 @@
 <body>
     <div class="site-nav">
         <span>📊 分析儀表板：</span>
-        <a href="index.html" class="nav-nicolas">🎬 Nicolas Young</a>
+        <a href="index.html" class="nav-nicolas">🎬 Nicolas</a>
         <a href="openbot.html" class="nav-alex">🤖 OpenBot</a>
-        <a href="https://ycc702-spec.github.io/my-library/mission-dashboard.html" class="nav-alex">🎯 Mission Board</a>
-        <a href="https://ycc702-spec.github.io/my-library/" class="nav-alex">📚 My Library</a>
-        <a href="https://dist-tan-nu-31.vercel.app" class="nav-alex">🦵 JumpProof</a>
+        <a href="https://ycc702-spec.github.io/my-library/mission-dashboard.html" class="nav-alex">🎯 Missions</a>
+        <a href="https://ycc702-spec.github.io/my-library/" class="nav-alex">📚 Library</a>
     </div>
 
     <div class="container">
