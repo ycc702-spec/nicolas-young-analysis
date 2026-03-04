@@ -35,31 +35,41 @@
           "title": "Mission Control 自定義儀表板架構",
           "description": "為 OpenClaw 建立一個中央儀表板，作為所有工具和功能的統一入口。這個儀表板由 OpenClaw 自行建立和維護，允許即時添加新工具，提供對 Agent 活動的完全可視性和控制。",
           "priority": "高",
-          "apply_to_system": "為我們的系統建立類似的 Mission Control 儀表板，整合任務追蹤、日曆排程、專案管理等功能，讓用戶能一目了然地監控所有 Agent 活動。"
+          "apply_to_system": "為我們的系統建立類似的 Mission Control 儀表板，整合任務追蹤、日曆排程、專案管理等功能，讓用戶能一目了然地監控所有 Agent 活動。",
+          "source_video": "OpenClaw is 100x better with this tool (Mission Control)",
+          "source_date": "2026-03-03"
         },
         {
           "title": "看板式任務追蹤與心跳檢查",
           "description": "使用看板（Kanban）介面追蹤 OpenClaw 及其子代理的所有任務，每個任務可分配給用戶或 Agent。關鍵創新是「心跳檢查」機制：Agent 在每次心跳時自動檢查任務板，執行積壓任務，實現真正的自主運作。",
           "priority": "高",
-          "apply_to_system": "在我們的系統中實現類似的任務板功能，讓 Agent 在每次心跳時檢查並執行分配的任務，提高自動化程度。整合即時活動動態，讓用戶能看到 Agent 的每一步操作。"
+          "apply_to_system": "在我們的系統中實現類似的任務板功能，讓 Agent 在每次心跳時檢查並執行分配的任務，提高自動化程度。整合即時活動動態，讓用戶能看到 Agent 的每一步操作。",
+          "source_video": "OpenClaw is 100x better with this tool (Mission Control)",
+          "source_date": "2026-03-03"
         },
         {
           "title": "日曆視覺化確認 Agent 主動性",
           "description": "建立日曆螢幕顯示所有排程任務和 cron jobs，解決 Agent 承諾執行任務卻未實際執行的問題。這提供了可視化的確認機制，確保用戶與 Agent 對排程有共同認知。",
           "priority": "高",
-          "apply_to_system": "為我們的 cron job 系統建立視覺化日曆，顯示所有排程任務的執行時間和狀態。讓用戶能確認 Agent 確實排程了承諾的任務，提高系統透明度。"
+          "apply_to_system": "為我們的 cron job 系統建立視覺化日曆，顯示所有排程任務的執行時間和狀態。讓用戶能確認 Agent 確實排程了承諾的任務，提高系統透明度。",
+          "source_video": "OpenClaw is 100x better with this tool (Mission Control)",
+          "source_date": "2026-03-03"
         },
         {
           "title": "專案導向的反向提示技巧",
           "description": "利用專案螢幕進行反向提示（Reverse Prompting），主動詢問 Agent '我們現在可以做什麼任務來推進主要專案？'。這將 Agent 從被動執行轉為主動建議，幫助用戶保持專注於重要目標。",
           "priority": "中",
-          "apply_to_system": "在我們的專案管理功能中整合反向提示機制，讓 Agent 能主動建議下一步行動。這特別適用於長期專案，幫助用戶避免分心，持續推進核心目標。"
+          "apply_to_system": "在我們的專案管理功能中整合反向提示機制，讓 Agent 能主動建議下一步行動。這特別適用於長期專案，幫助用戶避免分心，持續推進核心目標。",
+          "source_video": "OpenClaw is 100x better with this tool (Mission Control)",
+          "source_date": "2026-03-03"
         },
         {
           "title": "自然語言工具生成",
           "description": "透過簡單的自然語言提示詞（如 'build me a task board' 或 'show my calendar'），讓 OpenClaw 即時建立所需工具。這消除了工具建設的技術門檻，讓非技術用戶也能自定義工作流程。",
           "priority": "中",
-          "apply_to_system": "強化我們系統的自然語言理解能力，讓用戶能用簡單描述要求建立自定義工具或儀表板。這大幅降低使用門檻，提高系統的靈活性和用戶採用率。"
+          "apply_to_system": "強化我們系統的自然語言理解能力，讓用戶能用簡單描述要求建立自定義工具或儀表板。這大幅降低使用門檻，提高系統的靈活性和用戶採用率。",
+          "source_video": "OpenClaw is 100x better with this tool (Mission Control)",
+          "source_date": "2026-03-03"
         }
       ]
     },
@@ -93,25 +103,33 @@
           "title": "遠端控制本地開發 Agent 架構 (Remote-Controlled Local Development Agent Architecture)",
           "description": "Claude Code Mobile 的核心是實現手機作為輕量級介面，遠端指令本地電腦上運行的主Agent。手機端不執行程式碼，只傳達用戶指令並顯示Agent在本地電腦上的執行結果，從而實現開發工作的跨設備無縫銜接。",
           "priority": "高",
-          "apply_to_system": "我們可以為 MoltBot 或 ClawdBot 設計類似的 Agent 架構：部署核心Agent在用戶本地電腦或更強大的伺服器上，而 OpenClaw 或 MoltBot App 作為輕量級的移動前端介面。用戶透過手機介面發送指令，核心Agent在後端執行複雜的開發任務，並將結果即時同步回手機。"
+          "apply_to_system": "我們可以為 MoltBot 或 ClawdBot 設計類似的 Agent 架構：部署核心Agent在用戶本地電腦或更強大的伺服器上，而 OpenClaw 或 MoltBot App 作為輕量級的移動前端介面。用戶透過手機介面發送指令，核心Agent在後端執行複雜的開發任務，並將結果即時同步回手機。",
+          "source_video": "Claude Code for Mobile is the BEST way to build apps with AI (Remote Control)",
+          "source_date": "2026-02-27"
         },
         {
           "title": "無縫會話轉移技能設計 (Seamless Session Transfer Skill Design)",
           "description": "Claude Code 透過 `/remote control` 指令，允許開發會話從電腦無縫轉移到手機。這項功能消除了傳統跨設備開發中手動同步程式碼、解決合併衝突的麻煩，極大提升了開發流程的連續性和便捷性。",
           "priority": "高",
-          "apply_to_system": "為我們的 MoltBot、OpenClaw、ClawdBot 系統設計「會話轉移」的技能。用戶可在任一設備上開始任務，並透過簡單指令或掃描QR碼等方式，將當前任務的執行權和上下文無縫轉移到另一個設備或 Agent 實例上，實現多設備、多 Agent 間的靈活切換，提升用戶體驗。"
+          "apply_to_system": "為我們的 MoltBot、OpenClaw、ClawdBot 系統設計「會話轉移」的技能。用戶可在任一設備上開始任務，並透過簡單指令或掃描QR碼等方式，將當前任務的執行權和上下文無縫轉移到另一個設備或 Agent 實例上，實現多設備、多 Agent 間的靈活切換，提升用戶體驗。",
+          "source_video": "Claude Code for Mobile is the BEST way to build apps with AI (Remote Control)",
+          "source_date": "2026-02-27"
         },
         {
           "title": "上下文感知指令解析與技能執行 (Context-Aware Command Parsing & Skill Execution)",
           "description": "無論在電腦或手機端，Claude Code Agent 都能理解用戶基於當前專案上下文提出的自然語言指令（如「Make it so I can click and drag notes into different folders」），並自動調用其內部技能庫進行程式碼生成、修改或測試。這種高層次的語義理解是其高效的關鍵。",
           "priority": "中",
-          "apply_to_system": "強化 MoltBot、OpenClaw、ClawdBot 的自然語言處理能力，使其能更好地解析用戶在不同開發階段提出的需求。同時，設計更精細的「技能樹」，讓 Agent 能根據當前專案的程式碼結構和上下文，智慧地調用程式碼生成、重構、測試或部署等技能，提高任務完成度與準確性。"
+          "apply_to_system": "強化 MoltBot、OpenClaw、ClawdBot 的自然語言處理能力，使其能更好地解析用戶在不同開發階段提出的需求。同時，設計更精細的「技能樹」，讓 Agent 能根據當前專案的程式碼結構和上下文，智慧地調用程式碼生成、重構、測試或部署等技能，提高任務完成度與準確性。",
+          "source_video": "Claude Code for Mobile is the BEST way to build apps with AI (Remote Control)",
+          "source_date": "2026-02-27"
         },
         {
           "title": "本地優先的即時同步 Agent 架構 (Local-First Real-time Sync Agent Architecture)",
           "description": "該功能強調在本地電腦執行程式碼，而非雲端，並提供手機與本地電腦之間的即時狀態同步。這減少了延遲，提供了更高的隱私性，並簡化了版本控制和程式碼合併，特別適合單人開發或小型團隊。",
           "priority": "中",
-          "apply_to_system": "考慮在 MoltBot 和 ClawdBot 的 Agent 架構中提供「本地優先」的執行模式，特別是對於對數據隱私和即時性要求高的開發任務。這要求設計高效的本地 Agent 與雲端同步機制（若有需要），以確保狀態一致性，同時最大限度地利用本地計算資源。"
+          "apply_to_system": "考慮在 MoltBot 和 ClawdBot 的 Agent 架構中提供「本地優先」的執行模式，特別是對於對數據隱私和即時性要求高的開發任務。這要求設計高效的本地 Agent 與雲端同步機制（若有需要），以確保狀態一致性，同時最大限度地利用本地計算資源。",
+          "source_video": "Claude Code for Mobile is the BEST way to build apps with AI (Remote Control)",
+          "source_date": "2026-02-27"
         }
       ]
     },
@@ -143,25 +161,33 @@
           "title": "分佈式OpenClaw代理工廠",
           "description": "在多台獨立的計算機（如Mac Studio、Mac Mini、MacBook Pro）上同時運行多個OpenClaw代理，形成一個並行處理的「工廠」，以實現大規模、自主且持續的任務執行和價值創造。",
           "priority": "高",
-          "apply_to_system": "評估現有計算資源，規劃在多台機器上部署獨立的OpenClaw實例。設計一個中央協調或任務分發機制（Mission Control），確保各代理能協同工作或獨立執行不同任務。"
+          "apply_to_system": "評估現有計算資源，規劃在多台機器上部署獨立的OpenClaw實例。設計一個中央協調或任務分發機制（Mission Control），確保各代理能協同工作或獨立執行不同任務。",
+          "source_video": "LIVE: I built an army of OpenClaw agents. I have lost control.",
+          "source_date": "2026-02-27"
         },
         {
           "title": "水平擴展代理架構",
           "description": "在需要擴展能力時，優先選擇部署更多完整的OpenClaw代理，而非將單一代理分解為多個子代理。這意味著每個OpenClaw代理都應具備較高的自主性和獨立完成任務的能力。",
           "priority": "高",
-          "apply_to_system": "在設計複雜任務時，考慮將其拆分為可由獨立OpenClaw代理完成的子任務。避免過度依賴單一代理的內部子代理結構，轉而思考如何讓多個OpenClaw代理協同完成更大的目標。"
+          "apply_to_system": "在設計複雜任務時，考慮將其拆分為可由獨立OpenClaw代理完成的子任務。避免過度依賴單一代理的內部子代理結構，轉而思考如何讓多個OpenClaw代理協同完成更大的目標。",
+          "source_video": "LIVE: I built an army of OpenClaw agents. I have lost control.",
+          "source_date": "2026-02-27"
         },
         {
           "title": "穿戴式AI整合與免提互動",
           "description": "將OpenClaw代理與智慧眼鏡等穿戴式裝置整合，實現隨時隨地的語音互動、視覺反饋和免提操作，讓AI成為用戶的延伸，無需依賴手機或電腦螢幕。",
           "priority": "中",
-          "apply_to_system": "研究智慧眼鏡（如Even Reality G2s）的開發套件或API。開發一個OpenClaw的語音輸入/輸出模組，並探索如何將OpenClaw的視覺化輸出（如代碼、圖像、任務進度）呈現在穿戴式裝置的螢幕上。"
+          "apply_to_system": "研究智慧眼鏡（如Even Reality G2s）的開發套件或API。開發一個OpenClaw的語音輸入/輸出模組，並探索如何將OpenClaw的視覺化輸出（如代碼、圖像、任務進度）呈現在穿戴式裝置的螢幕上。",
+          "source_video": "LIVE: I built an army of OpenClaw agents. I have lost control.",
+          "source_date": "2026-02-27"
         },
         {
           "title": "以「價值創造」為導向的技能設計",
           "description": "將衡量OpenClaw成功與否的標準從「發布應用程式數量」轉變為「在短時間內創造的實際價值」，例如提升內容產出速度、優化業務流程、增加營收等。因此，技能設計應直接服務於這些價值目標。",
           "priority": "中",
-          "apply_to_system": "在設計新的OpenClaw技能時，明確其預期創造的業務價值或效率提升。為技能設定可量化的價值指標（如節省時間、增加產出、提高準確性），並定期評估其對業務的實際影響。"
+          "apply_to_system": "在設計新的OpenClaw技能時，明確其預期創造的業務價值或效率提升。為技能設定可量化的價值指標（如節省時間、增加產出、提高準確性），並定期評估其對業務的實際影響。",
+          "source_video": "LIVE: I built an army of OpenClaw agents. I have lost control.",
+          "source_date": "2026-02-27"
         }
       ]
     },
@@ -196,25 +222,33 @@
           "title": "自主功能構建與工作流程自動化",
           "description": "OpenClaw能夠自主分析並整合來自其他頂級AI工具的功能，自動進行構建，甚至生成演示影片。這代表了AI代理在開發和演示環節的高度自動化能力。",
           "priority": "高",
-          "apply_to_system": "設計一個模組化的代理系統，使其能接收高層次目標，並分解成子任務，自主調用工具或生成代碼來完成功能構建。系統需具備自我評估和演示生成能力，以實現端到端的工作流程自動化。"
+          "apply_to_system": "設計一個模組化的代理系統，使其能接收高層次目標，並分解成子任務，自主調用工具或生成代碼來完成功能構建。系統需具備自我評估和演示生成能力，以實現端到端的工作流程自動化。",
+          "source_video": "LIVE: My OpenClaw just built Cursor. Software is dead.",
+          "source_date": "2026-02-25"
         },
         {
           "title": "本地大型語言模型推斷",
           "description": "利用如Quen 3.5（可在32GB RAM上運行，媲美Sonnet 3.5）等輕量級開源模型在本地設備（如Mac）上運行，結合LM Studio等工具。這不僅能節省API token費用，提高運行速度，還能增強數據隱私性。",
           "priority": "中",
-          "apply_to_system": "評估將部分AI推理任務轉移到本地運行以提高效率和隱私。選擇適合目標硬體（如Mac）和RAM限制（32GB+）的輕量級LLM。集成如LM Studio的工具來簡化模型的下載、部署和管理，並根據不同任務需求動態切換本地/雲端模型。"
+          "apply_to_system": "評估將部分AI推理任務轉移到本地運行以提高效率和隱私。選擇適合目標硬體（如Mac）和RAM限制（32GB+）的輕量級LLM。集成如LM Studio的工具來簡化模型的下載、部署和管理，並根據不同任務需求動態切換本地/雲端模型。",
+          "source_video": "LIVE: My OpenClaw just built Cursor. Software is dead.",
+          "source_date": "2026-02-25"
         },
         {
           "title": "可移植的配置驅動代理設計",
           "description": "OpenClaw的設計理念是將代理的「靈魂」、「個性」和所有相關資訊儲存在「all local markdown files」中。這種基於文本文件的配置方式使得代理非常容易在不同設備間遷移和部署，只需簡單的拖曳即可工作。",
           "priority": "高",
-          "apply_to_system": "採用基於文本文件（如Markdown、YAML、JSON）的配置方式來定義agent的行為、工具、記憶和個性。這將極大地提高agent的可維護性、可版本控制性及跨平台部署的便捷性。確保核心邏輯與配置分離，實現高度模組化。"
+          "apply_to_system": "採用基於文本文件（如Markdown、YAML、JSON）的配置方式來定義agent的行為、工具、記憶和個性。這將極大地提高agent的可維護性、可版本控制性及跨平台部署的便捷性。確保核心邏輯與配置分離，實現高度模組化。",
+          "source_video": "LIVE: My OpenClaw just built Cursor. Software is dead.",
+          "source_date": "2026-02-25"
         },
         {
           "title": "基於高階模型（Anthropic）的智能代理開發",
           "description": "影片揭示OpenClaw的核心智能和複雜任務處理能力是藉由Anthropic的高階模型來實現的。這表明即使是開發一個高度自主的代理，也需依賴強大的基礎LLM。",
           "priority": "高",
-          "apply_to_system": "在核心智能層面，考慮集成或利用當前最先進的商用或開源大型語言模型（如Anthropic Claude系列）來處理複雜的推理、規劃和代碼生成任務。這類模型通常具備更好的泛化能力和對長上下文的理解，是實現「skill設計」和「agent架構」中複雜邏輯的基礎。"
+          "apply_to_system": "在核心智能層面，考慮集成或利用當前最先進的商用或開源大型語言模型（如Anthropic Claude系列）來處理複雜的推理、規劃和代碼生成任務。這類模型通常具備更好的泛化能力和對長上下文的理解，是實現「skill設計」和「agent架構」中複雜邏輯的基礎。",
+          "source_video": "LIVE: My OpenClaw just built Cursor. Software is dead.",
+          "source_date": "2026-02-25"
         }
       ]
     },
@@ -251,37 +285,49 @@
           "title": "多代理作業系統整合 (OpenClaw + Discord)",
           "description": "將OpenClaw作為核心多代理平台，與Discord強大的頻道管理功能結合，創建一個能夠承載多個AI代理、執行複雜、并行工作流的環境。Discord的頻道設計允許為不同任務分配專屬代理，並在渠道間進行信息流轉與任務接力。",
           "priority": "高",
-          "apply_to_system": "我們的系統可採用類似架構，選擇一個靈活的AI代理框架（如OpenClaw），並整合一個協作/工作流管理平台（如Discord或自定義UI），以支持多個模塊化代理的部署和協調。"
+          "apply_to_system": "我們的系統可採用類似架構，選擇一個靈活的AI代理框架（如OpenClaw），並整合一個協作/工作流管理平台（如Discord或自定義UI），以支持多個模塊化代理的部署和協調。",
+          "source_video": "You're Using OpenClaw Wrong If You Don't Use Discord",
+          "source_date": "2026-02-24"
         },
         {
           "title": "基於頻道的任務編排與協作",
           "description": "利用Discord的文本頻道作為代理之間的任務輸入/輸出介面和工作流觸發點。一個代理在某頻道投放的資訊（如趨勢推文警報），會自動觸發另一頻道中的代理（如故事研究代理）開始工作，形成高效的自動化流水線。",
           "priority": "高",
-          "apply_to_system": "在我們的系統中，可以設計明確的「輸入/輸出隊列」或「任務狀態板」來模擬頻道機制。每個模塊化代理監聽特定隊列或狀態變化，接收任務並在完成後將結果發佈到下一個代理監聽的隊列。"
+          "apply_to_system": "在我們的系統中，可以設計明確的「輸入/輸出隊列」或「任務狀態板」來模擬頻道機制。每個模塊化代理監聽特定隊列或狀態變化，接收任務並在完成後將結果發佈到下一個代理監聽的隊列。",
+          "source_video": "You're Using OpenClaw Wrong If You Don't Use Discord",
+          "source_date": "2026-02-24"
         },
         {
           "title": "專業化代理技能設計 (Skill Design)",
           "description": "為每個AI代理設計高度專業化的單一或有限技能集，使其能高效執行特定任務。例如，一個代理專門負責監測趨勢推文，另一個專門負責研究故事，Quill專門寫腳本，Pixel專門生成縮圖概念。",
           "priority": "高",
-          "apply_to_system": "在設計我們的agent時，應遵循單一職責原則。將複雜任務分解為更小的子任務，每個子任務由一個具有特定技能的agent負責。這有助於提高agent的效能、可維護性和可擴展性。"
+          "apply_to_system": "在設計我們的agent時，應遵循單一職責原則。將複雜任務分解為更小的子任務，每個子任務由一個具有特定技能的agent負責。這有助於提高agent的效能、可維護性和可擴展性。",
+          "source_video": "You're Using OpenClaw Wrong If You Don't Use Discord",
+          "source_date": "2026-02-24"
         },
         {
           "title": "主動式與定時任務執行",
           "description": "配置代理在預設的時間點或按固定間隔（如每2小時、每日上午7點）自動啟動並執行任務，無需人工干預。這使得系統能夠24/7主動收集信息、生成報告或觸發工作流。",
           "priority": "中",
-          "apply_to_system": "我們的系統可整合任務調度器（Scheduler），讓特定agent能夠在背景執行定時任務，例如每日的數據抓取、報告生成或系統健康檢查，確保系統的主動性和及時性。"
+          "apply_to_system": "我們的系統可整合任務調度器（Scheduler），讓特定agent能夠在背景執行定時任務，例如每日的數據抓取、報告生成或系統健康檢查，確保系統的主動性和及時性。",
+          "source_video": "You're Using OpenClaw Wrong If You Don't Use Discord",
+          "source_date": "2026-02-24"
         },
         {
           "title": "用戶反饋循環與模型個性化",
           "description": "允許用戶對代理的輸出提供直接反饋（如通過表情符號點讚或點X），這些反饋會被用於訓練代理，使其未來產出的內容更符合用戶的語氣、偏好和需求，實現高度個性化。",
           "priority": "中",
-          "apply_to_system": "建立一個用戶反饋介面或機制，收集用戶對agent生成內容的評價。利用這些評價數據來微調agent模型、調整prompt策略或改進agent行為邏輯，以不斷提升用戶體驗和滿意度。"
+          "apply_to_system": "建立一個用戶反饋介面或機制，收集用戶對agent生成內容的評價。利用這些評價數據來微調agent模型、調整prompt策略或改進agent行為邏輯，以不斷提升用戶體驗和滿意度。",
+          "source_video": "You're Using OpenClaw Wrong If You Don't Use Discord",
+          "source_date": "2026-02-24"
         },
         {
           "title": "動態代理啟動與資源管理",
           "description": "根據需求動態啟動或關閉特定代理。例如，當一個腳本被批准後，才會「啟動」另一個AI代理來生成縮圖概念，這有助於優化資源使用和任務流程。",
           "priority": "低",
-          "apply_to_system": "設計一個agent管理器，能夠根據實時的工作流需求動態地啟動或終止agent實例，從而更有效地利用計算資源，避免不必要的開銷。"
+          "apply_to_system": "設計一個agent管理器，能夠根據實時的工作流需求動態地啟動或終止agent實例，從而更有效地利用計算資源，避免不必要的開銷。",
+          "source_video": "You're Using OpenClaw Wrong If You Don't Use Discord",
+          "source_date": "2026-02-24"
         }
       ]
     },
@@ -315,19 +361,25 @@
           "title": "自動會議準備與提醒",
           "description": "OpenClaw 每天早上會開啟 Google 日曆，根據會議排程研究參與者背景 (如 LinkedIn)、過往互動記錄及會議上下文，生成詳細的會議準備文件，並在會議前 15 分鐘提醒用戶。",
           "priority": "高",
-          "apply_to_system": "我們的系統可設計為定時觸發 (例如每天早上)，透過 API 或模擬瀏覽器操作讀取用戶行事曆。接著，系統需整合記憶模組 (長期記憶) 和外部資訊查詢功能 (例如搜尋引擎、內部知識庫)，生成會議摘要和相關背景資訊。提醒功能可透過內部訊息或外部通知服務實現。"
+          "apply_to_system": "我們的系統可設計為定時觸發 (例如每天早上)，透過 API 或模擬瀏覽器操作讀取用戶行事曆。接著，系統需整合記憶模組 (長期記憶) 和外部資訊查詢功能 (例如搜尋引擎、內部知識庫)，生成會議摘要和相關背景資訊。提醒功能可透過內部訊息或外部通知服務實現。",
+          "source_video": "5 OpenClaw use cases that will make you a productivity MACHINE",
+          "source_date": "2026-02-22"
         },
         {
           "title": "每週目標追蹤與回顧",
           "description": "OpenClaw 每週會向用戶詢問目標進度 (例如 YouTube 訂閱數、業務收入)、最大阻礙及心理健康狀況。它會追蹤這些數據，提供分析和改進建議，並記錄在文件中供用戶回顧，甚至可視覺化呈現進度圖表。",
           "priority": "高",
-          "apply_to_system": "系統可設定為週期性任務 (例如每週五)，主動向用戶發送預設問題或客製化問題。用戶的回答會被解析、儲存至資料庫或專屬文件，並進行趨勢分析。可進一步開發數據可視化功能 (如圖表) 於用戶的「任務控制中心」介面。"
+          "apply_to_system": "系統可設定為週期性任務 (例如每週五)，主動向用戶發送預設問題或客製化問題。用戶的回答會被解析、儲存至資料庫或專屬文件，並進行趨勢分析。可進一步開發數據可視化功能 (如圖表) 於用戶的「任務控制中心」介面。",
+          "source_video": "5 OpenClaw use cases that will make you a productivity MACHINE",
+          "source_date": "2026-02-22"
         },
         {
           "title": "每日學習計畫與進度",
           "description": "OpenClaw 會為用戶建立一個長期 (例如 30 天) 學習計畫，每天早上發送一小段學習內容 (例如 LLM 知識)。這幫助用戶每天獲得新知，養成學習習慣，提升專業技能。",
           "priority": "中",
-          "apply_to_system": "系統需具備知識庫管理能力，能根據用戶設定的學習主題和計畫，自動生成或選取每日學習內容。學習進度可被追蹤，並根據用戶回饋和進度定期調整學習計畫。內容傳遞可透過每日訊息、email 或專屬學習模組實現。"
+          "apply_to_system": "系統需具備知識庫管理能力，能根據用戶設定的學習主題和計畫，自動生成或選取每日學習內容。學習進度可被追蹤，並根據用戶回饋和進度定期調整學習計畫。內容傳遞可透過每日訊息、email 或專屬學習模組實現。",
+          "source_video": "5 OpenClaw use cases that will make you a productivity MACHINE",
+          "source_date": "2026-02-22"
         }
       ]
     },
@@ -361,25 +413,33 @@
           "title": "個人化情境腦力激盪 (Personalized Context Brain Dump)",
           "description": "用戶需將其個人興趣、目標、職業和長期抱負等資訊輸入OpenClaw，提供其執行自主任務的核心情境。OpenClaw可透過反向提問（reverse prompting）協助用戶釐清目標。",
           "priority": "高",
-          "apply_to_system": "我們的agent架構需設計一個「情境記憶」模組，能持久儲存並理解用戶的詳細個人資料與目標，作為所有任務規劃與執行的高度個性化依據，提升agent的精準性與價值。這也是agent技能設計的基礎，使其能執行與用戶目標高度相關的任務。"
+          "apply_to_system": "我們的agent架構需設計一個「情境記憶」模組，能持久儲存並理解用戶的詳細個人資料與目標，作為所有任務規劃與執行的高度個性化依據，提升agent的精準性與價值。這也是agent技能設計的基礎，使其能執行與用戶目標高度相關的任務。",
+          "source_video": "You NEED to do this with OpenClaw immediately!",
+          "source_date": "2026-02-19"
         },
         {
           "title": "整合外部工具與資料源 (Integrate External Tools & Data Sources)",
           "description": "讓OpenClaw連結到用戶日常使用的各種外部工具（如Things 3等生產力或通訊工具），使其能自動存取這些工具的數據，並在工作流程中利用這些數據自動執行任務，AI甚至能自行研究API進行連結。",
           "priority": "高",
-          "apply_to_system": "我們的agent架構應具備強大的「工具整合」能力。設計一個彈性的API介面與連接器框架，允許agent在運行時探索、學習和整合第三方服務。這擴展了agent的技能集（skill設計），使其能夠操作更廣泛的外部環境，從而提升自主性。"
+          "apply_to_system": "我們的agent架構應具備強大的「工具整合」能力。設計一個彈性的API介面與連接器框架，允許agent在運行時探索、學習和整合第三方服務。這擴展了agent的技能集（skill設計），使其能夠操作更廣泛的外部環境，從而提升自主性。",
+          "source_video": "You NEED to do this with OpenClaw immediately!",
+          "source_date": "2026-02-19"
         },
         {
           "title": "建立任務控制中心與客製化工具 (Establish Mission Control & Custom Tools)",
           "description": "設置一個中央「任務控制中心」，允許OpenClaw根據需求自主建立客製化工具，如任務追蹤器、行事曆或文件檢視器等，無需用戶編碼，以優化其自主工作流程和用戶互動。",
           "priority": "高",
-          "apply_to_system": "這要求我們的agent架構包含一個「工具生成與管理」層。agent應具備元能力（meta-skill），能根據當前任務或用戶需求，動態地設計、開發和部署新的內部工具（例如基於Next.js的Web應用），並將這些工具納入其技能庫（skill設計），進一步增強其解決問題的能力。"
+          "apply_to_system": "這要求我們的agent架構包含一個「工具生成與管理」層。agent應具備元能力（meta-skill），能根據當前任務或用戶需求，動態地設計、開發和部署新的內部工具（例如基於Next.js的Web應用），並將這些工具納入其技能庫（skill設計），進一步增強其解決問題的能力。",
+          "source_video": "You NEED to do this with OpenClaw immediately!",
+          "source_date": "2026-02-19"
         },
         {
           "title": "定義AI代理任務宣言 (Define AI Agent Mission Statement)",
           "description": "為OpenClaw設定一個清晰、簡潔的「任務宣言」或使命，作為其所有自主行為和決策的最高指導原則。這被視為最關鍵的設定，能確保AI的行為與用戶的長期目標一致。",
           "priority": "高",
-          "apply_to_system": "在agent架構中，必須有「核心目標設定」機制。允許用戶輸入一個高層次的任務宣言，作為agent「決策迴路」中的首要考量。所有子目標的拆解、任務規劃（skill設計的應用）和行動選擇都應與此宣言對齊，確保agent的行為具有連貫性與目的性。"
+          "apply_to_system": "在agent架構中，必須有「核心目標設定」機制。允許用戶輸入一個高層次的任務宣言，作為agent「決策迴路」中的首要考量。所有子目標的拆解、任務規劃（skill設計的應用）和行動選擇都應與此宣言對齊，確保agent的行為具有連貫性與目的性。",
+          "source_video": "You NEED to do this with OpenClaw immediately!",
+          "source_date": "2026-02-19"
         }
       ]
     },
@@ -407,19 +467,25 @@
           "title": "多後端 Agent 架構設計",
           "description": "設計具備切換能力的 Agent 層，以應對 API 供應商突然的政策變更（如 Anthropic 禁用 OpenClaw）。",
           "priority": "高",
-          "apply_to_system": "在系統中實現抽象層，使 Skill 能夠靈活切換 OpenAI API、Anthropic API 或本地 Llama 模型。"
+          "apply_to_system": "在系統中實現抽象層，使 Skill 能夠靈活切換 OpenAI API、Anthropic API 或本地 Llama 模型。",
+          "source_video": "LIVE: Anthropic BANS OpenClaw. It's OVER!",
+          "source_date": "2026-02-18"
         },
         {
           "title": "高性能本地推理配置 (Unified Memory)",
           "description": "利用 Mac Studio 的統一記憶體架構運行大型本地模型，以取代受限的雲端 API。",
           "priority": "中",
-          "apply_to_system": "針對 OpenClaw 類型的 Agent 系統，建立基於 MLX 或 Llama.cpp 的本地推理節點，降低對外部 API 的依賴。"
+          "apply_to_system": "針對 OpenClaw 類型的 Agent 系統，建立基於 MLX 或 Llama.cpp 的本地推理節點，降低對外部 API 的依賴。",
+          "source_video": "LIVE: Anthropic BANS OpenClaw. It's OVER!",
+          "source_date": "2026-02-18"
         },
         {
           "title": "Token 經濟學與成本控制",
           "description": "分析訂閱制與 API 點數制的成本差異，優化 Agent 的 Prompt 長度以減少資源消耗。",
           "priority": "高",
-          "apply_to_system": "在系統中監控每個 Agent Skill 的 Token 消耗，並在 API 限制增加時自動簡化 Context。"
+          "apply_to_system": "在系統中監控每個 Agent Skill 的 Token 消耗，並在 API 限制增加時自動簡化 Context。",
+          "source_video": "LIVE: Anthropic BANS OpenClaw. It's OVER!",
+          "source_date": "2026-02-18"
         }
       ]
     },
@@ -447,19 +513,25 @@
           "title": "Agentic Model Switching (模型切換策略)",
           "description": "根據任務複雜度動態分配模型。Sonnet 4.6 負責日常 UI 操作與簡單 API 調用，Opus 或專用 Codeex 負責核心架構設計或高難度 Debug。",
           "priority": "高",
-          "apply_to_system": "在 OpenClaw 或 MoltBot 中，將默認推論模型設為 Sonnet 4.6 以節省 Token 並提升響應速度。"
+          "apply_to_system": "在 OpenClaw 或 MoltBot 中，將默認推論模型設為 Sonnet 4.6 以節省 Token 並提升響應速度。",
+          "source_video": "Claude Sonnet 4.6 just released. Greatest model for OpenClaw ever?",
+          "source_date": "2026-02-17"
         },
         {
           "title": "Long-running Autonomous Loops (長時自動化循環)",
           "description": "利用低成本特性，允許 Agent 持續數小時甚至數天進行趨勢掃描（如 X/Reddit）並自動生成應用程序。",
           "priority": "中",
-          "apply_to_system": "設計針對特定領域（如 AI 新聞）的持續監控 Skill，讓 Agent 自行過濾資訊並產出報告。"
+          "apply_to_system": "設計針對特定領域（如 AI 新聞）的持續監控 Skill，讓 Agent 自行過濾資訊並產出報告。",
+          "source_video": "Claude Sonnet 4.6 just released. Greatest model for OpenClaw ever?",
+          "source_date": "2026-02-17"
         },
         {
           "title": "Computer Use Optimization (電腦操作優化)",
           "description": "利用模型對 GUI 交互的優化，執行辦公室自動化任務，如操作 Excel、修改簡報佈局等。",
           "priority": "高",
-          "apply_to_system": "在 ClawdBot 的 Skill 設計中，強化對視覺界面元素的定位與操作邏輯，直接控制桌面應用。"
+          "apply_to_system": "在 ClawdBot 的 Skill 設計中，強化對視覺界面元素的定位與操作邏輯，直接控制桌面應用。",
+          "source_video": "Claude Sonnet 4.6 just released. Greatest model for OpenClaw ever?",
+          "source_date": "2026-02-17"
         }
       ]
     },
@@ -492,19 +564,25 @@
           "title": "模型與硬體整合策略",
           "description": "OpenClaw（ClawdBot）的成功在於它能有效地結合現有的頂級語言模型（如Claude Opus）和普及硬體（Mac Mini），迅速為用戶創造巨大價值。這表明了通過智能整合，而非從零開始，可以快速佔領市場。",
           "priority": "高",
-          "apply_to_system": "在設計我們的 agent 架構或 skill 時，應優先考慮如何利用現有最先進的基礎模型（例如大型語言模型）和標準化硬體。這意味著我們的 agent 技能可以被設計成優化與特定模型或硬體的交互，以提高效率和性能，加速開發與部署。"
+          "apply_to_system": "在設計我們的 agent 架構或 skill 時，應優先考慮如何利用現有最先進的基礎模型（例如大型語言模型）和標準化硬體。這意味著我們的 agent 技能可以被設計成優化與特定模型或硬體的交互，以提高效率和性能，加速開發與部署。",
+          "source_video": "LIVE: OPENAI BUYS OPENCLAW! WILL ANTHROPIC SURVIVE???",
+          "source_date": "2026-02-16"
         },
         {
           "title": "用戶生態支持與開放性設計",
           "description": "Anthropic因限制用戶將其產品與OpenClaw結合使用而遭受危機，這凸顯了對用戶創新使用的開放態度至關重要。支持用戶以意想不到的方式結合你的產品，能促進強大的生態系統發展。",
           "priority": "高",
-          "apply_to_system": "我們的 agent 架構和 skill 設計應具備高度開放性和擴展性。避免對用戶如何使用 agent 或其技能施加過多限制。一個好的 skill 應該能夠被其他 agent 或第三方工具輕易調用和組合，鼓勵社群進行創造性開發，並確保系統能夠適應用戶不斷變化的需求和創新用法。"
+          "apply_to_system": "我們的 agent 架構和 skill 設計應具備高度開放性和擴展性。避免對用戶如何使用 agent 或其技能施加過多限制。一個好的 skill 應該能夠被其他 agent 或第三方工具輕易調用和組合，鼓勵社群進行創造性開發，並確保系統能夠適應用戶不斷變化的需求和創新用法。",
+          "source_video": "LIVE: OPENAI BUYS OPENCLAW! WILL ANTHROPIC SURVIVE???",
+          "source_date": "2026-02-16"
         },
         {
           "title": "快速市場響應與敏捷迭代",
           "description": "OpenClaw在極短時間內從無到有創造數十億價值，展現了快速捕捉市場需求並推出產品的能力。OpenAI的迅速收購也反映了對市場機會的敏銳洞察和快速反應。",
           "priority": "中",
-          "apply_to_system": "在開發我們的 agent 技能時，應採取敏捷開發和快速迭代的方法，密切關注市場動態和用戶反饋。agent 架構應具備模組化和可配置性，以便快速添加、修改或移除技能，確保我們的系統能夠迅速響應新的技術趨勢和用戶需求，保持競爭力。"
+          "apply_to_system": "在開發我們的 agent 技能時，應採取敏捷開發和快速迭代的方法，密切關注市場動態和用戶反饋。agent 架構應具備模組化和可配置性，以便快速添加、修改或移除技能，確保我們的系統能夠迅速響應新的技術趨勢和用戶需求，保持競爭力。",
+          "source_video": "LIVE: OPENAI BUYS OPENCLAW! WILL ANTHROPIC SURVIVE???",
+          "source_date": "2026-02-16"
         }
       ]
     },
@@ -533,25 +611,33 @@
           "title": "持續性上下文記憶 (Persistent Context Memory)",
           "description": "系統會永久儲存用戶的細節（OS、地理位置、偏好語言），並將其注入到每一次的推論中。",
           "priority": "高",
-          "apply_to_system": "在 MoltBot 架构中建立 User-Profile 向量資料庫，每次對話自動檢索相關背景資訊以實現高度個性化。"
+          "apply_to_system": "在 MoltBot 架构中建立 User-Profile 向量資料庫，每次對話自動檢索相關背景資訊以實現高度個性化。",
+          "source_video": "100 hours of OpenClaw lessons in 35 minutes",
+          "source_date": "2026-02-15"
         },
         {
           "title": "主動式觸發機制 (Proactive Triggering)",
           "description": "Agent 不等待指令，而是根據設定的監控任務（如觀察 Twitter 趨勢）主動產生決策並執行。",
           "priority": "高",
-          "apply_to_system": "為系統設計 Cron-job 或 Event-stream 監聽器，讓 ClawdBot 能在偵測到特定事件時自動啟動任務流。"
+          "apply_to_system": "為系統設計 Cron-job 或 Event-stream 監聽器，讓 ClawdBot 能在偵測到特定事件時自動啟動任務流。",
+          "source_video": "100 hours of OpenClaw lessons in 35 minutes",
+          "source_date": "2026-02-15"
         },
         {
           "title": "動態技能擴展 (Dynamic Skill Generation)",
           "description": "當 Agent 發現現有工具不足時，自行編寫新的代碼組件或「技能」並將其整合到系統中。",
           "priority": "中",
-          "apply_to_system": "設計一個「技能庫」目錄，允許 Agent 寫入 Python 腳本，經由 Approval Terminal 確認後即可成為系統的新能力。"
+          "apply_to_system": "設計一個「技能庫」目錄，允許 Agent 寫入 Python 腳本，經由 Approval Terminal 確認後即可成為系統的新能力。",
+          "source_video": "100 hours of OpenClaw lessons in 35 minutes",
+          "source_date": "2026-02-15"
         },
         {
           "title": "外部溝通與審核循環 (External Feedback Loop)",
           "description": "透過 Telegram 或 iMessage 與用戶保持異步聯繫，並提供專用的審核終端 (Approvals Terminal) 進行人工介入。",
           "priority": "中",
-          "apply_to_system": "整合 Messaging API，在 Agent 執行關鍵操作前發送確認訊息到手機，確保系統在安全範圍內運作。"
+          "apply_to_system": "整合 Messaging API，在 Agent 執行關鍵操作前發送確認訊息到手機，確保系統在安全範圍內運作。",
+          "source_video": "100 hours of OpenClaw lessons in 35 minutes",
+          "source_date": "2026-02-15"
         }
       ]
     },
@@ -586,19 +672,25 @@
           "title": "OpenClaw 客製化任務控制系統",
           "description": "建立一個客製化的「任務控制」介面或模組，以增加 OpenClaw 的功能性，提供更強大的操作和管理能力。",
           "priority": "高",
-          "apply_to_system": "OpenClaw 系統功能擴展"
+          "apply_to_system": "OpenClaw 系統功能擴展",
+          "source_video": "LIVE: My OpenClaw setup is incredible",
+          "source_date": "2026-02-13"
         },
         {
           "title": "整合本地化 AI 模型",
           "description": "將如 Miniax 2.5 這類可在本地電腦運行的 AI 模型整合到應用程式（如 OpenClaw）中，以實現無需雲端、無限制且免費的智能處理能力。",
           "priority": "高",
-          "apply_to_system": "OpenClaw 的 AI 驅動能力提升"
+          "apply_to_system": "OpenClaw 的 AI 驅動能力提升",
+          "source_video": "LIVE: My OpenClaw setup is incredible",
+          "source_date": "2026-02-13"
         },
         {
           "title": "激勵性/恐嚇性觀眾互動策略",
           "description": "透過強調「逃離永久底層階級」等強烈措辭，製造緊迫感和歸屬感，鼓勵觀眾全程參與直播，提升觀看黏性。",
           "priority": "中",
-          "apply_to_system": "直播節目觀眾參與度提升"
+          "apply_to_system": "直播節目觀眾參與度提升",
+          "source_video": "LIVE: My OpenClaw setup is incredible",
+          "source_date": "2026-02-13"
         }
       ]
     },
@@ -631,13 +723,17 @@
           "title": "OpenClaw 第二大腦系統",
           "description": "利用OpenClaw的強大記憶功能，透過簡單的文字訊息（如iMessage、Telegram、Discord）儲存和管理所有想法、連結、書籍等資訊。系統能記住所有內容，並提供便捷的搜尋和回顧功能，取代傳統複雜的筆記應用。",
           "priority": "高",
-          "apply_to_system": "透過向OpenClaw發送文字訊息來記錄任何需要記憶的內容（例如書名、想法、連結），並利用OpenClaw提供的介面（或自建介面）進行搜尋和管理，實現個人知識庫的建立。"
+          "apply_to_system": "透過向OpenClaw發送文字訊息來記錄任何需要記憶的內容（例如書名、想法、連結），並利用OpenClaw提供的介面（或自建介面）進行搜尋和管理，實現個人知識庫的建立。",
+          "source_video": "6 OpenClaw use cases I promise will change your life",
+          "source_date": "2026-02-12"
         },
         {
           "title": "OpenClaw AI程式碼生成 (Vibe Coding)",
           "description": "OpenClaw能夠根據用戶的自然語言指令（例如「我想建立一個第二大腦系統，請用Next.js建構」）自動生成並建構出完整的應用程式或系統，無需用戶手動編寫程式碼，大大簡化開發流程。",
           "priority": "中",
-          "apply_to_system": "給予OpenClaw明確的系統建構指令，讓其自動生成所需的程式碼和架構。例如，若想建立一個特定功能的網頁應用，只需描述需求，OpenClaw便能自動完成大部分的開發工作。"
+          "apply_to_system": "給予OpenClaw明確的系統建構指令，讓其自動生成所需的程式碼和架構。例如，若想建立一個特定功能的網頁應用，只需描述需求，OpenClaw便能自動完成大部分的開發工作。",
+          "source_video": "6 OpenClaw use cases I promise will change your life",
+          "source_date": "2026-02-12"
         }
       ]
     },
@@ -672,19 +768,25 @@
           "title": "揭露贊助內容的重要性",
           "description": "影片強烈批評許多 AI 創作者在推薦 OpenClaw 的 VPS 託管服務時未明確披露其贊助關係，指出這不僅不道德，甚至違法。強調創作者應保持透明度以維護觀眾信任。",
           "priority": "高",
-          "apply_to_system": "內容創作與行銷規範"
+          "apply_to_system": "內容創作與行銷規範",
+          "source_video": "DO NOT use a VPS for OpenClaw (major warning)",
+          "source_date": "2026-02-12"
         },
         {
           "title": "本地部署 OpenClaw",
           "description": "影片主張將 OpenClaw 本地部署在個人設備上（如 Mac Mini、舊筆記型電腦），而非使用 VPS。強調本地部署更安全、更強大、成本更低且設定更簡單（通常只需一個指令）。",
           "priority": "高",
-          "apply_to_system": "OpenClaw 安裝與配置"
+          "apply_to_system": "OpenClaw 安裝與配置",
+          "source_video": "DO NOT use a VPS for OpenClaw (major warning)",
+          "source_date": "2026-02-12"
         },
         {
           "title": "評估線上建議的批判性思維",
           "description": "影片鼓勵觀眾對網路上關於 AI 工具的建議保持批判性態度，尤其是在涉及贊助內容時。提醒觀眾許多建議可能出於商業利益而非最佳實踐。",
           "priority": "中",
-          "apply_to_system": "資訊素養與決策"
+          "apply_to_system": "資訊素養與決策",
+          "source_video": "DO NOT use a VPS for OpenClaw (major warning)",
+          "source_date": "2026-02-12"
         }
       ]
     },
@@ -719,19 +821,25 @@
           "title": "終極 Discord 設定",
           "description": "將 Discord 設定為 OpenClaw 專案的核心通訊與協作平台，並整合自動化功能，以實現高效的資訊流和任務管理。",
           "priority": "高",
-          "apply_to_system": "將 Discord 作為所有 OpenClaw 相關自動化和溝通的中心樞紐，配置專用頻道和機器人來處理自動化任務的輸入和輸出。"
+          "apply_to_system": "將 Discord 作為所有 OpenClaw 相關自動化和溝通的中心樞紐，配置專用頻道和機器人來處理自動化任務的輸入和輸出。",
+          "source_video": "LIVE: The ULTIMATE OpenClaw setup",
+          "source_date": "2026-02-11"
         },
         {
           "title": "本地 AI 驅動的業務自動化",
           "description": "部署多個本地 AI 模型，自動執行業務流程，如市場研究、內容（縮圖、腳本）生成等，實現端到端自動化，且無需消耗外部 API 代幣。",
           "priority": "高",
-          "apply_to_system": "在本地機器上運行開源 AI 模型，用於執行特定任務（如文本生成、圖像處理），並將其與 Discord 設置整合，實現自動化的內容創作和數據分析。"
+          "apply_to_system": "在本地機器上運行開源 AI 模型，用於執行特定任務（如文本生成、圖像處理），並將其與 Discord 設置整合，實現自動化的內容創作和數據分析。",
+          "source_video": "LIVE: The ULTIMATE OpenClaw setup",
+          "source_date": "2026-02-11"
         },
         {
           "title": "混合式 AI 模型成本優化",
           "description": "採用混合式 AI 模型策略，將關鍵或複雜任務交由付費 API 模型（如 Opus），而將大量重複性或可本地執行的任務分配給免費開源的本地 AI 模型，以優化成本。",
           "priority": "中",
-          "apply_to_system": "評估不同任務的需求，將需要高級推理能力的任務分配給付費模型（如 Opus），而將可由本地模型高效處理的任務（如大量內容生成）轉移到本地運行，從而顯著降低總體運營成本。"
+          "apply_to_system": "評估不同任務的需求，將需要高級推理能力的任務分配給付費模型（如 Opus），而將可由本地模型高效處理的任務（如大量內容生成）轉移到本地運行，從而顯著降低總體運營成本。",
+          "source_video": "LIVE: The ULTIMATE OpenClaw setup",
+          "source_date": "2026-02-11"
         }
       ]
     }
@@ -741,325 +849,433 @@
       "title": "Mission Control 自定義儀表板架構",
       "description": "為 OpenClaw 建立一個中央儀表板，作為所有工具和功能的統一入口。這個儀表板由 OpenClaw 自行建立和維護，允許即時添加新工具，提供對 Agent 活動的完全可視性和控制。",
       "priority": "高",
-      "apply_to_system": "為我們的系統建立類似的 Mission Control 儀表板，整合任務追蹤、日曆排程、專案管理等功能，讓用戶能一目了然地監控所有 Agent 活動。"
+      "apply_to_system": "為我們的系統建立類似的 Mission Control 儀表板，整合任務追蹤、日曆排程、專案管理等功能，讓用戶能一目了然地監控所有 Agent 活動。",
+      "source_video": "OpenClaw is 100x better with this tool (Mission Control)",
+      "source_date": "2026-03-03"
     },
     {
       "title": "看板式任務追蹤與心跳檢查",
       "description": "使用看板（Kanban）介面追蹤 OpenClaw 及其子代理的所有任務，每個任務可分配給用戶或 Agent。關鍵創新是「心跳檢查」機制：Agent 在每次心跳時自動檢查任務板，執行積壓任務，實現真正的自主運作。",
       "priority": "高",
-      "apply_to_system": "在我們的系統中實現類似的任務板功能，讓 Agent 在每次心跳時檢查並執行分配的任務，提高自動化程度。整合即時活動動態，讓用戶能看到 Agent 的每一步操作。"
+      "apply_to_system": "在我們的系統中實現類似的任務板功能，讓 Agent 在每次心跳時檢查並執行分配的任務，提高自動化程度。整合即時活動動態，讓用戶能看到 Agent 的每一步操作。",
+      "source_video": "OpenClaw is 100x better with this tool (Mission Control)",
+      "source_date": "2026-03-03"
     },
     {
       "title": "日曆視覺化確認 Agent 主動性",
       "description": "建立日曆螢幕顯示所有排程任務和 cron jobs，解決 Agent 承諾執行任務卻未實際執行的問題。這提供了可視化的確認機制，確保用戶與 Agent 對排程有共同認知。",
       "priority": "高",
-      "apply_to_system": "為我們的 cron job 系統建立視覺化日曆，顯示所有排程任務的執行時間和狀態。讓用戶能確認 Agent 確實排程了承諾的任務，提高系統透明度。"
+      "apply_to_system": "為我們的 cron job 系統建立視覺化日曆，顯示所有排程任務的執行時間和狀態。讓用戶能確認 Agent 確實排程了承諾的任務，提高系統透明度。",
+      "source_video": "OpenClaw is 100x better with this tool (Mission Control)",
+      "source_date": "2026-03-03"
     },
     {
       "title": "專案導向的反向提示技巧",
       "description": "利用專案螢幕進行反向提示（Reverse Prompting），主動詢問 Agent '我們現在可以做什麼任務來推進主要專案？'。這將 Agent 從被動執行轉為主動建議，幫助用戶保持專注於重要目標。",
       "priority": "中",
-      "apply_to_system": "在我們的專案管理功能中整合反向提示機制，讓 Agent 能主動建議下一步行動。這特別適用於長期專案，幫助用戶避免分心，持續推進核心目標。"
+      "apply_to_system": "在我們的專案管理功能中整合反向提示機制，讓 Agent 能主動建議下一步行動。這特別適用於長期專案，幫助用戶避免分心，持續推進核心目標。",
+      "source_video": "OpenClaw is 100x better with this tool (Mission Control)",
+      "source_date": "2026-03-03"
     },
     {
       "title": "自然語言工具生成",
       "description": "透過簡單的自然語言提示詞（如 'build me a task board' 或 'show my calendar'），讓 OpenClaw 即時建立所需工具。這消除了工具建設的技術門檻，讓非技術用戶也能自定義工作流程。",
       "priority": "中",
-      "apply_to_system": "強化我們系統的自然語言理解能力，讓用戶能用簡單描述要求建立自定義工具或儀表板。這大幅降低使用門檻，提高系統的靈活性和用戶採用率。"
+      "apply_to_system": "強化我們系統的自然語言理解能力，讓用戶能用簡單描述要求建立自定義工具或儀表板。這大幅降低使用門檻，提高系統的靈活性和用戶採用率。",
+      "source_video": "OpenClaw is 100x better with this tool (Mission Control)",
+      "source_date": "2026-03-03"
     },
     {
       "title": "遠端控制本地開發 Agent 架構 (Remote-Controlled Local Development Agent Architecture)",
       "description": "Claude Code Mobile 的核心是實現手機作為輕量級介面，遠端指令本地電腦上運行的主Agent。手機端不執行程式碼，只傳達用戶指令並顯示Agent在本地電腦上的執行結果，從而實現開發工作的跨設備無縫銜接。",
       "priority": "高",
-      "apply_to_system": "我們可以為 MoltBot 或 ClawdBot 設計類似的 Agent 架構：部署核心Agent在用戶本地電腦或更強大的伺服器上，而 OpenClaw 或 MoltBot App 作為輕量級的移動前端介面。用戶透過手機介面發送指令，核心Agent在後端執行複雜的開發任務，並將結果即時同步回手機。"
+      "apply_to_system": "我們可以為 MoltBot 或 ClawdBot 設計類似的 Agent 架構：部署核心Agent在用戶本地電腦或更強大的伺服器上，而 OpenClaw 或 MoltBot App 作為輕量級的移動前端介面。用戶透過手機介面發送指令，核心Agent在後端執行複雜的開發任務，並將結果即時同步回手機。",
+      "source_video": "Claude Code for Mobile is the BEST way to build apps with AI (Remote Control)",
+      "source_date": "2026-02-27"
     },
     {
       "title": "無縫會話轉移技能設計 (Seamless Session Transfer Skill Design)",
       "description": "Claude Code 透過 `/remote control` 指令，允許開發會話從電腦無縫轉移到手機。這項功能消除了傳統跨設備開發中手動同步程式碼、解決合併衝突的麻煩，極大提升了開發流程的連續性和便捷性。",
       "priority": "高",
-      "apply_to_system": "為我們的 MoltBot、OpenClaw、ClawdBot 系統設計「會話轉移」的技能。用戶可在任一設備上開始任務，並透過簡單指令或掃描QR碼等方式，將當前任務的執行權和上下文無縫轉移到另一個設備或 Agent 實例上，實現多設備、多 Agent 間的靈活切換，提升用戶體驗。"
+      "apply_to_system": "為我們的 MoltBot、OpenClaw、ClawdBot 系統設計「會話轉移」的技能。用戶可在任一設備上開始任務，並透過簡單指令或掃描QR碼等方式，將當前任務的執行權和上下文無縫轉移到另一個設備或 Agent 實例上，實現多設備、多 Agent 間的靈活切換，提升用戶體驗。",
+      "source_video": "Claude Code for Mobile is the BEST way to build apps with AI (Remote Control)",
+      "source_date": "2026-02-27"
     },
     {
       "title": "上下文感知指令解析與技能執行 (Context-Aware Command Parsing & Skill Execution)",
       "description": "無論在電腦或手機端，Claude Code Agent 都能理解用戶基於當前專案上下文提出的自然語言指令（如「Make it so I can click and drag notes into different folders」），並自動調用其內部技能庫進行程式碼生成、修改或測試。這種高層次的語義理解是其高效的關鍵。",
       "priority": "中",
-      "apply_to_system": "強化 MoltBot、OpenClaw、ClawdBot 的自然語言處理能力，使其能更好地解析用戶在不同開發階段提出的需求。同時，設計更精細的「技能樹」，讓 Agent 能根據當前專案的程式碼結構和上下文，智慧地調用程式碼生成、重構、測試或部署等技能，提高任務完成度與準確性。"
+      "apply_to_system": "強化 MoltBot、OpenClaw、ClawdBot 的自然語言處理能力，使其能更好地解析用戶在不同開發階段提出的需求。同時，設計更精細的「技能樹」，讓 Agent 能根據當前專案的程式碼結構和上下文，智慧地調用程式碼生成、重構、測試或部署等技能，提高任務完成度與準確性。",
+      "source_video": "Claude Code for Mobile is the BEST way to build apps with AI (Remote Control)",
+      "source_date": "2026-02-27"
     },
     {
       "title": "本地優先的即時同步 Agent 架構 (Local-First Real-time Sync Agent Architecture)",
       "description": "該功能強調在本地電腦執行程式碼，而非雲端，並提供手機與本地電腦之間的即時狀態同步。這減少了延遲，提供了更高的隱私性，並簡化了版本控制和程式碼合併，特別適合單人開發或小型團隊。",
       "priority": "中",
-      "apply_to_system": "考慮在 MoltBot 和 ClawdBot 的 Agent 架構中提供「本地優先」的執行模式，特別是對於對數據隱私和即時性要求高的開發任務。這要求設計高效的本地 Agent 與雲端同步機制（若有需要），以確保狀態一致性，同時最大限度地利用本地計算資源。"
+      "apply_to_system": "考慮在 MoltBot 和 ClawdBot 的 Agent 架構中提供「本地優先」的執行模式，特別是對於對數據隱私和即時性要求高的開發任務。這要求設計高效的本地 Agent 與雲端同步機制（若有需要），以確保狀態一致性，同時最大限度地利用本地計算資源。",
+      "source_video": "Claude Code for Mobile is the BEST way to build apps with AI (Remote Control)",
+      "source_date": "2026-02-27"
     },
     {
       "title": "分佈式OpenClaw代理工廠",
       "description": "在多台獨立的計算機（如Mac Studio、Mac Mini、MacBook Pro）上同時運行多個OpenClaw代理，形成一個並行處理的「工廠」，以實現大規模、自主且持續的任務執行和價值創造。",
       "priority": "高",
-      "apply_to_system": "評估現有計算資源，規劃在多台機器上部署獨立的OpenClaw實例。設計一個中央協調或任務分發機制（Mission Control），確保各代理能協同工作或獨立執行不同任務。"
+      "apply_to_system": "評估現有計算資源，規劃在多台機器上部署獨立的OpenClaw實例。設計一個中央協調或任務分發機制（Mission Control），確保各代理能協同工作或獨立執行不同任務。",
+      "source_video": "LIVE: I built an army of OpenClaw agents. I have lost control.",
+      "source_date": "2026-02-27"
     },
     {
       "title": "水平擴展代理架構",
       "description": "在需要擴展能力時，優先選擇部署更多完整的OpenClaw代理，而非將單一代理分解為多個子代理。這意味著每個OpenClaw代理都應具備較高的自主性和獨立完成任務的能力。",
       "priority": "高",
-      "apply_to_system": "在設計複雜任務時，考慮將其拆分為可由獨立OpenClaw代理完成的子任務。避免過度依賴單一代理的內部子代理結構，轉而思考如何讓多個OpenClaw代理協同完成更大的目標。"
+      "apply_to_system": "在設計複雜任務時，考慮將其拆分為可由獨立OpenClaw代理完成的子任務。避免過度依賴單一代理的內部子代理結構，轉而思考如何讓多個OpenClaw代理協同完成更大的目標。",
+      "source_video": "LIVE: I built an army of OpenClaw agents. I have lost control.",
+      "source_date": "2026-02-27"
     },
     {
       "title": "穿戴式AI整合與免提互動",
       "description": "將OpenClaw代理與智慧眼鏡等穿戴式裝置整合，實現隨時隨地的語音互動、視覺反饋和免提操作，讓AI成為用戶的延伸，無需依賴手機或電腦螢幕。",
       "priority": "中",
-      "apply_to_system": "研究智慧眼鏡（如Even Reality G2s）的開發套件或API。開發一個OpenClaw的語音輸入/輸出模組，並探索如何將OpenClaw的視覺化輸出（如代碼、圖像、任務進度）呈現在穿戴式裝置的螢幕上。"
+      "apply_to_system": "研究智慧眼鏡（如Even Reality G2s）的開發套件或API。開發一個OpenClaw的語音輸入/輸出模組，並探索如何將OpenClaw的視覺化輸出（如代碼、圖像、任務進度）呈現在穿戴式裝置的螢幕上。",
+      "source_video": "LIVE: I built an army of OpenClaw agents. I have lost control.",
+      "source_date": "2026-02-27"
     },
     {
       "title": "以「價值創造」為導向的技能設計",
       "description": "將衡量OpenClaw成功與否的標準從「發布應用程式數量」轉變為「在短時間內創造的實際價值」，例如提升內容產出速度、優化業務流程、增加營收等。因此，技能設計應直接服務於這些價值目標。",
       "priority": "中",
-      "apply_to_system": "在設計新的OpenClaw技能時，明確其預期創造的業務價值或效率提升。為技能設定可量化的價值指標（如節省時間、增加產出、提高準確性），並定期評估其對業務的實際影響。"
+      "apply_to_system": "在設計新的OpenClaw技能時，明確其預期創造的業務價值或效率提升。為技能設定可量化的價值指標（如節省時間、增加產出、提高準確性），並定期評估其對業務的實際影響。",
+      "source_video": "LIVE: I built an army of OpenClaw agents. I have lost control.",
+      "source_date": "2026-02-27"
     },
     {
       "title": "自主功能構建與工作流程自動化",
       "description": "OpenClaw能夠自主分析並整合來自其他頂級AI工具的功能，自動進行構建，甚至生成演示影片。這代表了AI代理在開發和演示環節的高度自動化能力。",
       "priority": "高",
-      "apply_to_system": "設計一個模組化的代理系統，使其能接收高層次目標，並分解成子任務，自主調用工具或生成代碼來完成功能構建。系統需具備自我評估和演示生成能力，以實現端到端的工作流程自動化。"
+      "apply_to_system": "設計一個模組化的代理系統，使其能接收高層次目標，並分解成子任務，自主調用工具或生成代碼來完成功能構建。系統需具備自我評估和演示生成能力，以實現端到端的工作流程自動化。",
+      "source_video": "LIVE: My OpenClaw just built Cursor. Software is dead.",
+      "source_date": "2026-02-25"
     },
     {
       "title": "本地大型語言模型推斷",
       "description": "利用如Quen 3.5（可在32GB RAM上運行，媲美Sonnet 3.5）等輕量級開源模型在本地設備（如Mac）上運行，結合LM Studio等工具。這不僅能節省API token費用，提高運行速度，還能增強數據隱私性。",
       "priority": "中",
-      "apply_to_system": "評估將部分AI推理任務轉移到本地運行以提高效率和隱私。選擇適合目標硬體（如Mac）和RAM限制（32GB+）的輕量級LLM。集成如LM Studio的工具來簡化模型的下載、部署和管理，並根據不同任務需求動態切換本地/雲端模型。"
+      "apply_to_system": "評估將部分AI推理任務轉移到本地運行以提高效率和隱私。選擇適合目標硬體（如Mac）和RAM限制（32GB+）的輕量級LLM。集成如LM Studio的工具來簡化模型的下載、部署和管理，並根據不同任務需求動態切換本地/雲端模型。",
+      "source_video": "LIVE: My OpenClaw just built Cursor. Software is dead.",
+      "source_date": "2026-02-25"
     },
     {
       "title": "可移植的配置驅動代理設計",
       "description": "OpenClaw的設計理念是將代理的「靈魂」、「個性」和所有相關資訊儲存在「all local markdown files」中。這種基於文本文件的配置方式使得代理非常容易在不同設備間遷移和部署，只需簡單的拖曳即可工作。",
       "priority": "高",
-      "apply_to_system": "採用基於文本文件（如Markdown、YAML、JSON）的配置方式來定義agent的行為、工具、記憶和個性。這將極大地提高agent的可維護性、可版本控制性及跨平台部署的便捷性。確保核心邏輯與配置分離，實現高度模組化。"
+      "apply_to_system": "採用基於文本文件（如Markdown、YAML、JSON）的配置方式來定義agent的行為、工具、記憶和個性。這將極大地提高agent的可維護性、可版本控制性及跨平台部署的便捷性。確保核心邏輯與配置分離，實現高度模組化。",
+      "source_video": "LIVE: My OpenClaw just built Cursor. Software is dead.",
+      "source_date": "2026-02-25"
     },
     {
       "title": "基於高階模型（Anthropic）的智能代理開發",
       "description": "影片揭示OpenClaw的核心智能和複雜任務處理能力是藉由Anthropic的高階模型來實現的。這表明即使是開發一個高度自主的代理，也需依賴強大的基礎LLM。",
       "priority": "高",
-      "apply_to_system": "在核心智能層面，考慮集成或利用當前最先進的商用或開源大型語言模型（如Anthropic Claude系列）來處理複雜的推理、規劃和代碼生成任務。這類模型通常具備更好的泛化能力和對長上下文的理解，是實現「skill設計」和「agent架構」中複雜邏輯的基礎。"
+      "apply_to_system": "在核心智能層面，考慮集成或利用當前最先進的商用或開源大型語言模型（如Anthropic Claude系列）來處理複雜的推理、規劃和代碼生成任務。這類模型通常具備更好的泛化能力和對長上下文的理解，是實現「skill設計」和「agent架構」中複雜邏輯的基礎。",
+      "source_video": "LIVE: My OpenClaw just built Cursor. Software is dead.",
+      "source_date": "2026-02-25"
     },
     {
       "title": "多代理作業系統整合 (OpenClaw + Discord)",
       "description": "將OpenClaw作為核心多代理平台，與Discord強大的頻道管理功能結合，創建一個能夠承載多個AI代理、執行複雜、并行工作流的環境。Discord的頻道設計允許為不同任務分配專屬代理，並在渠道間進行信息流轉與任務接力。",
       "priority": "高",
-      "apply_to_system": "我們的系統可採用類似架構，選擇一個靈活的AI代理框架（如OpenClaw），並整合一個協作/工作流管理平台（如Discord或自定義UI），以支持多個模塊化代理的部署和協調。"
+      "apply_to_system": "我們的系統可採用類似架構，選擇一個靈活的AI代理框架（如OpenClaw），並整合一個協作/工作流管理平台（如Discord或自定義UI），以支持多個模塊化代理的部署和協調。",
+      "source_video": "You're Using OpenClaw Wrong If You Don't Use Discord",
+      "source_date": "2026-02-24"
     },
     {
       "title": "基於頻道的任務編排與協作",
       "description": "利用Discord的文本頻道作為代理之間的任務輸入/輸出介面和工作流觸發點。一個代理在某頻道投放的資訊（如趨勢推文警報），會自動觸發另一頻道中的代理（如故事研究代理）開始工作，形成高效的自動化流水線。",
       "priority": "高",
-      "apply_to_system": "在我們的系統中，可以設計明確的「輸入/輸出隊列」或「任務狀態板」來模擬頻道機制。每個模塊化代理監聽特定隊列或狀態變化，接收任務並在完成後將結果發佈到下一個代理監聽的隊列。"
+      "apply_to_system": "在我們的系統中，可以設計明確的「輸入/輸出隊列」或「任務狀態板」來模擬頻道機制。每個模塊化代理監聽特定隊列或狀態變化，接收任務並在完成後將結果發佈到下一個代理監聽的隊列。",
+      "source_video": "You're Using OpenClaw Wrong If You Don't Use Discord",
+      "source_date": "2026-02-24"
     },
     {
       "title": "專業化代理技能設計 (Skill Design)",
       "description": "為每個AI代理設計高度專業化的單一或有限技能集，使其能高效執行特定任務。例如，一個代理專門負責監測趨勢推文，另一個專門負責研究故事，Quill專門寫腳本，Pixel專門生成縮圖概念。",
       "priority": "高",
-      "apply_to_system": "在設計我們的agent時，應遵循單一職責原則。將複雜任務分解為更小的子任務，每個子任務由一個具有特定技能的agent負責。這有助於提高agent的效能、可維護性和可擴展性。"
+      "apply_to_system": "在設計我們的agent時，應遵循單一職責原則。將複雜任務分解為更小的子任務，每個子任務由一個具有特定技能的agent負責。這有助於提高agent的效能、可維護性和可擴展性。",
+      "source_video": "You're Using OpenClaw Wrong If You Don't Use Discord",
+      "source_date": "2026-02-24"
     },
     {
       "title": "主動式與定時任務執行",
       "description": "配置代理在預設的時間點或按固定間隔（如每2小時、每日上午7點）自動啟動並執行任務，無需人工干預。這使得系統能夠24/7主動收集信息、生成報告或觸發工作流。",
       "priority": "中",
-      "apply_to_system": "我們的系統可整合任務調度器（Scheduler），讓特定agent能夠在背景執行定時任務，例如每日的數據抓取、報告生成或系統健康檢查，確保系統的主動性和及時性。"
+      "apply_to_system": "我們的系統可整合任務調度器（Scheduler），讓特定agent能夠在背景執行定時任務，例如每日的數據抓取、報告生成或系統健康檢查，確保系統的主動性和及時性。",
+      "source_video": "You're Using OpenClaw Wrong If You Don't Use Discord",
+      "source_date": "2026-02-24"
     },
     {
       "title": "用戶反饋循環與模型個性化",
       "description": "允許用戶對代理的輸出提供直接反饋（如通過表情符號點讚或點X），這些反饋會被用於訓練代理，使其未來產出的內容更符合用戶的語氣、偏好和需求，實現高度個性化。",
       "priority": "中",
-      "apply_to_system": "建立一個用戶反饋介面或機制，收集用戶對agent生成內容的評價。利用這些評價數據來微調agent模型、調整prompt策略或改進agent行為邏輯，以不斷提升用戶體驗和滿意度。"
+      "apply_to_system": "建立一個用戶反饋介面或機制，收集用戶對agent生成內容的評價。利用這些評價數據來微調agent模型、調整prompt策略或改進agent行為邏輯，以不斷提升用戶體驗和滿意度。",
+      "source_video": "You're Using OpenClaw Wrong If You Don't Use Discord",
+      "source_date": "2026-02-24"
     },
     {
       "title": "動態代理啟動與資源管理",
       "description": "根據需求動態啟動或關閉特定代理。例如，當一個腳本被批准後，才會「啟動」另一個AI代理來生成縮圖概念，這有助於優化資源使用和任務流程。",
       "priority": "低",
-      "apply_to_system": "設計一個agent管理器，能夠根據實時的工作流需求動態地啟動或終止agent實例，從而更有效地利用計算資源，避免不必要的開銷。"
+      "apply_to_system": "設計一個agent管理器，能夠根據實時的工作流需求動態地啟動或終止agent實例，從而更有效地利用計算資源，避免不必要的開銷。",
+      "source_video": "You're Using OpenClaw Wrong If You Don't Use Discord",
+      "source_date": "2026-02-24"
     },
     {
       "title": "自動會議準備與提醒",
       "description": "OpenClaw 每天早上會開啟 Google 日曆，根據會議排程研究參與者背景 (如 LinkedIn)、過往互動記錄及會議上下文，生成詳細的會議準備文件，並在會議前 15 分鐘提醒用戶。",
       "priority": "高",
-      "apply_to_system": "我們的系統可設計為定時觸發 (例如每天早上)，透過 API 或模擬瀏覽器操作讀取用戶行事曆。接著，系統需整合記憶模組 (長期記憶) 和外部資訊查詢功能 (例如搜尋引擎、內部知識庫)，生成會議摘要和相關背景資訊。提醒功能可透過內部訊息或外部通知服務實現。"
+      "apply_to_system": "我們的系統可設計為定時觸發 (例如每天早上)，透過 API 或模擬瀏覽器操作讀取用戶行事曆。接著，系統需整合記憶模組 (長期記憶) 和外部資訊查詢功能 (例如搜尋引擎、內部知識庫)，生成會議摘要和相關背景資訊。提醒功能可透過內部訊息或外部通知服務實現。",
+      "source_video": "5 OpenClaw use cases that will make you a productivity MACHINE",
+      "source_date": "2026-02-22"
     },
     {
       "title": "每週目標追蹤與回顧",
       "description": "OpenClaw 每週會向用戶詢問目標進度 (例如 YouTube 訂閱數、業務收入)、最大阻礙及心理健康狀況。它會追蹤這些數據，提供分析和改進建議，並記錄在文件中供用戶回顧，甚至可視覺化呈現進度圖表。",
       "priority": "高",
-      "apply_to_system": "系統可設定為週期性任務 (例如每週五)，主動向用戶發送預設問題或客製化問題。用戶的回答會被解析、儲存至資料庫或專屬文件，並進行趨勢分析。可進一步開發數據可視化功能 (如圖表) 於用戶的「任務控制中心」介面。"
+      "apply_to_system": "系統可設定為週期性任務 (例如每週五)，主動向用戶發送預設問題或客製化問題。用戶的回答會被解析、儲存至資料庫或專屬文件，並進行趨勢分析。可進一步開發數據可視化功能 (如圖表) 於用戶的「任務控制中心」介面。",
+      "source_video": "5 OpenClaw use cases that will make you a productivity MACHINE",
+      "source_date": "2026-02-22"
     },
     {
       "title": "每日學習計畫與進度",
       "description": "OpenClaw 會為用戶建立一個長期 (例如 30 天) 學習計畫，每天早上發送一小段學習內容 (例如 LLM 知識)。這幫助用戶每天獲得新知，養成學習習慣，提升專業技能。",
       "priority": "中",
-      "apply_to_system": "系統需具備知識庫管理能力，能根據用戶設定的學習主題和計畫，自動生成或選取每日學習內容。學習進度可被追蹤，並根據用戶回饋和進度定期調整學習計畫。內容傳遞可透過每日訊息、email 或專屬學習模組實現。"
+      "apply_to_system": "系統需具備知識庫管理能力，能根據用戶設定的學習主題和計畫，自動生成或選取每日學習內容。學習進度可被追蹤，並根據用戶回饋和進度定期調整學習計畫。內容傳遞可透過每日訊息、email 或專屬學習模組實現。",
+      "source_video": "5 OpenClaw use cases that will make you a productivity MACHINE",
+      "source_date": "2026-02-22"
     },
     {
       "title": "個人化情境腦力激盪 (Personalized Context Brain Dump)",
       "description": "用戶需將其個人興趣、目標、職業和長期抱負等資訊輸入OpenClaw，提供其執行自主任務的核心情境。OpenClaw可透過反向提問（reverse prompting）協助用戶釐清目標。",
       "priority": "高",
-      "apply_to_system": "我們的agent架構需設計一個「情境記憶」模組，能持久儲存並理解用戶的詳細個人資料與目標，作為所有任務規劃與執行的高度個性化依據，提升agent的精準性與價值。這也是agent技能設計的基礎，使其能執行與用戶目標高度相關的任務。"
+      "apply_to_system": "我們的agent架構需設計一個「情境記憶」模組，能持久儲存並理解用戶的詳細個人資料與目標，作為所有任務規劃與執行的高度個性化依據，提升agent的精準性與價值。這也是agent技能設計的基礎，使其能執行與用戶目標高度相關的任務。",
+      "source_video": "You NEED to do this with OpenClaw immediately!",
+      "source_date": "2026-02-19"
     },
     {
       "title": "整合外部工具與資料源 (Integrate External Tools & Data Sources)",
       "description": "讓OpenClaw連結到用戶日常使用的各種外部工具（如Things 3等生產力或通訊工具），使其能自動存取這些工具的數據，並在工作流程中利用這些數據自動執行任務，AI甚至能自行研究API進行連結。",
       "priority": "高",
-      "apply_to_system": "我們的agent架構應具備強大的「工具整合」能力。設計一個彈性的API介面與連接器框架，允許agent在運行時探索、學習和整合第三方服務。這擴展了agent的技能集（skill設計），使其能夠操作更廣泛的外部環境，從而提升自主性。"
+      "apply_to_system": "我們的agent架構應具備強大的「工具整合」能力。設計一個彈性的API介面與連接器框架，允許agent在運行時探索、學習和整合第三方服務。這擴展了agent的技能集（skill設計），使其能夠操作更廣泛的外部環境，從而提升自主性。",
+      "source_video": "You NEED to do this with OpenClaw immediately!",
+      "source_date": "2026-02-19"
     },
     {
       "title": "建立任務控制中心與客製化工具 (Establish Mission Control & Custom Tools)",
       "description": "設置一個中央「任務控制中心」，允許OpenClaw根據需求自主建立客製化工具，如任務追蹤器、行事曆或文件檢視器等，無需用戶編碼，以優化其自主工作流程和用戶互動。",
       "priority": "高",
-      "apply_to_system": "這要求我們的agent架構包含一個「工具生成與管理」層。agent應具備元能力（meta-skill），能根據當前任務或用戶需求，動態地設計、開發和部署新的內部工具（例如基於Next.js的Web應用），並將這些工具納入其技能庫（skill設計），進一步增強其解決問題的能力。"
+      "apply_to_system": "這要求我們的agent架構包含一個「工具生成與管理」層。agent應具備元能力（meta-skill），能根據當前任務或用戶需求，動態地設計、開發和部署新的內部工具（例如基於Next.js的Web應用），並將這些工具納入其技能庫（skill設計），進一步增強其解決問題的能力。",
+      "source_video": "You NEED to do this with OpenClaw immediately!",
+      "source_date": "2026-02-19"
     },
     {
       "title": "定義AI代理任務宣言 (Define AI Agent Mission Statement)",
       "description": "為OpenClaw設定一個清晰、簡潔的「任務宣言」或使命，作為其所有自主行為和決策的最高指導原則。這被視為最關鍵的設定，能確保AI的行為與用戶的長期目標一致。",
       "priority": "高",
-      "apply_to_system": "在agent架構中，必須有「核心目標設定」機制。允許用戶輸入一個高層次的任務宣言，作為agent「決策迴路」中的首要考量。所有子目標的拆解、任務規劃（skill設計的應用）和行動選擇都應與此宣言對齊，確保agent的行為具有連貫性與目的性。"
+      "apply_to_system": "在agent架構中，必須有「核心目標設定」機制。允許用戶輸入一個高層次的任務宣言，作為agent「決策迴路」中的首要考量。所有子目標的拆解、任務規劃（skill設計的應用）和行動選擇都應與此宣言對齊，確保agent的行為具有連貫性與目的性。",
+      "source_video": "You NEED to do this with OpenClaw immediately!",
+      "source_date": "2026-02-19"
     },
     {
       "title": "多後端 Agent 架構設計",
       "description": "設計具備切換能力的 Agent 層，以應對 API 供應商突然的政策變更（如 Anthropic 禁用 OpenClaw）。",
       "priority": "高",
-      "apply_to_system": "在系統中實現抽象層，使 Skill 能夠靈活切換 OpenAI API、Anthropic API 或本地 Llama 模型。"
+      "apply_to_system": "在系統中實現抽象層，使 Skill 能夠靈活切換 OpenAI API、Anthropic API 或本地 Llama 模型。",
+      "source_video": "LIVE: Anthropic BANS OpenClaw. It's OVER!",
+      "source_date": "2026-02-18"
     },
     {
       "title": "高性能本地推理配置 (Unified Memory)",
       "description": "利用 Mac Studio 的統一記憶體架構運行大型本地模型，以取代受限的雲端 API。",
       "priority": "中",
-      "apply_to_system": "針對 OpenClaw 類型的 Agent 系統，建立基於 MLX 或 Llama.cpp 的本地推理節點，降低對外部 API 的依賴。"
+      "apply_to_system": "針對 OpenClaw 類型的 Agent 系統，建立基於 MLX 或 Llama.cpp 的本地推理節點，降低對外部 API 的依賴。",
+      "source_video": "LIVE: Anthropic BANS OpenClaw. It's OVER!",
+      "source_date": "2026-02-18"
     },
     {
       "title": "Token 經濟學與成本控制",
       "description": "分析訂閱制與 API 點數制的成本差異，優化 Agent 的 Prompt 長度以減少資源消耗。",
       "priority": "高",
-      "apply_to_system": "在系統中監控每個 Agent Skill 的 Token 消耗，並在 API 限制增加時自動簡化 Context。"
+      "apply_to_system": "在系統中監控每個 Agent Skill 的 Token 消耗，並在 API 限制增加時自動簡化 Context。",
+      "source_video": "LIVE: Anthropic BANS OpenClaw. It's OVER!",
+      "source_date": "2026-02-18"
     },
     {
       "title": "Agentic Model Switching (模型切換策略)",
       "description": "根據任務複雜度動態分配模型。Sonnet 4.6 負責日常 UI 操作與簡單 API 調用，Opus 或專用 Codeex 負責核心架構設計或高難度 Debug。",
       "priority": "高",
-      "apply_to_system": "在 OpenClaw 或 MoltBot 中，將默認推論模型設為 Sonnet 4.6 以節省 Token 並提升響應速度。"
+      "apply_to_system": "在 OpenClaw 或 MoltBot 中，將默認推論模型設為 Sonnet 4.6 以節省 Token 並提升響應速度。",
+      "source_video": "Claude Sonnet 4.6 just released. Greatest model for OpenClaw ever?",
+      "source_date": "2026-02-17"
     },
     {
       "title": "Long-running Autonomous Loops (長時自動化循環)",
       "description": "利用低成本特性，允許 Agent 持續數小時甚至數天進行趨勢掃描（如 X/Reddit）並自動生成應用程序。",
       "priority": "中",
-      "apply_to_system": "設計針對特定領域（如 AI 新聞）的持續監控 Skill，讓 Agent 自行過濾資訊並產出報告。"
+      "apply_to_system": "設計針對特定領域（如 AI 新聞）的持續監控 Skill，讓 Agent 自行過濾資訊並產出報告。",
+      "source_video": "Claude Sonnet 4.6 just released. Greatest model for OpenClaw ever?",
+      "source_date": "2026-02-17"
     },
     {
       "title": "Computer Use Optimization (電腦操作優化)",
       "description": "利用模型對 GUI 交互的優化，執行辦公室自動化任務，如操作 Excel、修改簡報佈局等。",
       "priority": "高",
-      "apply_to_system": "在 ClawdBot 的 Skill 設計中，強化對視覺界面元素的定位與操作邏輯，直接控制桌面應用。"
+      "apply_to_system": "在 ClawdBot 的 Skill 設計中，強化對視覺界面元素的定位與操作邏輯，直接控制桌面應用。",
+      "source_video": "Claude Sonnet 4.6 just released. Greatest model for OpenClaw ever?",
+      "source_date": "2026-02-17"
     },
     {
       "title": "模型與硬體整合策略",
       "description": "OpenClaw（ClawdBot）的成功在於它能有效地結合現有的頂級語言模型（如Claude Opus）和普及硬體（Mac Mini），迅速為用戶創造巨大價值。這表明了通過智能整合，而非從零開始，可以快速佔領市場。",
       "priority": "高",
-      "apply_to_system": "在設計我們的 agent 架構或 skill 時，應優先考慮如何利用現有最先進的基礎模型（例如大型語言模型）和標準化硬體。這意味著我們的 agent 技能可以被設計成優化與特定模型或硬體的交互，以提高效率和性能，加速開發與部署。"
+      "apply_to_system": "在設計我們的 agent 架構或 skill 時，應優先考慮如何利用現有最先進的基礎模型（例如大型語言模型）和標準化硬體。這意味著我們的 agent 技能可以被設計成優化與特定模型或硬體的交互，以提高效率和性能，加速開發與部署。",
+      "source_video": "LIVE: OPENAI BUYS OPENCLAW! WILL ANTHROPIC SURVIVE???",
+      "source_date": "2026-02-16"
     },
     {
       "title": "用戶生態支持與開放性設計",
       "description": "Anthropic因限制用戶將其產品與OpenClaw結合使用而遭受危機，這凸顯了對用戶創新使用的開放態度至關重要。支持用戶以意想不到的方式結合你的產品，能促進強大的生態系統發展。",
       "priority": "高",
-      "apply_to_system": "我們的 agent 架構和 skill 設計應具備高度開放性和擴展性。避免對用戶如何使用 agent 或其技能施加過多限制。一個好的 skill 應該能夠被其他 agent 或第三方工具輕易調用和組合，鼓勵社群進行創造性開發，並確保系統能夠適應用戶不斷變化的需求和創新用法。"
+      "apply_to_system": "我們的 agent 架構和 skill 設計應具備高度開放性和擴展性。避免對用戶如何使用 agent 或其技能施加過多限制。一個好的 skill 應該能夠被其他 agent 或第三方工具輕易調用和組合，鼓勵社群進行創造性開發，並確保系統能夠適應用戶不斷變化的需求和創新用法。",
+      "source_video": "LIVE: OPENAI BUYS OPENCLAW! WILL ANTHROPIC SURVIVE???",
+      "source_date": "2026-02-16"
     },
     {
       "title": "快速市場響應與敏捷迭代",
       "description": "OpenClaw在極短時間內從無到有創造數十億價值，展現了快速捕捉市場需求並推出產品的能力。OpenAI的迅速收購也反映了對市場機會的敏銳洞察和快速反應。",
       "priority": "中",
-      "apply_to_system": "在開發我們的 agent 技能時，應採取敏捷開發和快速迭代的方法，密切關注市場動態和用戶反饋。agent 架構應具備模組化和可配置性，以便快速添加、修改或移除技能，確保我們的系統能夠迅速響應新的技術趨勢和用戶需求，保持競爭力。"
+      "apply_to_system": "在開發我們的 agent 技能時，應採取敏捷開發和快速迭代的方法，密切關注市場動態和用戶反饋。agent 架構應具備模組化和可配置性，以便快速添加、修改或移除技能，確保我們的系統能夠迅速響應新的技術趨勢和用戶需求，保持競爭力。",
+      "source_video": "LIVE: OPENAI BUYS OPENCLAW! WILL ANTHROPIC SURVIVE???",
+      "source_date": "2026-02-16"
     },
     {
       "title": "持續性上下文記憶 (Persistent Context Memory)",
       "description": "系統會永久儲存用戶的細節（OS、地理位置、偏好語言），並將其注入到每一次的推論中。",
       "priority": "高",
-      "apply_to_system": "在 MoltBot 架构中建立 User-Profile 向量資料庫，每次對話自動檢索相關背景資訊以實現高度個性化。"
+      "apply_to_system": "在 MoltBot 架构中建立 User-Profile 向量資料庫，每次對話自動檢索相關背景資訊以實現高度個性化。",
+      "source_video": "100 hours of OpenClaw lessons in 35 minutes",
+      "source_date": "2026-02-15"
     },
     {
       "title": "主動式觸發機制 (Proactive Triggering)",
       "description": "Agent 不等待指令，而是根據設定的監控任務（如觀察 Twitter 趨勢）主動產生決策並執行。",
       "priority": "高",
-      "apply_to_system": "為系統設計 Cron-job 或 Event-stream 監聽器，讓 ClawdBot 能在偵測到特定事件時自動啟動任務流。"
+      "apply_to_system": "為系統設計 Cron-job 或 Event-stream 監聽器，讓 ClawdBot 能在偵測到特定事件時自動啟動任務流。",
+      "source_video": "100 hours of OpenClaw lessons in 35 minutes",
+      "source_date": "2026-02-15"
     },
     {
       "title": "動態技能擴展 (Dynamic Skill Generation)",
       "description": "當 Agent 發現現有工具不足時，自行編寫新的代碼組件或「技能」並將其整合到系統中。",
       "priority": "中",
-      "apply_to_system": "設計一個「技能庫」目錄，允許 Agent 寫入 Python 腳本，經由 Approval Terminal 確認後即可成為系統的新能力。"
+      "apply_to_system": "設計一個「技能庫」目錄，允許 Agent 寫入 Python 腳本，經由 Approval Terminal 確認後即可成為系統的新能力。",
+      "source_video": "100 hours of OpenClaw lessons in 35 minutes",
+      "source_date": "2026-02-15"
     },
     {
       "title": "外部溝通與審核循環 (External Feedback Loop)",
       "description": "透過 Telegram 或 iMessage 與用戶保持異步聯繫，並提供專用的審核終端 (Approvals Terminal) 進行人工介入。",
       "priority": "中",
-      "apply_to_system": "整合 Messaging API，在 Agent 執行關鍵操作前發送確認訊息到手機，確保系統在安全範圍內運作。"
+      "apply_to_system": "整合 Messaging API，在 Agent 執行關鍵操作前發送確認訊息到手機，確保系統在安全範圍內運作。",
+      "source_video": "100 hours of OpenClaw lessons in 35 minutes",
+      "source_date": "2026-02-15"
     },
     {
       "title": "OpenClaw 客製化任務控制系統",
       "description": "建立一個客製化的「任務控制」介面或模組，以增加 OpenClaw 的功能性，提供更強大的操作和管理能力。",
       "priority": "高",
-      "apply_to_system": "OpenClaw 系統功能擴展"
+      "apply_to_system": "OpenClaw 系統功能擴展",
+      "source_video": "LIVE: My OpenClaw setup is incredible",
+      "source_date": "2026-02-13"
     },
     {
       "title": "整合本地化 AI 模型",
       "description": "將如 Miniax 2.5 這類可在本地電腦運行的 AI 模型整合到應用程式（如 OpenClaw）中，以實現無需雲端、無限制且免費的智能處理能力。",
       "priority": "高",
-      "apply_to_system": "OpenClaw 的 AI 驅動能力提升"
+      "apply_to_system": "OpenClaw 的 AI 驅動能力提升",
+      "source_video": "LIVE: My OpenClaw setup is incredible",
+      "source_date": "2026-02-13"
     },
     {
       "title": "激勵性/恐嚇性觀眾互動策略",
       "description": "透過強調「逃離永久底層階級」等強烈措辭，製造緊迫感和歸屬感，鼓勵觀眾全程參與直播，提升觀看黏性。",
       "priority": "中",
-      "apply_to_system": "直播節目觀眾參與度提升"
+      "apply_to_system": "直播節目觀眾參與度提升",
+      "source_video": "LIVE: My OpenClaw setup is incredible",
+      "source_date": "2026-02-13"
     },
     {
       "title": "OpenClaw 第二大腦系統",
       "description": "利用OpenClaw的強大記憶功能，透過簡單的文字訊息（如iMessage、Telegram、Discord）儲存和管理所有想法、連結、書籍等資訊。系統能記住所有內容，並提供便捷的搜尋和回顧功能，取代傳統複雜的筆記應用。",
       "priority": "高",
-      "apply_to_system": "透過向OpenClaw發送文字訊息來記錄任何需要記憶的內容（例如書名、想法、連結），並利用OpenClaw提供的介面（或自建介面）進行搜尋和管理，實現個人知識庫的建立。"
+      "apply_to_system": "透過向OpenClaw發送文字訊息來記錄任何需要記憶的內容（例如書名、想法、連結），並利用OpenClaw提供的介面（或自建介面）進行搜尋和管理，實現個人知識庫的建立。",
+      "source_video": "6 OpenClaw use cases I promise will change your life",
+      "source_date": "2026-02-12"
     },
     {
       "title": "OpenClaw AI程式碼生成 (Vibe Coding)",
       "description": "OpenClaw能夠根據用戶的自然語言指令（例如「我想建立一個第二大腦系統，請用Next.js建構」）自動生成並建構出完整的應用程式或系統，無需用戶手動編寫程式碼，大大簡化開發流程。",
       "priority": "中",
-      "apply_to_system": "給予OpenClaw明確的系統建構指令，讓其自動生成所需的程式碼和架構。例如，若想建立一個特定功能的網頁應用，只需描述需求，OpenClaw便能自動完成大部分的開發工作。"
+      "apply_to_system": "給予OpenClaw明確的系統建構指令，讓其自動生成所需的程式碼和架構。例如，若想建立一個特定功能的網頁應用，只需描述需求，OpenClaw便能自動完成大部分的開發工作。",
+      "source_video": "6 OpenClaw use cases I promise will change your life",
+      "source_date": "2026-02-12"
     },
     {
       "title": "揭露贊助內容的重要性",
       "description": "影片強烈批評許多 AI 創作者在推薦 OpenClaw 的 VPS 託管服務時未明確披露其贊助關係，指出這不僅不道德，甚至違法。強調創作者應保持透明度以維護觀眾信任。",
       "priority": "高",
-      "apply_to_system": "內容創作與行銷規範"
+      "apply_to_system": "內容創作與行銷規範",
+      "source_video": "DO NOT use a VPS for OpenClaw (major warning)",
+      "source_date": "2026-02-12"
     },
     {
       "title": "本地部署 OpenClaw",
       "description": "影片主張將 OpenClaw 本地部署在個人設備上（如 Mac Mini、舊筆記型電腦），而非使用 VPS。強調本地部署更安全、更強大、成本更低且設定更簡單（通常只需一個指令）。",
       "priority": "高",
-      "apply_to_system": "OpenClaw 安裝與配置"
+      "apply_to_system": "OpenClaw 安裝與配置",
+      "source_video": "DO NOT use a VPS for OpenClaw (major warning)",
+      "source_date": "2026-02-12"
     },
     {
       "title": "評估線上建議的批判性思維",
       "description": "影片鼓勵觀眾對網路上關於 AI 工具的建議保持批判性態度，尤其是在涉及贊助內容時。提醒觀眾許多建議可能出於商業利益而非最佳實踐。",
       "priority": "中",
-      "apply_to_system": "資訊素養與決策"
+      "apply_to_system": "資訊素養與決策",
+      "source_video": "DO NOT use a VPS for OpenClaw (major warning)",
+      "source_date": "2026-02-12"
     },
     {
       "title": "終極 Discord 設定",
       "description": "將 Discord 設定為 OpenClaw 專案的核心通訊與協作平台，並整合自動化功能，以實現高效的資訊流和任務管理。",
       "priority": "高",
-      "apply_to_system": "將 Discord 作為所有 OpenClaw 相關自動化和溝通的中心樞紐，配置專用頻道和機器人來處理自動化任務的輸入和輸出。"
+      "apply_to_system": "將 Discord 作為所有 OpenClaw 相關自動化和溝通的中心樞紐，配置專用頻道和機器人來處理自動化任務的輸入和輸出。",
+      "source_video": "LIVE: The ULTIMATE OpenClaw setup",
+      "source_date": "2026-02-11"
     },
     {
       "title": "本地 AI 驅動的業務自動化",
       "description": "部署多個本地 AI 模型，自動執行業務流程，如市場研究、內容（縮圖、腳本）生成等，實現端到端自動化，且無需消耗外部 API 代幣。",
       "priority": "高",
-      "apply_to_system": "在本地機器上運行開源 AI 模型，用於執行特定任務（如文本生成、圖像處理），並將其與 Discord 設置整合，實現自動化的內容創作和數據分析。"
+      "apply_to_system": "在本地機器上運行開源 AI 模型，用於執行特定任務（如文本生成、圖像處理），並將其與 Discord 設置整合，實現自動化的內容創作和數據分析。",
+      "source_video": "LIVE: The ULTIMATE OpenClaw setup",
+      "source_date": "2026-02-11"
     },
     {
       "title": "混合式 AI 模型成本優化",
       "description": "採用混合式 AI 模型策略，將關鍵或複雜任務交由付費 API 模型（如 Opus），而將大量重複性或可本地執行的任務分配給免費開源的本地 AI 模型，以優化成本。",
       "priority": "中",
-      "apply_to_system": "評估不同任務的需求，將需要高級推理能力的任務分配給付費模型（如 Opus），而將可由本地模型高效處理的任務（如大量內容生成）轉移到本地運行，從而顯著降低總體運營成本。"
+      "apply_to_system": "評估不同任務的需求，將需要高級推理能力的任務分配給付費模型（如 Opus），而將可由本地模型高效處理的任務（如大量內容生成）轉移到本地運行，從而顯著降低總體運營成本。",
+      "source_video": "LIVE: The ULTIMATE OpenClaw setup",
+      "source_date": "2026-02-11"
     }
   ]
 }
