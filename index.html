@@ -20,14 +20,14 @@
             --primary-200: #e2e8f0;    /* 背景灰 */
             --primary-100: #f1f5f9;    /* 淺背景 */
             --primary-50: #f8fafc;     /* 極淺背景 */
-            
+
             /* 強調色 - 金色/琥珀色（金融尊貴感） */
             --accent-600: #d97706;     /* 深琥珀 - 主要強調 */
             --accent-500: #f59e0b;     /* 琥珀金 - 高亮 */
             --accent-400: #fbbf24;     /* 金黃 - 統計數字 */
             --accent-100: #fef3c7;     /* 淺金背景 */
             --accent-50: #fffbeb;      /* 極淺金 */
-            
+
             /* 功能色 */
             --success-600: #059669;    /* 綠 - 買入/上漲 */
             --success-100: #d1fae5;    /* 淺綠背景 */
@@ -37,7 +37,7 @@
             --warning-100: #fef3c7;    /* 淺橙背景 */
             --info-600: #2563eb;       /* 藍 - 資訊 */
             --info-100: #dbeafe;       /* 淺藍背景 */
-            
+
             /* 背景 */
             --bg-primary: #ffffff;           /* 主背景 */
             --bg-secondary: #f8fafc;         /* 次要背景 */
@@ -45,18 +45,18 @@
             --bg-card: #ffffff;              /* 卡片背景 */
             --bg-gradient-start: #f8fafc;    /* 漸層起點 */
             --bg-gradient-end: #e2e8f0;      /* 漸層終點 */
-            
+
             /* 文字 */
             --text-primary: #0f172a;         /* 主要文字 */
             --text-secondary: #475569;       /* 次要文字 */
             --text-tertiary: #64748b;        /* 輔助文字 */
             --text-muted: #94a3b8;           /* 淡化文字 */
-            
+
             /* 邊框 */
             --border-light: #e2e8f0;
             --border-medium: #cbd5e1;
             --border-strong: #94a3b8;
-            
+
             /* 陰影 */
             --shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.05);
             --shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
@@ -70,7 +70,7 @@
             padding: 0;
             box-sizing: border-box;
         }
-        
+
         body {
             font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang TC', 'Microsoft JhengHei', sans-serif;
             background: linear-gradient(180deg, var(--bg-gradient-start) 0%, var(--bg-gradient-end) 100%);
@@ -80,13 +80,13 @@
             min-height: 100vh;
             font-size: 16px;
         }
-        
+
         .container {
             max-width: 1200px;
             margin: 0 auto;
             padding: 24px;
         }
-        
+
         /* ============================================
            Header 區域 - 專業金融風格
            ============================================ */
@@ -100,7 +100,7 @@
             position: relative;
             overflow: hidden;
         }
-        
+
         header::before {
             content: '';
             position: absolute;
@@ -108,12 +108,12 @@
             left: 0;
             right: 0;
             bottom: 0;
-            background: 
+            background:
                 radial-gradient(circle at 20% 50%, rgba(245, 158, 11, 0.08) 0%, transparent 50%),
                 radial-gradient(circle at 80% 50%, rgba(245, 158, 11, 0.05) 0%, transparent 50%);
             pointer-events: none;
         }
-        
+
         h1 {
             font-size: 2.75rem;
             font-weight: 800;
@@ -125,14 +125,14 @@
             letter-spacing: -0.02em;
             position: relative;
         }
-        
+
         .subtitle {
             color: var(--primary-300);
             font-size: 1.15rem;
             font-weight: 500;
             position: relative;
         }
-        
+
         .update-time {
             color: var(--primary-400);
             font-size: 0.9rem;
@@ -145,7 +145,7 @@
             border-radius: 20px;
             position: relative;
         }
-        
+
         /* ============================================
            統計卡片 - 金色強調
            ============================================ */
@@ -155,7 +155,7 @@
             gap: 20px;
             margin-bottom: 32px;
         }
-        
+
         .stat-card {
             background: var(--bg-card);
             border-radius: 20px;
@@ -167,7 +167,7 @@
             position: relative;
             overflow: hidden;
         }
-        
+
         .stat-card::before {
             content: '';
             position: absolute;
@@ -177,12 +177,12 @@
             height: 4px;
             background: linear-gradient(90deg, var(--accent-500), var(--accent-400));
         }
-        
+
         .stat-card:hover {
             transform: translateY(-4px);
             box-shadow: var(--shadow-lg), var(--shadow-gold);
         }
-        
+
         .stat-number {
             font-size: 3rem;
             font-weight: 800;
@@ -193,13 +193,13 @@
             line-height: 1;
             margin-bottom: 8px;
         }
-        
+
         .stat-label {
             color: var(--text-secondary);
             font-size: 0.95rem;
             font-weight: 500;
         }
-        
+
         /* ============================================
            卡片設計 - 層次分明
            ============================================ */
@@ -212,11 +212,11 @@
             box-shadow: var(--shadow-md);
             transition: box-shadow 0.3s ease;
         }
-        
+
         .card:hover {
             box-shadow: var(--shadow-lg);
         }
-        
+
         .card h2 {
             color: var(--primary-900);
             font-size: 1.5rem;
@@ -228,7 +228,7 @@
             padding-bottom: 16px;
             border-bottom: 2px solid var(--border-light);
         }
-        
+
         .card h2::before {
             content: '';
             width: 4px;
@@ -236,7 +236,7 @@
             background: linear-gradient(180deg, var(--accent-500), var(--accent-400));
             border-radius: 2px;
         }
-        
+
         .card h3 {
             color: var(--primary-800);
             font-size: 1.25rem;
@@ -245,22 +245,22 @@
             padding-left: 16px;
             border-left: 3px solid var(--accent-500);
         }
-        
+
         .card p {
             color: var(--text-secondary);
             margin-bottom: 12px;
         }
-        
+
         .card ul {
             margin-left: 20px;
             margin-top: 12px;
             color: var(--text-secondary);
         }
-        
+
         .card li {
             margin-bottom: 8px;
         }
-        
+
         /* ============================================
            主題卡片網格
            ============================================ */
@@ -270,7 +270,7 @@
             gap: 20px;
             margin-top: 20px;
         }
-        
+
         .theme-card {
             background: linear-gradient(135deg, var(--bg-secondary) 0%, var(--bg-tertiary) 100%);
             border-radius: 16px;
@@ -279,7 +279,7 @@
             transition: all 0.3s ease;
             position: relative;
         }
-        
+
         .theme-card::before {
             content: '';
             position: absolute;
@@ -290,12 +290,12 @@
             background: linear-gradient(90deg, var(--accent-500), var(--accent-400));
             border-radius: 16px 16px 0 0;
         }
-        
+
         .theme-card:hover {
             transform: translateY(-2px);
             box-shadow: var(--shadow-lg);
         }
-        
+
         .theme-card h4 {
             color: var(--primary-900);
             margin-bottom: 12px;
@@ -305,14 +305,14 @@
             align-items: center;
             gap: 8px;
         }
-        
+
         .theme-card p {
             color: var(--text-secondary);
             font-size: 0.95rem;
             line-height: 1.6;
             margin-bottom: 16px;
         }
-        
+
         /* ============================================
            股票標籤
            ============================================ */
@@ -328,23 +328,23 @@
             border: 1px solid var(--border-medium);
             transition: all 0.2s ease;
         }
-        
+
         .ticker:hover {
             background: var(--bg-tertiary);
         }
-        
+
         .ticker.buy {
             background: var(--success-100);
             color: var(--success-600);
             border-color: var(--success-600);
         }
-        
+
         .ticker.sell {
             background: var(--danger-100);
             color: var(--danger-600);
             border-color: var(--danger-600);
         }
-        
+
         /* ============================================
            表格設計
            ============================================ */
@@ -358,12 +358,12 @@
             overflow: hidden;
             border: 1px solid var(--border-light);
         }
-        
+
         th, td {
             padding: 16px;
             text-align: left;
         }
-        
+
         th {
             background: var(--bg-tertiary);
             color: var(--primary-900);
@@ -373,20 +373,20 @@
             letter-spacing: 0.05em;
             border-bottom: 2px solid var(--border-medium);
         }
-        
+
         td {
             border-bottom: 1px solid var(--border-light);
             color: var(--text-secondary);
         }
-        
+
         tr:last-child td {
             border-bottom: none;
         }
-        
+
         tr:hover td {
             background: var(--bg-secondary);
         }
-        
+
         /* ============================================
            優先級標籤
            ============================================ */
@@ -399,7 +399,7 @@
             font-size: 0.85rem;
             display: inline-block;
         }
-        
+
         .priority-medium {
             color: var(--warning-600);
             font-weight: 600;
@@ -409,7 +409,7 @@
             font-size: 0.85rem;
             display: inline-block;
         }
-        
+
         .priority-low {
             color: var(--info-600);
             font-weight: 600;
@@ -419,7 +419,7 @@
             font-size: 0.85rem;
             display: inline-block;
         }
-        
+
         /* ============================================
            警告區塊
            ============================================ */
@@ -431,7 +431,7 @@
             margin: 24px 0;
             box-shadow: var(--shadow-sm);
         }
-        
+
         .warning h4 {
             color: var(--warning-600);
             margin-bottom: 12px;
@@ -440,12 +440,12 @@
             align-items: center;
             gap: 8px;
         }
-        
+
         .warning ul {
             margin-left: 24px;
             color: var(--text-secondary);
         }
-        
+
         /* ============================================
            投資組合區塊
            ============================================ */
@@ -456,7 +456,7 @@
             margin: 24px 0;
             border: 1px solid var(--border-light);
         }
-        
+
         .portfolio-section h3 {
             color: var(--primary-900);
             font-size: 1.15rem;
@@ -468,7 +468,7 @@
             align-items: center;
             gap: 8px;
         }
-        
+
         .portfolio-section h3::after {
             content: '';
             flex: 1;
@@ -476,7 +476,7 @@
             background: var(--border-medium);
             margin-left: 12px;
         }
-        
+
         .portfolio-item {
             display: flex;
             justify-content: space-between;
@@ -484,22 +484,22 @@
             padding: 16px 0;
             border-bottom: 1px solid var(--border-light);
         }
-        
+
         .portfolio-item:last-child {
             border-bottom: none;
         }
-        
+
         .portfolio-item .font-medium {
             font-weight: 600;
             color: var(--primary-900);
             margin-bottom: 4px;
         }
-        
+
         .portfolio-item .text-gray-400 {
             color: var(--text-tertiary);
             font-size: 0.9rem;
         }
-        
+
         .allocation {
             background: linear-gradient(135deg, var(--accent-500), var(--accent-400));
             color: white;
@@ -509,7 +509,7 @@
             font-size: 0.95rem;
             box-shadow: var(--shadow-sm);
         }
-        
+
         /* ============================================
            影片列表
            ============================================ */
@@ -517,7 +517,7 @@
             display: grid;
             gap: 12px;
         }
-        
+
         .video-item {
             background: var(--bg-secondary);
             border-radius: 12px;
@@ -528,7 +528,7 @@
             transition: all 0.2s ease;
             border: 1px solid transparent;
         }
-        
+
         .video-item:hover {
         }
 
@@ -559,7 +559,7 @@
             border-color: var(--border-medium);
             transform: translateX(4px);
         }
-        
+
         .video-number {
             width: 40px;
             height: 40px;
@@ -573,22 +573,22 @@
             color: white;
             flex-shrink: 0;
         }
-        
+
         .video-info {
             flex: 1;
         }
-        
+
         .video-title {
             font-weight: 600;
             margin-bottom: 6px;
             color: var(--primary-900);
         }
-        
+
         .video-meta {
             color: var(--text-tertiary);
             font-size: 0.9rem;
         }
-        
+
         .video-status {
             color: var(--success-600);
             font-size: 0.9rem;
@@ -597,14 +597,14 @@
             align-items: center;
             gap: 6px;
         }
-        
+
         /* ============================================
            行動清單
            ============================================ */
         .action-list {
             list-style: none;
         }
-        
+
         .action-list li {
             padding: 16px 0;
             border-bottom: 1px solid var(--border-light);
@@ -614,12 +614,12 @@
             color: var(--text-secondary);
             transition: all 0.2s ease;
         }
-        
+
         .action-list li:hover {
             color: var(--primary-900);
             padding-left: 8px;
         }
-        
+
         .action-list li::before {
             content: "";
             width: 24px;
@@ -629,16 +629,16 @@
             flex-shrink: 0;
             transition: all 0.2s ease;
         }
-        
+
         .action-list li:hover::before {
             border-color: var(--accent-500);
             background: var(--accent-50);
         }
-        
+
         .action-list li:last-child {
             border-bottom: none;
         }
-        
+
         /* ============================================
            頁尾
            ============================================ */
@@ -652,11 +652,11 @@
             margin-top: 32px;
             border: 1px solid var(--border-light);
         }
-        
+
         footer p {
             margin-bottom: 8px;
         }
-        
+
         /* ============================================
            徽章與標籤
            ============================================ */
@@ -671,23 +671,23 @@
             margin-left: 8px;
             box-shadow: var(--shadow-sm);
         }
-        
+
         /* ============================================
            風險等級
            ============================================ */
-        .risk-high { 
+        .risk-high {
             color: var(--danger-600);
             font-weight: 700;
         }
-        .risk-medium { 
+        .risk-medium {
             color: var(--warning-600);
             font-weight: 600;
         }
-        .risk-low { 
+        .risk-low {
             color: var(--success-600);
             font-weight: 600;
         }
-        
+
         /* ============================================
            引用區塊
            ============================================ */
@@ -701,64 +701,64 @@
             font-style: italic;
             font-size: 1.05rem;
         }
-        
+
         /* ============================================
            響應式設計
            ============================================ */
         @media (max-width: 768px) {
-            h1 { 
-                font-size: 2rem; 
+            h1 {
+                font-size: 2rem;
             }
-            
+
             .stats-grid {
                 grid-template-columns: repeat(2, 1fr);
                 gap: 12px;
             }
-            
+
             .stat-card {
                 padding: 20px 16px;
             }
-            
+
             .stat-number {
                 font-size: 2.25rem;
             }
-            
-            .theme-grid { 
-                grid-template-columns: 1fr; 
+
+            .theme-grid {
+                grid-template-columns: 1fr;
             }
-            
-            table { 
-                font-size: 0.85rem; 
+
+            table {
+                font-size: 0.85rem;
             }
-            
-            th, td { 
-                padding: 12px; 
+
+            th, td {
+                padding: 12px;
             }
-            
+
             .card {
                 padding: 24px;
             }
-            
+
             .container {
                 padding: 16px;
             }
-            
+
             header {
                 padding: 32px 20px;
             }
         }
-        
+
         @media (max-width: 480px) {
             .stats-grid {
                 grid-template-columns: 1fr;
             }
-            
+
             .portfolio-item {
                 flex-direction: column;
                 align-items: flex-start;
                 gap: 12px;
             }
-            
+
             .video-item {
                 flex-direction: column;
                 align-items: flex-start;
@@ -797,7 +797,7 @@
         <!-- 核心投資主題 -->
         <div class="card">
             <h2>📊 五大核心投資主題</h2>
-            
+
             <div class="theme-grid">
                 <div class="theme-card">
                     <h4>🤖 AI 與科技</h4>
@@ -809,7 +809,7 @@
                     <span class="ticker buy">ASML</span>
                     <span class="ticker buy">SK Hynix</span>
                 </div>
-                
+
                 <div class="theme-card">
                     <h4>🇯🇵 日本市場</h4>
                     <p>高市早苗時代：債務危機下的黑天鵝機會，五大商社與日經 ETF</p>
@@ -817,7 +817,7 @@
                     <span class="ticker buy">五大商社</span>
                     <span class="ticker sell">日債</span>
                 </div>
-                
+
                 <div class="theme-card">
                     <h4>🥇 貴金屬避險</h4>
                     <p>全球債務危機 + 地緣政治，黃金目標價 $5,000-$8,000</p>
@@ -826,7 +826,7 @@
                     <span class="ticker buy">SLV</span>
                     <span class="ticker buy">COPX</span>
                 </div>
-                
+
                 <div class="theme-card">
                     <h4>🏭 能源與基建</h4>
                     <p>Trump 重建美國：$1.8 兆投資，數據中心需要大量電力與原物料</p>
@@ -836,7 +836,7 @@
                     <span class="ticker buy">XLI</span>
                     <span class="ticker buy">AA</span>
                 </div>
-                
+
                 <div class="theme-card">
                     <h4>🚀 國防與太空</h4>
                     <p>軍備競賽 + SpaceX IPO，國防預算增至 $1.5 兆</p>
@@ -853,7 +853,7 @@
         <!-- 關鍵洞察 -->
         <div class="card">
             <h2>🔥 關鍵投資洞察</h2>
-            
+
             <h3>1. AI 投資進入第二階段：賣鏟子策略</h3>
             <p>黃仁勳在 CSE 2026 大會宣布：「記憶體」是 AI 的關鍵瓶頸。AI 投資已從「淘金」進入「賣鏟子」階段，數據中心建設需要：</p>
             <ul style="margin-left: 20px; margin-top: 8px;">
@@ -862,7 +862,7 @@
                 <li>先進製程代工（台積電）</li>
                 <li>EUV 光刻機（ASML）</li>
             </ul>
-            
+
             <div class="warning">
                 <h4>⚠️ 短期風險警示</h4>
                 <p>Nicolas 提醒：目前做多 SMH（半導體 ETF），因為地緣政治風險 + 散户槓桿過高，市場可能回檔 15-20%。建議分批佈局，保留 20-30% 現金。</p>
@@ -870,32 +870,32 @@
 
             <h3>2. 日本黑天鵝：債務危機 = 投資機會</h3>
             <p>日本國債佔 GDP 236%，遠超美國的 143%。高市早苗當選後推行激進財政：</p>
-            
+
             <ul style="margin-left: 20px; margin-top: 8px;">
                 <li>減免食品稅（年缺口 5 兆日圓）</li>
                 <li>對中強硬 + 親美路線</li>
                 <li>日圓貶值 40%（2022 至今）</li>
             </ul>
-            
+
             <p style="margin-top: 12px;"><strong>連鎖反應：</strong>日債利率上升 → 日本機構賣美債/美股 → 全球資產重估。這是「完美風暴」，也是「一生一次的財富機會」。</p>
 
             <h3>3. 能源：AI 發展的最大瓶頸</h3>
             <p>美國數據中心 2025 年支出 $5,200 億，長期規劃 $2.5-7 兆。問題：電力不足。</p>
-            
+
             <blockquote>
-                「AI 的鏟子是數據中心，數據中心的鏟子是能源。」— Nicolas Young
+                「AI 的鏟子是數據中心，數據中心的鏟子是能源。」- Nicolas Young
             </blockquote>
-            
+
             <p>Trump 放寬能源管制，大力發展核電與天然氣。關注：核能（URA/CCJ）、鋁（AA）、銅（COPX）。</p>
         </div>
 
         <!-- 投資組合建議 -->
         <div class="card">
             <h2>💰 老K 推薦投資組合</h2>
-            
+
             <div class="portfolio-section">
                 <h3>核心持倉（60%）</h3>
-                
+
                 <div class="portfolio-item">
                     <div>
                         <div class="font-medium">黃金 ETF</div>
@@ -903,7 +903,7 @@
                     </div>
                     <span class="allocation">20%</span>
                 </div>
-                
+
                 <div class="portfolio-item">
                     <div>
                         <div class="font-medium">AI 半導體</div>
@@ -911,7 +911,7 @@
                     </div>
                     <span class="allocation">20%</span>
                 </div>
-                
+
                 <div class="portfolio-item">
                     <div>
                         <div class="font-medium">美國基建</div>
@@ -919,7 +919,7 @@
                     </div>
                     <span class="allocation">15%</span>
                 </div>
-                
+
                 <div class="portfolio-item">
                     <div>
                         <div class="font-medium">現金 / 短債</div>
@@ -928,10 +928,10 @@
                     <span class="allocation">5%</span>
                 </div>
             </div>
-            
+
             <div class="portfolio-section">
                 <h3>衛星持倉（25%）</h3>
-                
+
                 <div class="portfolio-item">
                     <div>
                         <div class="font-medium">日本市場</div>
@@ -939,7 +939,7 @@
                     </div>
                     <span class="allocation">10%</span>
                 </div>
-                
+
                 <div class="portfolio-item">
                     <div>
                         <div class="font-medium">國防太空</div>
@@ -947,7 +947,7 @@
                     </div>
                     <span class="allocation">10%</span>
                 </div>
-                
+
                 <div class="portfolio-item">
                     <div>
                         <div class="font-medium">原物料</div>
@@ -956,10 +956,10 @@
                     <span class="allocation">5%</span>
                 </div>
             </div>
-            
+
             <div class="portfolio-section">
                 <h3>戰術持倉（15%）</h3>
-                
+
                 <div class="portfolio-item">
                     <div>
                         <div class="font-medium">避險對沖</div>
@@ -967,7 +967,7 @@
                     </div>
                     <span class="allocation">10%</span>
                 </div>
-                
+
                 <div class="portfolio-item">
                     <div>
                         <div class="font-medium">機會型</div>
@@ -981,7 +981,7 @@
         <!-- 風險評估 -->
         <div class="card">
             <h2>⚠️ 風險評估與應對</h2>
-            
+
             <table>
                 <tr>
                     <th>風險事件</th>
@@ -1014,7 +1014,7 @@
                     <td>持有現金、債券</td>
                 </tr>
             </table>
-            
+
             <div class="warning">
                 <h4>🎯 核心原則</h4>
                 <ul style="margin-left: 20px; margin-top: 8px;">
@@ -1028,13 +1028,24 @@
 
         <!-- 影片清單 -->
         <div class="card">
-            <h2>📹 分析影片清單（16 部）</h2>
+            <h2>📹 分析影片清單（17 部）</h2>
             
             <div class="video-list">
                 <div class="video-item">
                     <div class="video-number">1</div>
                     <div class="video-info">
-                        <div class="video-title">Trump’s Next Shockwave — A Once-in-a-Lifetime Opportunity</div>
+                        <div class="video-title">Iran War: Post-War Investment Strategy and Wealth Opportunities</div>
+                        <div class="video-meta">投資策略 | 地緣政治</div>
+                    </div>
+                    <div class="video-status">✅ 已分析</div>
+                    <div class="video-action">
+                        <a href="video-17.html" class="view-btn">查看分析 →</a>
+                    </div>
+                </div>
+                <div class="video-item">
+                    <div class="video-number">3</div>
+                    <div class="video-info">
+                        <div class="video-title">Trump's Next Shockwave — A Once-in-a-Lifetime Opportunity</div>
                         <div class="video-meta">投資策略 | AI應用</div>
                     </div>
                     <div class="video-status">✅ 已分析</div>
@@ -1043,7 +1054,7 @@
                     </div>
                 </div>
                 <div class="video-item">
-                    <div class="video-number">2</div>
+                    <div class="video-number">3</div>
                     <div class="video-info">
                         <div class="video-title">Strangest Market Signal Yet… Get Rich Opportunity?</div>
                         <div class="video-meta">投資策略 | AI應用</div>
@@ -1054,9 +1065,9 @@
                     </div>
                 </div>
                 <div class="video-item">
-                    <div class="video-number">3</div>
+                    <div class="video-number">4</div>
                     <div class="video-info">
-                        <div class="video-title">Where Will Sanae Takaichi Lead Japan’s Stock Market?</div>
+                        <div class="video-title">Where Will Sanae Takaichi Lead Japan's Stock Market?</div>
                         <div class="video-meta">投資策略 | 日本股市</div>
                     </div>
                     <div class="video-status">✅ 已分析</div>
@@ -1065,9 +1076,9 @@
                     </div>
                 </div>
                 <div class="video-item">
-                    <div class="video-number">4</div>
+                    <div class="video-number">5</div>
                     <div class="video-info">
-                        <div class="video-title">SpaceX IPO Strategy: How I’m Positioning to Get Rich</div>
+                        <div class="video-title">SpaceX IPO Strategy: How I'm Positioning to Get Rich</div>
                         <div class="video-meta">投資策略 | SpaceX</div>
                     </div>
                     <div class="video-status">✅ 已分析</div>
@@ -1076,9 +1087,9 @@
                     </div>
                 </div>
                 <div class="video-item">
-                    <div class="video-number">5</div>
+                    <div class="video-number">6</div>
                     <div class="video-info">
-                        <div class="video-title">Global Market Crash: Ordinary People’s Chance to Get Rich</div>
+                        <div class="video-title">Global Market Crash: Ordinary People's Chance to Get Rich</div>
                         <div class="video-meta">投資策略 | 市場分析</div>
                     </div>
                     <div class="video-status">✅ 已分析</div>
@@ -1087,9 +1098,9 @@
                     </div>
                 </div>
                 <div class="video-item">
-                    <div class="video-number">6</div>
+                    <div class="video-number">7</div>
                     <div class="video-info">
-                        <div class="video-title">Gold & Silver Collapse: Only Trump Can Stop It — A Once-in-a-Lifetime Chance</div>
+                        <div class="video-title">Gold & Silver Collapse: Only Trump Can Stop It - A Once-in-a-Lifetime Chance</div>
                         <div class="video-meta">投資策略 | 市場分析</div>
                     </div>
                     <div class="video-status">✅ 已分析</div>
@@ -1098,9 +1109,9 @@
                     </div>
                 </div>
                 <div class="video-item">
-                    <div class="video-number">7</div>
+                    <div class="video-number">8</div>
                     <div class="video-info">
-                        <div class="video-title">Takaichi, Japan Collapse, Iran War — A Rare Chance to Get Rich</div>
+                        <div class="video-title">Takaichi, Japan Collapse, Iran War - A Rare Chance to Get Rich</div>
                         <div class="video-meta">投資策略 | 市場分析</div>
                     </div>
                     <div class="video-status">✅ 已分析</div>
@@ -1109,9 +1120,9 @@
                     </div>
                 </div>
                 <div class="video-item">
-                    <div class="video-number">8</div>
+                    <div class="video-number">9</div>
                     <div class="video-info">
-                        <div class="video-title">Japan’s Collapse: A Once-in-a-Lifetime Wealth Event</div>
+                        <div class="video-title">Japan's Collapse: A Once-in-a-Lifetime Wealth Event</div>
                         <div class="video-meta">投資策略 | 市場分析</div>
                     </div>
                     <div class="video-status">✅ 已分析</div>
@@ -1120,9 +1131,9 @@
                     </div>
                 </div>
                 <div class="video-item">
-                    <div class="video-number">9</div>
+                    <div class="video-number">10</div>
                     <div class="video-info">
-                        <div class="video-title">Trump’s Next Move Could Make You Rich</div>
+                        <div class="video-title">Trump's Next Move Could Make You Rich</div>
                         <div class="video-meta">投資策略 | 地緣政治</div>
                     </div>
                     <div class="video-status">✅ 已分析</div>
@@ -1131,7 +1142,7 @@
                     </div>
                 </div>
                 <div class="video-item">
-                    <div class="video-number">10</div>
+                    <div class="video-number">11</div>
                     <div class="video-info">
                         <div class="video-title">Sanae Takaichi Just Revealed the Next 3-Year Wealth Play</div>
                         <div class="video-meta">投資策略 | 市場分析</div>
@@ -1142,7 +1153,7 @@
                     </div>
                 </div>
                 <div class="video-item">
-                    <div class="video-number">11</div>
+                    <div class="video-number">12</div>
                     <div class="video-info">
                         <div class="video-title">To Get Rich, You Have to Follow Trump.</div>
                         <div class="video-meta">投資策略 | AI半導體</div>
@@ -1153,9 +1164,9 @@
                     </div>
                 </div>
                 <div class="video-item">
-                    <div class="video-number">12</div>
+                    <div class="video-number">13</div>
                     <div class="video-info">
-                        <div class="video-title">Jensen Huang has spoken — how do we get rich with him?</div>
+                        <div class="video-title">Jensen Huang has spoken - how do we get rich with him?</div>
                         <div class="video-meta">投資策略 | AI應用</div>
                     </div>
                     <div class="video-status">✅ 已分析</div>
@@ -1164,7 +1175,7 @@
                     </div>
                 </div>
                 <div class="video-item">
-                    <div class="video-number">13</div>
+                    <div class="video-number">14</div>
                     <div class="video-info">
                         <div class="video-title">This will make us rich.</div>
                         <div class="video-meta">投資策略 | 地緣政治</div>
@@ -1175,7 +1186,7 @@
                     </div>
                 </div>
                 <div class="video-item">
-                    <div class="video-number">14</div>
+                    <div class="video-number">15</div>
                     <div class="video-info">
                         <div class="video-title">How can we get rich after Maduro is arrested?</div>
                         <div class="video-meta">投資策略 | AI應用</div>
@@ -1186,7 +1197,7 @@
                     </div>
                 </div>
                 <div class="video-item">
-                    <div class="video-number">15</div>
+                    <div class="video-number">16</div>
                     <div class="video-info">
                         <div class="video-title">2026年新的開始</div>
                         <div class="video-meta">投資策略 | 市場分析</div>
@@ -1197,7 +1208,7 @@
                     </div>
                 </div>
                 <div class="video-item">
-                    <div class="video-number">16</div>
+                    <div class="video-number">17</div>
                     <div class="video-info">
                         <div class="video-title">One Life Opportunity: AI & SpaceX Before 2030</div>
                         <div class="video-meta">AI投資 | 投資策略</div>
@@ -1212,7 +1223,7 @@
 <!-- 行動清單 -->
         <div class="card">
             <h2>🎯 立即行動清單</h2>
-            
+
             <ul class="action-list">
                 <li>開立美股帳戶（Interactive Brokers / Firstrade）</li>
                 <li>設定定期定額計劃（每月投入固定金額）</li>
@@ -1230,7 +1241,7 @@
         <footer>
             <p>由 Kimi Claw 特工團隊製作 | 老K財經分析</p>
             <p>⚠️ 免責聲明：本報告僅供學習參考，不構成投資建議。投資有風險，決策需謹慎。</p>
-            
+
             <p style="margin-top: 16px; color: var(--accent-600); font-weight: 600;">
                 📊 自動化系統運作中 | 每週更新
             </p>
