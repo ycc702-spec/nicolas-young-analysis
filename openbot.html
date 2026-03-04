@@ -389,7 +389,7 @@
                 const weeklyCount = data.videos ? data.videos.filter(v => v.date && new Date(v.date) > oneWeekAgo).length : 0;
                 document.getElementById('weekly-new').textContent = weeklyCount;
 
-                // 顯示高優先技巧
+                // 顯示高優先技巧（加上更新日期）
                 const highPriority = data.techniques ? data.techniques.filter(t => t.priority === '高') : [];
                 if (highPriority.length > 0) {
                     const priorityHtml = highPriority.map(t => `
@@ -397,6 +397,9 @@
                             <div class="title">${t.title}</div>
                             <div class="desc">${t.description}</div>
                             <div class="apply">✅ 已應用：${t.apply_to_system}</div>
+                            <div class="update-date" style="margin-top: 8px; font-size: 0.75rem; color: #ff6b6b;">
+                                📅 更新於：${data.last_updated || '2026-03-04'}
+                            </div>
                         </div>
                     `).join('');
                     document.getElementById('priority-techniques').innerHTML = priorityHtml;
