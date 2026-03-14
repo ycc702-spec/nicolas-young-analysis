@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-14 02:30",
+  "last_updated": "2026-03-15 02:30",
   "videos": [
     {
       "id": "RhLpV6QDBFE",
@@ -958,6 +958,66 @@
           "apply_to_system": "分析自身工作流程，例如，程式設計師建立程式碼代理，內容創作者建立寫作代理，研究員建立研究代理，使其直接服務於核心業務需求。"
         }
       ]
+    },
+    {
+      "id": "sWuMEPES3So",
+      "title": "LIVE: OpenClaw running on 3 Mac Studios and a DGX Spark",
+      "url": "https://youtube.com/watch?v=sWuMEPES3So",
+      "date": "2026-03-13",
+      "summary": "Alex Finn 在這場直播中展示了他的家庭AI實驗室，重點介紹了OpenClaw在三台Mac Studios和一台DGX Spark上的運行。他將展示一個自訂的AI模型，該模型經過其聲音和數百份YouTube影片逐字稿訓練，用於生成YouTube腳本。此外，他還會介紹Nvidia全新的開源Neotron 3模型，該模型目前運行在他的DGX Spark上，並會帶領觀眾參觀他的「任務控制」設置。直播中還將舉辦一場「Pitchathon」活動，贈送五個ChatGPT Pro訂閱，參與者需按讚、訂閱並說明為何值得獲得。",
+      "key_points": [
+        "展示家庭AI實驗室，包括OpenClaw在3台Mac Studios和DGX Spark上的運行情況。",
+        "介紹一個自訂AI模型，用於生成YouTube腳本，該模型已用其聲音和影片逐字稿進行訓練。",
+        "展示Nvidia的開源Neotron 3模型，並說明其在DGX Spark上的部署。",
+        "帶領觀眾參觀其AI「任務控制」設置。",
+        "舉辦ChatGPT Pro訂閱贈品活動（共5個），參與者需透過「Pitchathon」方式爭取，並符合按讚、訂閱等資格要求。",
+        "提及將與Ray Fernando一同參加即將到來的Nvidia活動。",
+        "簡要分享對新舊Mac Studio Display XDR顯示器之間差異的看法。"
+      ],
+      "tags": [
+        "AI",
+        "人工智慧",
+        "OpenClaw",
+        "Mac Studio",
+        "DGX Spark",
+        "Nvidia",
+        "Neotron 3",
+        "ChatGPT Pro",
+        "直播",
+        "AI實驗室",
+        "機器學習",
+        "內容生成",
+        "YouTube",
+        "硬體設置",
+        "贈品",
+        "OpenAI"
+      ],
+      "techniques": [
+        {
+          "title": "自訂AI模型訓練",
+          "description": "建立並訓練專屬AI模型，用於生成YouTube腳本，訓練資料包括講者聲音及數百份影片逐字稿，以實現高度個人化的內容創作。",
+          "priority": "高",
+          "apply_to_system": "適用於個人化內容創作、語音合成及影片腳本自動生成系統，特別是需要模仿特定語氣和風格的應用。"
+        },
+        {
+          "title": "開源AI模型應用與部署",
+          "description": "運用Nvidia Neotron 3等開源大型語言模型，並在如DGX Spark等高性能硬體上進行部署和運行，以利用最新的AI技術進行實驗和應用。",
+          "priority": "高",
+          "apply_to_system": "適用於快速部署AI功能、利用社群資源進行模型開發與測試，以及在專業級硬體上進行高效能AI運算。"
+        },
+        {
+          "title": "多硬體AI部署與管理",
+          "description": "在多台Mac Studios和一台DGX Spark等不同硬體平台上運行OpenClaw等AI應用，展示其跨平台或異構運算能力及集中管理。",
+          "priority": "高",
+          "apply_to_system": "適用於需要彈性擴展、利用不同硬體優勢的AI運算環境，例如邊緣運算與雲端/資料中心協同，或在不同設備上測試模型效能。"
+        },
+        {
+          "title": "社群互動與贈品行銷策略",
+          "description": "透過「Pitchathon」活動贈送ChatGPT Pro訂閱，並設定按讚、訂閱等參與條件，以提升直播觀眾互動、頻道訂閱數及社群活躍度。",
+          "priority": "中",
+          "apply_to_system": "適用於直播主、內容創作者提升觀眾參與度、頻道成長及社群凝聚力，同時為觀眾提供實質價值。"
+        }
+      ]
     }
   ],
   "techniques": [
@@ -1452,6 +1512,30 @@
       "description": "根據個人或團隊的日常核心任務來決定第一個子代理的功能，確保其能立即解決實際痛點並創造價值，從而最大化投資回報。",
       "priority": "中",
       "apply_to_system": "分析自身工作流程，例如，程式設計師建立程式碼代理，內容創作者建立寫作代理，研究員建立研究代理，使其直接服務於核心業務需求。"
+    },
+    {
+      "title": "自訂AI模型訓練",
+      "description": "建立並訓練專屬AI模型，用於生成YouTube腳本，訓練資料包括講者聲音及數百份影片逐字稿，以實現高度個人化的內容創作。",
+      "priority": "高",
+      "apply_to_system": "適用於個人化內容創作、語音合成及影片腳本自動生成系統，特別是需要模仿特定語氣和風格的應用。"
+    },
+    {
+      "title": "開源AI模型應用與部署",
+      "description": "運用Nvidia Neotron 3等開源大型語言模型，並在如DGX Spark等高性能硬體上進行部署和運行，以利用最新的AI技術進行實驗和應用。",
+      "priority": "高",
+      "apply_to_system": "適用於快速部署AI功能、利用社群資源進行模型開發與測試，以及在專業級硬體上進行高效能AI運算。"
+    },
+    {
+      "title": "多硬體AI部署與管理",
+      "description": "在多台Mac Studios和一台DGX Spark等不同硬體平台上運行OpenClaw等AI應用，展示其跨平台或異構運算能力及集中管理。",
+      "priority": "高",
+      "apply_to_system": "適用於需要彈性擴展、利用不同硬體優勢的AI運算環境，例如邊緣運算與雲端/資料中心協同，或在不同設備上測試模型效能。"
+    },
+    {
+      "title": "社群互動與贈品行銷策略",
+      "description": "透過「Pitchathon」活動贈送ChatGPT Pro訂閱，並設定按讚、訂閱等參與條件，以提升直播觀眾互動、頻道訂閱數及社群活躍度。",
+      "priority": "中",
+      "apply_to_system": "適用於直播主、內容創作者提升觀眾參與度、頻道成長及社群凝聚力，同時為觀眾提供實質價值。"
     }
   ]
 }
