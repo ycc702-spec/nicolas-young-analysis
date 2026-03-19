@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-19 02:15",
+  "last_updated": "2026-03-20 02:15",
   "videos": [
     {
       "id": "RhLpV6QDBFE",
@@ -1115,6 +1115,64 @@
           "apply_to_system": "在設定 OpenClaw 的研究目標時，明確要求其從多個獨立且可靠的來源獲取資訊，並進行交叉驗證。同時，人類操作者應對 AI 代理的輸出保持警惕，進行事實核查和邏輯判斷。"
         }
       ]
+    },
+    {
+      "id": "lPsyi5i6SQc",
+      "title": "LIVE: The ULTIMATE OpenClaw Mission Control revealed!",
+      "url": "https://youtube.com/watch?v=lPsyi5i6SQc",
+      "date": "2026-03-18",
+      "summary": "Alex Finn 在本次直播中展示了他為自己打造的「OpenClaw 任務控制中心」，一套自訂工具，旨在幫助使用者提升生活品質。他詳細解釋了其運作方式，並鼓勵觀眾自行建構。直播中，他還預告將討論 Hermes 代理、對 Claude Code 與 Codeex 的最終推薦，以及 Nemo Claw。此外，他分享了在 Nvidia 會議上遇到 Peter Steinberger 的趣事，並幽默地抱怨自己未被 Nvidia 認可（例如未被納入宣傳片、未獲贈 DJX Spark），以此激勵自己更努力。他鼓勵觀眾點讚以吸引更多人加入直播，並回答了關於 DGX Station 的問題。",
+      "key_points": [
+        "展示 Alex Finn 的 OpenClaw 任務控制中心：一套自訂工具，旨在提升效率與生活品質。",
+        "直播互動與問答環節：鼓勵觀眾提問，無論是直播中還是回放評論區。",
+        "討論 AI 代理：提及正在測試 Hermes 代理。",
+        "提供程式碼生成工具推薦：對 Claude Code 與 Codeex 進行最終比較與推薦。",
+        "分享 Nvidia 之行與會見 Peter Steinberger 的經歷：幽默地抱怨自己未被認可（未被納入 Nvidia 宣傳片、未獲贈 DJX Spark）。",
+        "討論 DGX Station：提及其尚未投入生產。"
+      ],
+      "tags": [
+        "OpenClaw",
+        "AI Agents",
+        "Mission Control",
+        "Custom Tools",
+        "Alex Finn",
+        "AI Creator",
+        "Nvidia",
+        "Peter Steinberger",
+        "Hermes Agent",
+        "Claude Code",
+        "Codeex",
+        "Live Stream",
+        "Productivity",
+        "Coding Tools",
+        "DGX Station"
+      ],
+      "techniques": [
+        {
+          "title": "建立期待與互動",
+          "description": "開場即強調內容的價值與廣泛適用性，並鼓勵觀眾積極參與問答，營造互動氛圍，讓新舊觀眾都能有所收穫。",
+          "priority": "高",
+          "apply_to_system": "在內容開頭明確說明影片/文章的價值、目標受眾，並提供互動方式（如留言、提問），提高用戶參與度。"
+        },
+        {
+          "title": "預告內容與議程",
+          "description": "在影片中段清晰地列出接下來將討論的幾個主要話題（如 Hermes 代理、Claude Code vs. Codeex 推薦、Nvidia 之行），讓觀眾對內容流程有所預期，保持觀看興趣。",
+          "priority": "中",
+          "apply_to_system": "在較長的內容中，適時插入「接下來會討論…」、「我們將涵蓋…」等語句，提供清晰的內容導航，幫助用戶掌握資訊結構。"
+        },
+        {
+          "title": "幽默自嘲與個人故事",
+          "description": "透過分享個人經歷（在 Nvidia 被「忽視」），並以幽默自嘲的方式表達，增加內容的趣味性、真實感和與觀眾的連結，同時也作為激勵自己的動力。",
+          "priority": "高",
+          "apply_to_system": "在適當情境下，可以融入個人經歷或帶有幽默感的敘述，使內容更具人情味和吸引力，拉近與用戶的距離。"
+        },
+        {
+          "title": "明確的行動呼籲",
+          "description": "直接且重複地鼓勵觀眾點讚，以增加影片的曝光率和互動，並藉此吸引更多人加入直播。",
+          "priority": "中",
+          "apply_to_system": "在內容中適時加入明確的行動呼籲，引導用戶進行下一步操作（如點讚、分享、訂閱、留言），以提升內容的傳播效果和用戶參與度。"
+        }
+      ]
     }
   ],
   "techniques": [
@@ -1675,6 +1733,30 @@
       "description": "影片強調其內容是「無贊助、無偏見、真實」的，這暗示了在使用 OpenClaw 進行研究或決策時，也應追求多源、客觀的資訊，避免單一來源的偏見，並鼓勵對 AI 產出進行批判性審視。",
       "priority": "中",
       "apply_to_system": "在設定 OpenClaw 的研究目標時，明確要求其從多個獨立且可靠的來源獲取資訊，並進行交叉驗證。同時，人類操作者應對 AI 代理的輸出保持警惕，進行事實核查和邏輯判斷。"
+    },
+    {
+      "title": "建立期待與互動",
+      "description": "開場即強調內容的價值與廣泛適用性，並鼓勵觀眾積極參與問答，營造互動氛圍，讓新舊觀眾都能有所收穫。",
+      "priority": "高",
+      "apply_to_system": "在內容開頭明確說明影片/文章的價值、目標受眾，並提供互動方式（如留言、提問），提高用戶參與度。"
+    },
+    {
+      "title": "預告內容與議程",
+      "description": "在影片中段清晰地列出接下來將討論的幾個主要話題（如 Hermes 代理、Claude Code vs. Codeex 推薦、Nvidia 之行），讓觀眾對內容流程有所預期，保持觀看興趣。",
+      "priority": "中",
+      "apply_to_system": "在較長的內容中，適時插入「接下來會討論…」、「我們將涵蓋…」等語句，提供清晰的內容導航，幫助用戶掌握資訊結構。"
+    },
+    {
+      "title": "幽默自嘲與個人故事",
+      "description": "透過分享個人經歷（在 Nvidia 被「忽視」），並以幽默自嘲的方式表達，增加內容的趣味性、真實感和與觀眾的連結，同時也作為激勵自己的動力。",
+      "priority": "高",
+      "apply_to_system": "在適當情境下，可以融入個人經歷或帶有幽默感的敘述，使內容更具人情味和吸引力，拉近與用戶的距離。"
+    },
+    {
+      "title": "明確的行動呼籲",
+      "description": "直接且重複地鼓勵觀眾點讚，以增加影片的曝光率和互動，並藉此吸引更多人加入直播。",
+      "priority": "中",
+      "apply_to_system": "在內容中適時加入明確的行動呼籲，引導用戶進行下一步操作（如點讚、分享、訂閱、留言），以提升內容的傳播效果和用戶參與度。"
     }
   ]
 }
