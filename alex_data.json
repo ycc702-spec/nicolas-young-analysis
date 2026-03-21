@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-20 02:15",
+  "last_updated": "2026-03-22 02:15",
   "videos": [
     {
       "id": "RhLpV6QDBFE",
@@ -1173,6 +1173,41 @@
           "apply_to_system": "在內容中適時加入明確的行動呼籲，引導用戶進行下一步操作（如點讚、分享、訂閱、留言），以提升內容的傳播效果和用戶參與度。"
         }
       ]
+    },
+    {
+      "id": "WDtlvsgF4xs",
+      "title": "LIVE: I built my own AI research lab (Hermes agent/OpenClaw)",
+      "url": "https://youtube.com/watch?v=WDtlvsgF4xs",
+      "date": "2026-03-20",
+      "summary": "Alex Finn 在影片中展示了他如何利用 OpenClaw 和 Hermes Agent 建立自己的個人 AI 研究實驗室，名為「Henry Research Lab」。這個實驗室基於 Carpathy 的自動研究框架，旨在自主訓練和微調模型、建立 LoRA、優化系統提示，甚至自主經營業務和改善生活。他強調每個人都應該擁有自己的 AI 研究實驗室和 24/7 工作的 AI 代理團隊。影片中也提到 Hermes 是 OpenClaw 的競爭產品，並展示了 Henry 實驗室目前每五分鐘運行實驗的狀態。",
+      "key_points": [
+        "Alex Finn 建立了一個名為「Henry Research Lab」的個人 AI 研究實驗室。",
+        "該實驗室使用 OpenClaw 和 Hermes Agent 進行開發。",
+        "它基於 Carpathy 的自動研究框架，實現自動研究。",
+        "實驗室功能包括：訓練模型、微調模型、建立 LoRA、優化系統提示、自主經營業務和改善生活。",
+        "Alex 鼓勵觀眾建立自己的 AI 研究實驗室和 24/7 工作的 AI 代理團隊。",
+        "Hermes Agent 被提及為 OpenClaw 的競爭產品。",
+        "Henry 實驗室目前每五分鐘運行一次實驗。"
+      ],
+      "tags": [
+        "AI研究實驗室",
+        "AI代理",
+        "OpenClaw",
+        "Hermes Agent",
+        "模型訓練",
+        "微調",
+        "LoRA",
+        "自動化研究",
+        "Carpathy框架"
+      ],
+      "techniques": [
+        {
+          "title": "個人AI研究實驗室的建立與運作",
+          "description": "影片介紹了如何利用 OpenClaw 和 Hermes Agent 等 AI 工具，結合 Carpathy 的自動研究框架，建立一個能夠自主進行模型訓練、微調、LoRA 生成、系統提示優化，甚至協助業務發展和個人生活改善的 AI 實驗室。核心理念是讓 AI 代理 24/7 持續工作，進行研究、開發和優化。",
+          "priority": "高",
+          "apply_to_system": "透過整合 OpenClaw/Hermes Agent 與 Carpathy 框架，建立一個自動化流程，讓 AI 代理持續執行研究、開發、優化等任務，實現個人或企業的 AI 驅動目標，例如自動化模型訓練、提示工程或業務策略制定。"
+        }
+      ]
     }
   ],
   "techniques": [
@@ -1757,6 +1792,12 @@
       "description": "直接且重複地鼓勵觀眾點讚，以增加影片的曝光率和互動，並藉此吸引更多人加入直播。",
       "priority": "中",
       "apply_to_system": "在內容中適時加入明確的行動呼籲，引導用戶進行下一步操作（如點讚、分享、訂閱、留言），以提升內容的傳播效果和用戶參與度。"
+    },
+    {
+      "title": "個人AI研究實驗室的建立與運作",
+      "description": "影片介紹了如何利用 OpenClaw 和 Hermes Agent 等 AI 工具，結合 Carpathy 的自動研究框架，建立一個能夠自主進行模型訓練、微調、LoRA 生成、系統提示優化，甚至協助業務發展和個人生活改善的 AI 實驗室。核心理念是讓 AI 代理 24/7 持續工作，進行研究、開發和優化。",
+      "priority": "高",
+      "apply_to_system": "透過整合 OpenClaw/Hermes Agent 與 Carpathy 框架，建立一個自動化流程，讓 AI 代理持續執行研究、開發、優化等任務，實現個人或企業的 AI 驅動目標，例如自動化模型訓練、提示工程或業務策略制定。"
     }
   ]
 }
