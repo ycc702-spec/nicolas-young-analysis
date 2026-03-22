@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-22 02:15",
+  "last_updated": "2026-03-23 02:15",
   "videos": [
     {
       "id": "RhLpV6QDBFE",
@@ -1208,6 +1208,42 @@
           "apply_to_system": "透過整合 OpenClaw/Hermes Agent 與 Carpathy 框架，建立一個自動化流程，讓 AI 代理持續執行研究、開發、優化等任務，實現個人或企業的 AI 驅動目標，例如自動化模型訓練、提示工程或業務策略制定。"
         }
       ]
+    },
+    {
+      "id": "qRA0MyPlEPE",
+      "title": "5 OpenClaw use cases that will actually improve your life...",
+      "url": "https://youtube.com/watch?v=qRA0MyPlEPE",
+      "date": "2026-03-22",
+      "summary": "Alex Finn 在這段影片中介紹了 OpenClaw 的第一個實用案例：「日常記憶追蹤器」(Daily Memory Tracker)。這個功能旨在顯著提升 OpenClaw 的記憶能力，並自動記錄用戶每天的工作內容、討論、程式碼開發等，如同一個無需手動管理的數位工作日誌。透過此系統，OpenClaw 能從「笨拙」變為「天才」，不僅能回溯過去的任何工作細節，還能記住數月前的專案並繼續執行，將其記憶力提升十倍。影片中展示了如何透過一個儀表板查看歷史記錄，並提供了設定此功能的提示 (prompt)，同時提及了「任務控制中心」(Mission Control) 作為整合這些自訂工具的樞紐。",
+      "key_points": [
+        "OpenClaw 是一款強大軟體，但多數人不知如何有效利用。",
+        "影片介紹的第一個實用案例是「日常記憶追蹤器」(Daily Memory Tracker)。",
+        "此追蹤器能將 OpenClaw 的記憶力提升十倍，使其從「笨拙」變「天才」。",
+        "它自動記錄用戶每日的工作內容、討論、程式碼開發和交付成果，形成詳細的工作日誌。",
+        "用戶可透過儀表板回溯任何日期的工作細節，例如查詢數月前開發的應用程式。",
+        "OpenClaw 藉此能記住並恢復數月前的專案，而這是之前無法做到的。",
+        "影片提供了設定此功能的提示 (prompt)。",
+        "提及「任務控制中心」(Mission Control) 作為整合自訂工具的樞紐，並提供相關影片連結。"
+      ],
+      "tags": [
+        "OpenClaw",
+        "AI",
+        "記憶管理",
+        "生產力工具",
+        "自動化",
+        "日常追蹤",
+        "工作日誌",
+        "AI應用",
+        "Alex Finn"
+      ],
+      "techniques": [
+        {
+          "title": "日常記憶追蹤器 (Daily Memory Tracker)",
+          "description": "透過設定一個自動化的日誌系統，讓 OpenClaw 記錄每天與用戶的互動、討論、開發工作及交付成果。它創建一個可回溯的歷史記錄儀表板，並將這些記錄作為 OpenClaw 記憶系統的核心驅動力，使其能記住並參考過去的資訊。",
+          "priority": "高",
+          "apply_to_system": "1. **設定提示 (Prompt):** 使用影片中提供的提示，指示 OpenClaw 建立一個每日記憶系統，包括每日工作日誌和討論摘要。\n   *   提示範例: 「I want to set up a daily memory system. We should have logs for every day we work together, every discussion we have. You should put a summary into this daily tracker system. Then you should refer back to this logging system whenever I have questions about specific projects or days. Please build out this dashboard.」\n2. **儀表板整合:** 要求 OpenClaw 建立一個可視化的儀表板，以便用戶能輕鬆回溯特定日期的工作內容。\n3. **記憶驅動:** 確保 OpenClaw 將這些日誌作為其長期記憶的基礎，以便在未來回答問題或恢復專案時能參考。\n4. **任務控制中心整合 (可選):** 若有「任務控制中心」(Mission Control)，可將此功能整合進去，作為一個自訂工具，簡化存取和管理。"
+        }
+      ]
     }
   ],
   "techniques": [
@@ -1798,6 +1834,12 @@
       "description": "影片介紹了如何利用 OpenClaw 和 Hermes Agent 等 AI 工具，結合 Carpathy 的自動研究框架，建立一個能夠自主進行模型訓練、微調、LoRA 生成、系統提示優化，甚至協助業務發展和個人生活改善的 AI 實驗室。核心理念是讓 AI 代理 24/7 持續工作，進行研究、開發和優化。",
       "priority": "高",
       "apply_to_system": "透過整合 OpenClaw/Hermes Agent 與 Carpathy 框架，建立一個自動化流程，讓 AI 代理持續執行研究、開發、優化等任務，實現個人或企業的 AI 驅動目標，例如自動化模型訓練、提示工程或業務策略制定。"
+    },
+    {
+      "title": "日常記憶追蹤器 (Daily Memory Tracker)",
+      "description": "透過設定一個自動化的日誌系統，讓 OpenClaw 記錄每天與用戶的互動、討論、開發工作及交付成果。它創建一個可回溯的歷史記錄儀表板，並將這些記錄作為 OpenClaw 記憶系統的核心驅動力，使其能記住並參考過去的資訊。",
+      "priority": "高",
+      "apply_to_system": "1. **設定提示 (Prompt):** 使用影片中提供的提示，指示 OpenClaw 建立一個每日記憶系統，包括每日工作日誌和討論摘要。\n   *   提示範例: 「I want to set up a daily memory system. We should have logs for every day we work together, every discussion we have. You should put a summary into this daily tracker system. Then you should refer back to this logging system whenever I have questions about specific projects or days. Please build out this dashboard.」\n2. **儀表板整合:** 要求 OpenClaw 建立一個可視化的儀表板，以便用戶能輕鬆回溯特定日期的工作內容。\n3. **記憶驅動:** 確保 OpenClaw 將這些日誌作為其長期記憶的基礎，以便在未來回答問題或恢復專案時能參考。\n4. **任務控制中心整合 (可選):** 若有「任務控制中心」(Mission Control)，可將此功能整合進去，作為一個自訂工具，簡化存取和管理。"
     }
   ]
 }
