@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-23 02:15",
+  "last_updated": "2026-03-25 02:15",
   "videos": [
     {
       "id": "RhLpV6QDBFE",
@@ -1244,6 +1244,57 @@
           "apply_to_system": "1. **設定提示 (Prompt):** 使用影片中提供的提示，指示 OpenClaw 建立一個每日記憶系統，包括每日工作日誌和討論摘要。\n   *   提示範例: 「I want to set up a daily memory system. We should have logs for every day we work together, every discussion we have. You should put a summary into this daily tracker system. Then you should refer back to this logging system whenever I have questions about specific projects or days. Please build out this dashboard.」\n2. **儀表板整合:** 要求 OpenClaw 建立一個可視化的儀表板，以便用戶能輕鬆回溯特定日期的工作內容。\n3. **記憶驅動:** 確保 OpenClaw 將這些日誌作為其長期記憶的基礎，以便在未來回答問題或恢復專案時能參考。\n4. **任務控制中心整合 (可選):** 若有「任務控制中心」(Mission Control)，可將此功能整合進去，作為一個自訂工具，簡化存取和管理。"
         }
       ]
+    },
+    {
+      "id": "LaHXmRE-_fs",
+      "title": "OpenClaw's new update is MASSIVE",
+      "url": "https://youtube.com/watch?v=LaHXmRE-_fs",
+      "date": "2026-03-23",
+      "summary": "Alex Finn 的這部影片介紹了 OpenClaw 史上最重大的更新。儘管開場遇到網路連線問題，他仍充滿活力地承諾將深入探討並現場演示這些「巨大」的新功能。影片的核心內容是宣布 OpenClaw 現已全面整合 Clawhub，這使得用戶能夠即時尋找並安裝各種技能，大幅提升了 OpenClaw 作為「史上最強大 AI 工具」的能力。他強調會解答所有問題並教導觀眾如何實施這些新功能。",
+      "key_points": [
+        "OpenClaw 迎來了史上最重大的更新，被稱為「巨大」且「有史以來最強大的 AI 工具」。",
+        "影片開場遇到網路連線問題，但講者迅速調整並進入主題。",
+        "核心更新是「Clawhub 整合」，它允許用戶即時尋找並安裝技能。",
+        "講者承諾將現場演示所有新功能，並回答觀眾問題，指導如何應用這些新特性。",
+        "講者鼓勵觀眾訂閱頻道並點讚，強調其頻道是「YouTube 上第一的 AI 頻道」和「地球上第一的 OpenClaw 媒體來源」。"
+      ],
+      "tags": [
+        "OpenClaw",
+        "AI",
+        "更新",
+        "Clawhub",
+        "整合",
+        "直播",
+        "Alex Finn",
+        "人工智慧工具",
+        "新功能"
+      ],
+      "techniques": [
+        {
+          "title": "營造期待感與誇飾法",
+          "description": "影片標題和開場多次使用「MASSIVE」、「史上最大」、「最巨大」等詞彙，極力強調更新的重要性與規模，吸引觀眾注意力並建立高度期待。",
+          "priority": "高",
+          "apply_to_system": "在產品發布或重要公告時，使用強烈、具感染力的詞語來突出其影響力，激發用戶興趣。"
+        },
+        {
+          "title": "直面並克服技術問題",
+          "description": "開場時網路連線問題導致尷尬，但講者直接提及並自嘲，隨後迅速將焦點轉回內容，展現真實性並避免觀眾流失。",
+          "priority": "中",
+          "apply_to_system": "在直播或線上演示中遇到技術故障時，坦誠面對並快速調整，保持專業態度，避免讓問題影響整體流程。"
+        },
+        {
+          "title": "明確的行動呼籲與社群互動",
+          "description": "講者多次鼓勵觀眾點讚、訂閱，並強調其頻道的權威性（「Number one AI channel」），積極引導觀眾參與社群互動。",
+          "priority": "高",
+          "apply_to_system": "在內容創作或社群經營中，定期且明確地引導用戶進行點讚、分享、訂閱等互動，並適時建立自身或產品的權威性。"
+        },
+        {
+          "title": "承諾現場演示與問題解答",
+          "description": "講者承諾將「現場演示所有功能」、「回答所有問題」，並教導觀眾如何「實施這些新功能」，提高內容的實用性和互動性。",
+          "priority": "高",
+          "apply_to_system": "在軟體教學或產品介紹中，透過實際操作演示來具體說明功能，並提供問答環節，確保用戶能理解並應用所學。"
+        }
+      ]
     }
   ],
   "techniques": [
@@ -1840,6 +1891,30 @@
       "description": "透過設定一個自動化的日誌系統，讓 OpenClaw 記錄每天與用戶的互動、討論、開發工作及交付成果。它創建一個可回溯的歷史記錄儀表板，並將這些記錄作為 OpenClaw 記憶系統的核心驅動力，使其能記住並參考過去的資訊。",
       "priority": "高",
       "apply_to_system": "1. **設定提示 (Prompt):** 使用影片中提供的提示，指示 OpenClaw 建立一個每日記憶系統，包括每日工作日誌和討論摘要。\n   *   提示範例: 「I want to set up a daily memory system. We should have logs for every day we work together, every discussion we have. You should put a summary into this daily tracker system. Then you should refer back to this logging system whenever I have questions about specific projects or days. Please build out this dashboard.」\n2. **儀表板整合:** 要求 OpenClaw 建立一個可視化的儀表板，以便用戶能輕鬆回溯特定日期的工作內容。\n3. **記憶驅動:** 確保 OpenClaw 將這些日誌作為其長期記憶的基礎，以便在未來回答問題或恢復專案時能參考。\n4. **任務控制中心整合 (可選):** 若有「任務控制中心」(Mission Control)，可將此功能整合進去，作為一個自訂工具，簡化存取和管理。"
+    },
+    {
+      "title": "營造期待感與誇飾法",
+      "description": "影片標題和開場多次使用「MASSIVE」、「史上最大」、「最巨大」等詞彙，極力強調更新的重要性與規模，吸引觀眾注意力並建立高度期待。",
+      "priority": "高",
+      "apply_to_system": "在產品發布或重要公告時，使用強烈、具感染力的詞語來突出其影響力，激發用戶興趣。"
+    },
+    {
+      "title": "直面並克服技術問題",
+      "description": "開場時網路連線問題導致尷尬，但講者直接提及並自嘲，隨後迅速將焦點轉回內容，展現真實性並避免觀眾流失。",
+      "priority": "中",
+      "apply_to_system": "在直播或線上演示中遇到技術故障時，坦誠面對並快速調整，保持專業態度，避免讓問題影響整體流程。"
+    },
+    {
+      "title": "明確的行動呼籲與社群互動",
+      "description": "講者多次鼓勵觀眾點讚、訂閱，並強調其頻道的權威性（「Number one AI channel」），積極引導觀眾參與社群互動。",
+      "priority": "高",
+      "apply_to_system": "在內容創作或社群經營中，定期且明確地引導用戶進行點讚、分享、訂閱等互動，並適時建立自身或產品的權威性。"
+    },
+    {
+      "title": "承諾現場演示與問題解答",
+      "description": "講者承諾將「現場演示所有功能」、「回答所有問題」，並教導觀眾如何「實施這些新功能」，提高內容的實用性和互動性。",
+      "priority": "高",
+      "apply_to_system": "在軟體教學或產品介紹中，透過實際操作演示來具體說明功能，並提供問答環節，確保用戶能理解並應用所學。"
     }
   ]
 }
