@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-26 02:15",
+  "last_updated": "2026-03-27 02:15",
   "videos": [
     {
       "id": "RhLpV6QDBFE",
@@ -1334,6 +1334,66 @@
           "apply_to_system": "OpenClaw或其他依賴AI模型的應用、個人開發者、成本敏感型用戶"
         }
       ]
+    },
+    {
+      "id": "sTTCF83Us3E",
+      "title": "LIVE: OpenAI Shutting Down Sora!! It's OVER. Also I'm running Opus 4.6 locally????",
+      "url": "https://youtube.com/watch?v=sTTCF83Us3E",
+      "date": "2026-03-25",
+      "summary": "Alex Finn 在這段 OpenClaw 影片中，首先報導了 OpenAI 關閉其影片生成平台 Sora 的消息。他個人對此不以為意，因為 Sora 移除了直接分享功能，使其失去了製作和分享迷因的核心價值。他進一步推測，Sora 的關閉是為了替代號為「Spud」的新 AI 模型鋪路，該模型被認為可能具備 AGI 能力，並可能成為 GPT-6。影片後半段，Alex Finn 展示了他如何在本地運行一個精簡版的 Claude Opus 4.6 模型，並承諾進行演示。",
+      "key_points": [
+        "OpenAI 宣布關閉其影片生成平台 Sora。",
+        "Alex Finn 認為 Sora 因移除直接分享功能而失去其主要價值（製作和分享迷因），因此對其關閉不感到惋惜。",
+        "市場傳聞 Sora 關閉是為代號「Spud」的新 AI 模型鋪路，該模型被認為可能達到 AGI 水平，並可能被命名為 GPT-6。",
+        "有傳言稱 OpenAI 計劃將 Atlas、Codex 和 ChatGPT 合併到一個應用程式中，但 Alex 對此表示疑問。",
+        "Alex Finn 成功在本地運行了一個精簡版的 Claude Opus 4.6 模型，並將在影片中進行演示。"
+      ],
+      "tags": [
+        "OpenAI",
+        "Sora",
+        "AI模型",
+        "Spud",
+        "GPT-6",
+        "Claude Opus 4.6",
+        "本地運行",
+        "AI新聞",
+        "影片生成",
+        "AGI",
+        "Alex Finn",
+        "OpenClaw"
+      ],
+      "techniques": [
+        {
+          "title": "突發新聞/緊急性標題",
+          "description": "影片標題和開頭使用「LIVE」、「Breaking News」、「It's OVER」等詞彙，製造緊迫感和重大事件的氛圍，吸引觀眾立即關注。",
+          "priority": "高",
+          "apply_to_system": "建議在生成新聞摘要或標題時，識別並強調具有時效性或重大影響的關鍵詞，並可適當使用感嘆號或強調語氣來吸引讀者。"
+        },
+        {
+          "title": "內部消息/小道消息敘事",
+          "description": "透過引用「街頭傳聞」、「我的消息來源」或「我聽說」等說法，營造獨家或內部消息的氛圍，增加內容的權威性和吸引力，尤其是在討論未經官方證實的「Spud」模型和合併計劃時。",
+          "priority": "中",
+          "apply_to_system": "在處理非官方或預測性資訊時，可以識別並標註這些資訊的來源（如「據傳」、「有消息稱」），以區分事實與推測，同時保持內容的吸引力。"
+        },
+        {
+          "title": "個人經驗與觀點分享",
+          "description": "分享個人使用 Sora 的經驗（製作迷因、因功能移除而停止使用）以及對行業趨勢（如應用程式合併）的看法，使內容更具人情味和說服力，與觀眾建立連結。",
+          "priority": "高",
+          "apply_to_system": "在生成內容時，可以分析文本中表達個人情感、經驗或主觀判斷的部分，並將其提煉為「個人觀點」或「用戶體驗」等標籤，豐富內容的維度。"
+        },
+        {
+          "title": "預告與懸念設置",
+          "description": "在影片開頭和關鍵轉折點預告即將展示的內容（如本地運行 Claude Opus 4.6），並使用重複或強調的語氣（「I might have it. We're going to go into the demonstration.」）來製造懸念和期待感，吸引觀眾繼續觀看。",
+          "priority": "高",
+          "apply_to_system": "在生成內容大綱或摘要時，可以識別並突出那些預告後續內容、製造期待感的語句，作為吸引讀者的策略。"
+        },
+        {
+          "title": "即時互動與社群參與",
+          "description": "鼓勵觀眾在直播中提問、發表意見（「Get in the chat. Ask questions. Let us know what you think.」），並即時回應聊天室的留言和評論，增加直播的參與感和互動性。",
+          "priority": "中",
+          "apply_to_system": "在分析直播內容時，識別主播邀請互動、回應觀眾留言的語句，並將其歸類為「觀眾互動」或「社群參與」策略。"
+        }
+      ]
     }
   ],
   "techniques": [
@@ -1966,6 +2026,36 @@
       "description": "影片特別指出，運行本地AI模型能讓用戶「完全免費」使用OpenClaw等應用，避免雲端API的高額費用，從而實現成本優化。",
       "priority": "高",
       "apply_to_system": "OpenClaw或其他依賴AI模型的應用、個人開發者、成本敏感型用戶"
+    },
+    {
+      "title": "突發新聞/緊急性標題",
+      "description": "影片標題和開頭使用「LIVE」、「Breaking News」、「It's OVER」等詞彙，製造緊迫感和重大事件的氛圍，吸引觀眾立即關注。",
+      "priority": "高",
+      "apply_to_system": "建議在生成新聞摘要或標題時，識別並強調具有時效性或重大影響的關鍵詞，並可適當使用感嘆號或強調語氣來吸引讀者。"
+    },
+    {
+      "title": "內部消息/小道消息敘事",
+      "description": "透過引用「街頭傳聞」、「我的消息來源」或「我聽說」等說法，營造獨家或內部消息的氛圍，增加內容的權威性和吸引力，尤其是在討論未經官方證實的「Spud」模型和合併計劃時。",
+      "priority": "中",
+      "apply_to_system": "在處理非官方或預測性資訊時，可以識別並標註這些資訊的來源（如「據傳」、「有消息稱」），以區分事實與推測，同時保持內容的吸引力。"
+    },
+    {
+      "title": "個人經驗與觀點分享",
+      "description": "分享個人使用 Sora 的經驗（製作迷因、因功能移除而停止使用）以及對行業趨勢（如應用程式合併）的看法，使內容更具人情味和說服力，與觀眾建立連結。",
+      "priority": "高",
+      "apply_to_system": "在生成內容時，可以分析文本中表達個人情感、經驗或主觀判斷的部分，並將其提煉為「個人觀點」或「用戶體驗」等標籤，豐富內容的維度。"
+    },
+    {
+      "title": "預告與懸念設置",
+      "description": "在影片開頭和關鍵轉折點預告即將展示的內容（如本地運行 Claude Opus 4.6），並使用重複或強調的語氣（「I might have it. We're going to go into the demonstration.」）來製造懸念和期待感，吸引觀眾繼續觀看。",
+      "priority": "高",
+      "apply_to_system": "在生成內容大綱或摘要時，可以識別並突出那些預告後續內容、製造期待感的語句，作為吸引讀者的策略。"
+    },
+    {
+      "title": "即時互動與社群參與",
+      "description": "鼓勵觀眾在直播中提問、發表意見（「Get in the chat. Ask questions. Let us know what you think.」），並即時回應聊天室的留言和評論，增加直播的參與感和互動性。",
+      "priority": "中",
+      "apply_to_system": "在分析直播內容時，識別主播邀請互動、回應觀眾留言的語句，並將其歸類為「觀眾互動」或「社群參與」策略。"
     }
   ]
 }
