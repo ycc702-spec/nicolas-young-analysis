@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-27 02:15",
+  "last_updated": "2026-03-29 02:15",
   "videos": [
     {
       "id": "RhLpV6QDBFE",
@@ -1394,6 +1394,62 @@
           "apply_to_system": "在分析直播內容時，識別主播邀請互動、回應觀眾留言的語句，並將其歸類為「觀眾互動」或「社群參與」策略。"
         }
       ]
+    },
+    {
+      "id": "-XQshH4zJkk",
+      "title": "LIVE: CLAUDE MYTHOS (OPUS 5) REVEALED!!!",
+      "url": "https://youtube.com/watch?v=-XQshH4zJkk",
+      "date": "2026-03-27",
+      "summary": "Alex Finn 在這段標題為「LIVE: CLAUDE MYTHOS (OPUS 5) REVEALED!!!」的影片中（儘管他後來澄清是預錄），揭露了 Anthropic 據稱已洩漏的「Claude Mythos」。他將其描述為有史以來最強大、最危險的 AI 模型，Anthropic 因其潛在危險性而未向公眾發布，甚至曾發布相關文章但隨後撤下。Alex Finn 聲稱將展示這篇「未經審查」的文章，並深入探討 Claude Mythos 的能力、如何為 AGI (通用人工智能) 的到來做準備，以及他個人搭配 OpenClaude 使用的工具，如 Hermes Agent 和 Paperclip。他特別強調影片沒有任何贊助商，只推薦他自己實際使用的工具，以區別於其他 AI YouTuber。",
+      "key_points": [
+        "Alex Finn 聲稱 Anthropic 的「Claude Mythos」模型已洩漏，並將其描述為極其強大且危險的超級智能，Anthropic 不願公開發布。",
+        "他將展示一篇 Anthropic 曾發布但隨後撤下的關於 Claude Mythos 的「未經審查、未經編輯」的文章。",
+        "影片將討論如何為 AGI (通用人工智能) 的到來做準備。",
+        "他將介紹與 OpenClaude 搭配使用的工具，包括 Hermes Agent 和 Paperclip。",
+        "Alex Finn 強調影片沒有接受任何贊助，只推薦他個人實際使用的工具，以建立可信度。",
+        "儘管標題為「LIVE」，他澄清影片實際上是預錄的。",
+        "有內部消息指出 Claude Mythos 可能就是 Claude Opus 5，或 Opus 5 是以此為基礎建構的。"
+      ],
+      "tags": [
+        "AI",
+        "AGI",
+        "Superintelligence",
+        "Claude Mythos",
+        "Anthropic",
+        "Claude Opus 5",
+        "AI Leak",
+        "AI Tools",
+        "Hermes Agent",
+        "Paperclip",
+        "Alex Finn",
+        "OpenClaw"
+      ],
+      "techniques": [
+        {
+          "title": "利用誇大與點擊誘餌式標題",
+          "description": "影片標題使用「LIVE」、「REVEALED!!!」以及關於「最危險AI洩漏」的聳動詞彙，吸引觀眾點擊。儘管內容承認是預錄，仍使用「LIVE」營造即時性。",
+          "priority": "高",
+          "apply_to_system": "內容創作者可學習如何透過引人注目的標題和預告來增加影片的觀看率和互動。"
+        },
+        {
+          "title": "建立獨立且無贊助的可信度",
+          "description": "強調不接受贊助，只推薦自己實際使用的工具，以區別於其他AI YouTuber，從而建立觀眾對其內容的信任。",
+          "priority": "中",
+          "apply_to_system": "內容創作者可參考此策略，透過透明化和誠實的推薦來贏得觀眾信任，提升品牌形象。"
+        },
+        {
+          "title": "營造獨家資訊與未來趨勢的緊迫感",
+          "description": "聲稱掌握Anthropic撤回的「未經審查」文章，並預告如何為「AGI的到來」做準備，製造資訊的獨家性和未來變革的緊迫感。",
+          "priority": "高",
+          "apply_to_system": "內容創作者可學習如何利用「獨家爆料」或「預測未來趨勢」來吸引對特定話題高度關注的受眾。"
+        },
+        {
+          "title": "預告並推薦搭配AI使用的輔助工具",
+          "description": "預告將介紹與OpenClaude搭配使用的「Hermes Agent」和「Paperclip」等工具，為觀眾提供實用的延伸應用建議。",
+          "priority": "中",
+          "apply_to_system": "內容創作者可透過推薦相關工具或服務，增加影片的實用性和價值，吸引尋求解決方案的觀眾。"
+        }
+      ]
     }
   ],
   "techniques": [
@@ -2056,6 +2112,30 @@
       "description": "鼓勵觀眾在直播中提問、發表意見（「Get in the chat. Ask questions. Let us know what you think.」），並即時回應聊天室的留言和評論，增加直播的參與感和互動性。",
       "priority": "中",
       "apply_to_system": "在分析直播內容時，識別主播邀請互動、回應觀眾留言的語句，並將其歸類為「觀眾互動」或「社群參與」策略。"
+    },
+    {
+      "title": "利用誇大與點擊誘餌式標題",
+      "description": "影片標題使用「LIVE」、「REVEALED!!!」以及關於「最危險AI洩漏」的聳動詞彙，吸引觀眾點擊。儘管內容承認是預錄，仍使用「LIVE」營造即時性。",
+      "priority": "高",
+      "apply_to_system": "內容創作者可學習如何透過引人注目的標題和預告來增加影片的觀看率和互動。"
+    },
+    {
+      "title": "建立獨立且無贊助的可信度",
+      "description": "強調不接受贊助，只推薦自己實際使用的工具，以區別於其他AI YouTuber，從而建立觀眾對其內容的信任。",
+      "priority": "中",
+      "apply_to_system": "內容創作者可參考此策略，透過透明化和誠實的推薦來贏得觀眾信任，提升品牌形象。"
+    },
+    {
+      "title": "營造獨家資訊與未來趨勢的緊迫感",
+      "description": "聲稱掌握Anthropic撤回的「未經審查」文章，並預告如何為「AGI的到來」做準備，製造資訊的獨家性和未來變革的緊迫感。",
+      "priority": "高",
+      "apply_to_system": "內容創作者可學習如何利用「獨家爆料」或「預測未來趨勢」來吸引對特定話題高度關注的受眾。"
+    },
+    {
+      "title": "預告並推薦搭配AI使用的輔助工具",
+      "description": "預告將介紹與OpenClaude搭配使用的「Hermes Agent」和「Paperclip」等工具，為觀眾提供實用的延伸應用建議。",
+      "priority": "中",
+      "apply_to_system": "內容創作者可透過推薦相關工具或服務，增加影片的實用性和價值，吸引尋求解決方案的觀眾。"
     }
   ]
 }
