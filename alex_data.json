@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-29 02:15",
+  "last_updated": "2026-04-01 02:15",
   "videos": [
     {
       "id": "RhLpV6QDBFE",
@@ -1450,6 +1450,111 @@
           "apply_to_system": "內容創作者可透過推薦相關工具或服務，增加影片的實用性和價值，吸引尋求解決方案的觀眾。"
         }
       ]
+    },
+    {
+      "id": "tP6yf22OJdI",
+      "title": "OpenClaw + Hermes Agent gives you SUPER POWERS",
+      "url": "https://youtube.com/watch?v=tP6yf22OJdI",
+      "date": "2026-03-31",
+      "summary": "Alex Finn 的這段影片介紹了 Hermes Agent，並將其與 OpenClaw 進行比較。Hermes Agent 被宣傳為一個能控制電腦、自動化工作流程的自主 AI 代理，並可透過多種訊息應用程式（如 Telegram、Discord、WhatsApp、iMessage）操作。影片強調 Hermes Agent 的輕量化、高性能和顯著的速度優勢，甚至在使用相同 AI 模型時也比 OpenClaw 更快。其最令人印象深刻的特點是「高度自我改進」能力。影片中展示了一個複雜的應用案例：Hermes Agent 每天早上自動抓取 Hacker News 的頭條新聞，進行摘要、根據 AI 和新創相關性評分，生成前三名新聞的音頻簡報，並將其與文字摘要一同發送到 Telegram，為用戶提供客製化的每日播客和簡報。影片最後會探討用戶是否應該從 OpenClaw 轉向 Hermes Agent。",
+      "key_points": [
+        "Hermes Agent 是一個自主 AI 代理，能夠控制整個電腦並自動化工作流程，支援 CLI、Telegram、Discord、WhatsApp、iMessage 等多個平台。",
+        "影片將 Hermes Agent 與 OpenClaw 進行比較，指出 Hermes Agent 在輕量化、高性能和執行速度方面優於 OpenClaw，即使使用相同的 AI 模型 (如 Opus 46)。",
+        "Hermes Agent 具有視覺化能力，能生成 ASCII 藝術影片和圖表 (透過內建的 Excalidraw 技能)。",
+        "其最核心的賣點是「非常自我改進」的能力。",
+        "影片展示了一個複雜的自動化工作流程：Hermes Agent 每天早上定時抓取 Hacker News 頭條，摘要、評分 (依 AI/新創相關性)，生成音頻簡報，並透過 Telegram 發送給用戶。",
+        "Alex Finn 將在影片中評估是否建議用戶從 OpenClaw 轉向 Hermes Agent。"
+      ],
+      "tags": [
+        "AI Agent",
+        "Hermes Agent",
+        "OpenClaw",
+        "自主AI",
+        "生產力工具",
+        "自動化",
+        "AI工作流程",
+        "性能比較",
+        "Hacker News",
+        "Telegram整合"
+      ],
+      "techniques": [
+        {
+          "title": "自主化每日資訊簡報",
+          "description": "設定 Hermes Agent 執行一個複雜的排程任務：每天早上自動抓取 Hacker News 頭條，提取文章內容，進行摘要，根據特定興趣 (如 AI 和新創) 進行相關性評分，生成前幾名新聞的音頻簡報，並將音頻和文字摘要一同發送到指定的通訊應用程式 (如 Telegram)。這展示了 AI 代理處理多步驟、客製化資訊整合與傳遞的能力。",
+          "priority": "高",
+          "apply_to_system": "Hermes Agent"
+        },
+        {
+          "title": "跨平台 AI 代理控制",
+          "description": "透過多種通訊應用程式 (如 Telegram, Discord, WhatsApp, iMessage) 或命令列介面 (CLI) 來與 AI 代理互動和發布指令，實現無縫的 AI 助理體驗，讓用戶能從習慣的平台控制其電腦和自動化任務。",
+          "priority": "中",
+          "apply_to_system": "Hermes Agent, OpenClaw"
+        },
+        {
+          "title": "AI 驅動的視覺內容生成",
+          "description": "利用 AI 代理的內建技能，自動生成視覺內容，例如透過 Excalidraw 技能創建圖表，或自動生成創意 ASCII 藝術影片，擴展 AI 在非文字溝通和視覺呈現方面的應用。",
+          "priority": "中",
+          "apply_to_system": "Hermes Agent"
+        },
+        {
+          "title": "選擇高性能與輕量化 AI 代理",
+          "description": "在選擇 AI 代理時，優先考慮其輕量化和高性能特性，這能帶來更快的執行速度和更流暢的用戶體驗，即使在相同的底層 AI 模型下，也能顯著提升效率。",
+          "priority": "低",
+          "apply_to_system": "Hermes Agent (作為高性能的範例)"
+        }
+      ]
+    },
+    {
+      "id": "9Qrs-n5HkC8",
+      "title": "LIVE: Hermes vs OpenClaw live tests",
+      "url": "https://youtube.com/watch?v=9Qrs-n5HkC8",
+      "date": "2026-03-30",
+      "summary": "Alex Finn 的這段直播影片深入探討了 AI 代理的未來，主要比較了 OpenClaw 和新興的 Hermes 代理。影片旨在分析這兩種代理的優缺點、它們如何協同工作，以及使用者應該選擇哪一個。此外，影片還介紹了一個新的協調層 Paperclip，它能同時支援 OpenClaw 和 Hermes。討論中也提到了其他 AI 工具，如 Obsidian 和 Claude（包括 Claude Code），並探討了 Claude 是否可能主導市場，使其他代理變得不那麼重要。主持人強調了觀眾互動，並以對 AI 未來的樂觀展望貫穿始終。",
+      "key_points": [
+        "比較 OpenClaw 和 Hermes 兩種 AI 代理的優缺點。",
+        "探討 OpenClaw 和 Hermes 代理如何協同工作及整合方法。",
+        "介紹新的協調層 Paperclip，它能同時支援 OpenClaw 和 Hermes。",
+        "分析 AI 代理的市場競爭格局，特別是 Claude 對 OpenClaw 和 Hermes 的潛在影響。",
+        "強調 AI 代理技術的未來潛力及其在 2026 年的發展。",
+        "鼓勵觀眾透過聊天和點讚進行互動。"
+      ],
+      "tags": [
+        "AI代理",
+        "OpenClaw",
+        "Hermes Agent",
+        "AI比較",
+        "協調層",
+        "Paperclip",
+        "Claude",
+        "AI未來",
+        "直播"
+      ],
+      "techniques": [
+        {
+          "title": "AI 代理比較分析",
+          "description": "主持人直接比較了兩種主要的 AI 代理（OpenClaw 和 Hermes），評估它們的優勢、劣勢以及潛在的整合方式，為觀眾提供選擇依據。",
+          "priority": "高",
+          "apply_to_system": "此技巧適用於設計一個 AI 系統，該系統能夠根據預設標準（如性能、成本、易用性）對多個 AI 工具或平台進行比較分析，並生成客觀的評估報告或推薦。"
+        },
+        {
+          "title": "協調層解決方案介紹",
+          "description": "影片介紹了一個新的協調層 Paperclip，旨在解決不同 AI 代理之間的互操作性問題，展示了如何透過第三方工具實現多代理協同工作。",
+          "priority": "高",
+          "apply_to_system": "AI 系統可以利用此技巧來識別和推薦不同的整合框架、API 或中間件，以幫助使用者將多個 AI 模型或服務無縫地整合到一個工作流程中，提供實用的解決方案。"
+        },
+        {
+          "title": "未來趨勢與市場競爭分析",
+          "description": "主持人不僅關注當前技術，還展望了 AI 代理的未來，並討論了像 Claude 這樣的大型模型可能對現有代理市場造成的衝擊和競爭格局。",
+          "priority": "中",
+          "apply_to_system": "AI 系統可以應用此技巧來分析市場趨勢、預測技術發展方向，並評估新興技術對現有解決方案的潛在影響，為用戶提供戰略性的洞察和決策支持。"
+        },
+        {
+          "title": "互動式直播參與策略",
+          "description": "主持人積極鼓勵觀眾透過聊天提問和點讚來參與直播，營造了動態和互動的氛圍，提升了觀眾的參與感和體驗。",
+          "priority": "低",
+          "apply_to_system": "雖然不直接關乎技術分析，但一個 AI 輔助的內容創作或直播系統可以利用此技巧來生成互動提示、問答環節建議或呼籲行動的腳本，以提高觀眾參與度。"
+        }
+      ]
     }
   ],
   "techniques": [
@@ -2136,6 +2241,54 @@
       "description": "預告將介紹與OpenClaude搭配使用的「Hermes Agent」和「Paperclip」等工具，為觀眾提供實用的延伸應用建議。",
       "priority": "中",
       "apply_to_system": "內容創作者可透過推薦相關工具或服務，增加影片的實用性和價值，吸引尋求解決方案的觀眾。"
+    },
+    {
+      "title": "自主化每日資訊簡報",
+      "description": "設定 Hermes Agent 執行一個複雜的排程任務：每天早上自動抓取 Hacker News 頭條，提取文章內容，進行摘要，根據特定興趣 (如 AI 和新創) 進行相關性評分，生成前幾名新聞的音頻簡報，並將音頻和文字摘要一同發送到指定的通訊應用程式 (如 Telegram)。這展示了 AI 代理處理多步驟、客製化資訊整合與傳遞的能力。",
+      "priority": "高",
+      "apply_to_system": "Hermes Agent"
+    },
+    {
+      "title": "跨平台 AI 代理控制",
+      "description": "透過多種通訊應用程式 (如 Telegram, Discord, WhatsApp, iMessage) 或命令列介面 (CLI) 來與 AI 代理互動和發布指令，實現無縫的 AI 助理體驗，讓用戶能從習慣的平台控制其電腦和自動化任務。",
+      "priority": "中",
+      "apply_to_system": "Hermes Agent, OpenClaw"
+    },
+    {
+      "title": "AI 驅動的視覺內容生成",
+      "description": "利用 AI 代理的內建技能，自動生成視覺內容，例如透過 Excalidraw 技能創建圖表，或自動生成創意 ASCII 藝術影片，擴展 AI 在非文字溝通和視覺呈現方面的應用。",
+      "priority": "中",
+      "apply_to_system": "Hermes Agent"
+    },
+    {
+      "title": "選擇高性能與輕量化 AI 代理",
+      "description": "在選擇 AI 代理時，優先考慮其輕量化和高性能特性，這能帶來更快的執行速度和更流暢的用戶體驗，即使在相同的底層 AI 模型下，也能顯著提升效率。",
+      "priority": "低",
+      "apply_to_system": "Hermes Agent (作為高性能的範例)"
+    },
+    {
+      "title": "AI 代理比較分析",
+      "description": "主持人直接比較了兩種主要的 AI 代理（OpenClaw 和 Hermes），評估它們的優勢、劣勢以及潛在的整合方式，為觀眾提供選擇依據。",
+      "priority": "高",
+      "apply_to_system": "此技巧適用於設計一個 AI 系統，該系統能夠根據預設標準（如性能、成本、易用性）對多個 AI 工具或平台進行比較分析，並生成客觀的評估報告或推薦。"
+    },
+    {
+      "title": "協調層解決方案介紹",
+      "description": "影片介紹了一個新的協調層 Paperclip，旨在解決不同 AI 代理之間的互操作性問題，展示了如何透過第三方工具實現多代理協同工作。",
+      "priority": "高",
+      "apply_to_system": "AI 系統可以利用此技巧來識別和推薦不同的整合框架、API 或中間件，以幫助使用者將多個 AI 模型或服務無縫地整合到一個工作流程中，提供實用的解決方案。"
+    },
+    {
+      "title": "未來趨勢與市場競爭分析",
+      "description": "主持人不僅關注當前技術，還展望了 AI 代理的未來，並討論了像 Claude 這樣的大型模型可能對現有代理市場造成的衝擊和競爭格局。",
+      "priority": "中",
+      "apply_to_system": "AI 系統可以應用此技巧來分析市場趨勢、預測技術發展方向，並評估新興技術對現有解決方案的潛在影響，為用戶提供戰略性的洞察和決策支持。"
+    },
+    {
+      "title": "互動式直播參與策略",
+      "description": "主持人積極鼓勵觀眾透過聊天提問和點讚來參與直播，營造了動態和互動的氛圍，提升了觀眾的參與感和體驗。",
+      "priority": "低",
+      "apply_to_system": "雖然不直接關乎技術分析，但一個 AI 輔助的內容創作或直播系統可以利用此技巧來生成互動提示、問答環節建議或呼籲行動的腳本，以提高觀眾參與度。"
     }
   ]
 }
