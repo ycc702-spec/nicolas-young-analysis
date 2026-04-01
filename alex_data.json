@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-01 02:15",
+  "last_updated": "2026-04-02 02:15",
   "videos": [
     {
       "id": "RhLpV6QDBFE",
@@ -1555,6 +1555,55 @@
           "apply_to_system": "雖然不直接關乎技術分析，但一個 AI 輔助的內容創作或直播系統可以利用此技巧來生成互動提示、問答環節建議或呼籲行動的腳本，以提高觀眾參與度。"
         }
       ]
+    },
+    {
+      "id": "FRjmzUGEpHo",
+      "title": "MASSIVE CLAUDE CODE LEAK! THIS CHANGES EVERYTHING!",
+      "url": "https://youtube.com/watch?v=FRjmzUGEpHo",
+      "date": "2026-03-31",
+      "summary": "Alex Finn的影片揭露了Anthropic Claude程式碼的大規模洩漏，被稱為Anthropic歷史上最具破壞性的洩漏之一。這次洩漏揭示了Claude未來的重大更新，包括全新的自主主動代理模式，讓Claude不僅執行指令，還能自主規劃並完成任務，將其轉變為一個自我運作的AI員工。此外，還預告了多個新模型，如Opus 47、Sonnet 48，以及一個可能接近AGI的全新旗艦模型Capiara（Mythos模型）。",
+      "key_points": [
+        "Anthropic Claude程式碼發生大規模洩漏，被視為公司歷史上最重大、最具破壞性的事件。",
+        "洩漏揭示了Claude未來的發展方向、內部運作機制及即將推出的新功能。",
+        "引入「自主主動代理」（Autonomous Proactive Agents）模式：Claude將能自主識別、規劃並執行任務，不僅是被動地完成指令，而是主動思考下一步行動。",
+        "此模式將使Claude從單純的編碼工具轉變為一個自我運作、自我維持、自我思考的AI員工，能管理並運行業務。",
+        "預告了多個新一代AI模型：Opus 47（Opus的續作）、Sonnet 48（Sonnet的更新版本，更輕量高效）。",
+        "洩漏中還列出了全新的旗艦模型Capiara（Mythos模型），預計將比Opus更強大、更昂貴，並可能接近通用人工智能（AGI）的功能。",
+        "影片中也提及了其他特殊模式，如Tamagotchi模式和Claude的「夢境模式」。"
+      ],
+      "tags": [
+        "Claude",
+        "Anthropic",
+        "AI洩漏",
+        "程式碼洩漏",
+        "AI模型",
+        "自主代理",
+        "AGI",
+        "Opus 47",
+        "Sonnet 48",
+        "Capiara",
+        "AI未來"
+      ],
+      "techniques": [
+        {
+          "title": "自主主動代理 (Autonomous Proactive Agents)",
+          "description": "Claude將不再僅限於執行用戶指令，而是能自主識別、規劃並執行任務。例如，在創建待辦事項應用後，它會主動思考並添加日曆、項目管理工具、共享模式等功能，以完善和擴展初始任務。",
+          "priority": "高",
+          "apply_to_system": "讓AI系統從被動執行者轉變為主動問題解決者和任務規劃者，能自我驅動地完成複雜項目，甚至預測用戶需求並提供解決方案。這將使AI成為一個自我運作、自我維持的「AI員工」。"
+        },
+        {
+          "title": "新一代AI模型 (Next-Generation AI Models)",
+          "description": "洩漏揭示了Anthropic即將推出的多個新模型，包括Opus 47（Opus的續作）、Sonnet 48（Sonnet的更新版本，更輕量高效），以及全新的旗艦模型Capiara（Mythos模型），後者預計將比Opus更強大、更昂貴，並可能接近通用人工智能（AGI）的功能。",
+          "priority": "高",
+          "apply_to_system": "透過升級到這些新模型，系統可以獲得更強大的推理能力、更高的效率和更廣泛的應用場景。Capiara的潛在AGI能力將為系統帶來前所未有的智能水平，而Sonnet 48則提供更經濟高效的輕量級解決方案。"
+        },
+        {
+          "title": "特殊AI模式 (Specialized AI Modes)",
+          "description": "影片中提到了一些獨特的未來模式，如「Tamagotchi模式」和「Claude整晚做夢模式」。這些模式暗示了AI可能具備更具創造性、互動性或甚至模擬人類行為（如夢境）的能力。",
+          "priority": "中",
+          "apply_to_system": "這些模式可能用於開發更具沉浸感、互動性或娛樂性的AI應用，例如虛擬寵物、創意內容生成、或用於研究AI意識和學習機制的實驗平台。"
+        }
+      ]
     }
   ],
   "techniques": [
@@ -2289,6 +2338,24 @@
       "description": "主持人積極鼓勵觀眾透過聊天提問和點讚來參與直播，營造了動態和互動的氛圍，提升了觀眾的參與感和體驗。",
       "priority": "低",
       "apply_to_system": "雖然不直接關乎技術分析，但一個 AI 輔助的內容創作或直播系統可以利用此技巧來生成互動提示、問答環節建議或呼籲行動的腳本，以提高觀眾參與度。"
+    },
+    {
+      "title": "自主主動代理 (Autonomous Proactive Agents)",
+      "description": "Claude將不再僅限於執行用戶指令，而是能自主識別、規劃並執行任務。例如，在創建待辦事項應用後，它會主動思考並添加日曆、項目管理工具、共享模式等功能，以完善和擴展初始任務。",
+      "priority": "高",
+      "apply_to_system": "讓AI系統從被動執行者轉變為主動問題解決者和任務規劃者，能自我驅動地完成複雜項目，甚至預測用戶需求並提供解決方案。這將使AI成為一個自我運作、自我維持的「AI員工」。"
+    },
+    {
+      "title": "新一代AI模型 (Next-Generation AI Models)",
+      "description": "洩漏揭示了Anthropic即將推出的多個新模型，包括Opus 47（Opus的續作）、Sonnet 48（Sonnet的更新版本，更輕量高效），以及全新的旗艦模型Capiara（Mythos模型），後者預計將比Opus更強大、更昂貴，並可能接近通用人工智能（AGI）的功能。",
+      "priority": "高",
+      "apply_to_system": "透過升級到這些新模型，系統可以獲得更強大的推理能力、更高的效率和更廣泛的應用場景。Capiara的潛在AGI能力將為系統帶來前所未有的智能水平，而Sonnet 48則提供更經濟高效的輕量級解決方案。"
+    },
+    {
+      "title": "特殊AI模式 (Specialized AI Modes)",
+      "description": "影片中提到了一些獨特的未來模式，如「Tamagotchi模式」和「Claude整晚做夢模式」。這些模式暗示了AI可能具備更具創造性、互動性或甚至模擬人類行為（如夢境）的能力。",
+      "priority": "中",
+      "apply_to_system": "這些模式可能用於開發更具沉浸感、互動性或娛樂性的AI應用，例如虛擬寵物、創意內容生成、或用於研究AI意識和學習機制的實驗平台。"
     }
   ]
 }
